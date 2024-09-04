@@ -1,7 +1,7 @@
 image:
   repository: ghcr.io/linuxserver/duckdns
   pullPolicy: IfNotPresent
-  tag: latest@sha256:951798b50a46131ddb78b54670561b01db8ab30623782dfb296a3b3c598ad59c
+  tag: latest@sha256:5d68a49f5efdb0493edc5b5d4d808900ed6f656ec8237db142403427a879b177
 securityContext:
   container:
     runAsNonRoot: false
