@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/incubator/flashpaper/3.1.4",
-        "last_update": "2024-09-04 13:40:58",
+        "last_update": "2024-09-04 15:42:09",
         "required_features": [
             "definitions/certificate",
             "definitions/interface",
@@ -5425,7 +5425,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/incubator/flashpaper/3.1.3",
-        "last_update": "2024-09-04 13:40:58",
+        "last_update": "2024-09-04 15:42:09",
         "required_features": [
             "definitions/certificate",
             "definitions/interface",
@@ -10846,7 +10846,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/incubator/flashpaper/2.0.12",
-        "last_update": "2024-09-04 13:40:58",
+        "last_update": "2024-09-04 15:42:09",
         "required_features": [
             "definitions/certificate",
             "definitions/interface",
@@ -16264,7 +16264,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/incubator/flashpaper/2.0.4",
-        "last_update": "2024-09-04 13:40:58",
+        "last_update": "2024-09-04 15:42:09",
         "required_features": [
             "definitions/certificate",
             "definitions/interface",
@@ -21682,7 +21682,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/incubator/flashpaper/1.1.18",
-        "last_update": "2024-09-04 13:40:58",
+        "last_update": "2024-09-04 15:42:09",
         "required_features": [
             "definitions/certificate",
             "definitions/interface",
@@ -26771,7 +26771,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/incubator/flashpaper/1.1.17",
-        "last_update": "2024-09-04 13:40:58",
+        "last_update": "2024-09-04 15:42:09",
         "required_features": [
             "definitions/certificate",
             "definitions/interface",
