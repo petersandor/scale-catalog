@@ -7,11 +7,11 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: 10.9.9
+appVersion: "10.9.9"
 dependencies:
   - name: common
-    version: 24.1.10
-    repository: oci://tccr.io/truecharts
+    version: 24.1.8
+    repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
     tags: []
@@ -19,7 +19,7 @@ dependencies:
 deprecated: false
 description: Jellyfin is a Free Software Media System
 home: https://truecharts.org/charts/stable/jellyfin
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/jellyfin.webp
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/jellyfin.png
 keywords:
   - jellyfin
   - plex
@@ -31,9 +31,9 @@ maintainers:
     url: https://truecharts.org
 name: jellyfin
 sources:
+  - https://github.com/truecharts/charts/tree/master/charts/stable/jellyfin
   - https://ghcr.io/jellyfin/jellyfin
   - https://github.com/jellyfin/jellyfin
-  - https://github.com/truecharts/charts/tree/master/charts/stable/jellyfin
   - https://hub.docker.com/r/alpine/socat
 type: application
-version: 20.1.17
+version: 20.1.19
