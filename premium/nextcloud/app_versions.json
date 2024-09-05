@@ -4,10 +4,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/premium/nextcloud/31.4.12",
-        "last_update": "2024-09-04 20:06:56",
+        "last_update": "2024-09-04 23:46:54",
         "required_features": [
-            "definitions/nodeIP",
             "definitions/timezone",
+            "definitions/nodeIP",
             "definitions/certificate"
         ],
         "human_version": "29.0.4_31.4.12",
@@ -7323,10 +7323,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/premium/nextcloud/31.4.10",
-        "last_update": "2024-09-04 20:06:56",
+        "last_update": "2024-09-04 23:46:54",
         "required_features": [
-            "definitions/nodeIP",
             "definitions/timezone",
+            "definitions/nodeIP",
             "definitions/certificate"
         ],
         "human_version": "29.0.4_31.4.10",
@@ -14642,10 +14642,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/premium/nextcloud/30.1.24",
-        "last_update": "2024-09-04 20:06:56",
+        "last_update": "2024-09-04 23:46:54",
         "required_features": [
-            "definitions/nodeIP",
             "definitions/timezone",
+            "definitions/nodeIP",
             "definitions/certificate"
         ],
         "human_version": "29.0.0_30.1.24",
@@ -21958,10 +21958,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/premium/nextcloud/30.1.23",
-        "last_update": "2024-09-04 20:06:56",
+        "last_update": "2024-09-04 23:46:54",
         "required_features": [
-            "definitions/nodeIP",
             "definitions/timezone",
+            "definitions/nodeIP",
             "definitions/certificate"
         ],
         "human_version": "29.0.0_30.1.23",
@@ -29274,10 +29274,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/premium/nextcloud/29.11.0",
-        "last_update": "2024-09-04 20:06:56",
+        "last_update": "2024-09-04 23:46:54",
         "required_features": [
-            "definitions/nodeIP",
             "definitions/timezone",
+            "definitions/nodeIP",
             "definitions/certificate"
         ],
         "human_version": "28.0.4_29.11.0",
@@ -36517,10 +36517,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/premium/nextcloud/29.10.36",
-        "last_update": "2024-09-04 20:06:56",
+        "last_update": "2024-09-04 23:46:54",
         "required_features": [
-            "definitions/nodeIP",
             "definitions/timezone",
+            "definitions/nodeIP",
             "definitions/certificate"
         ],
         "human_version": "28.0.4_29.10.36",
