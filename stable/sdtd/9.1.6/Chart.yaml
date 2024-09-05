@@ -2,29 +2,28 @@ annotations:
   max_scale_version: 24.04.1
   min_scale_version: 24.04.0
   truecharts.org/category: games
-  truecharts.org/max_helm_version: "3.15"
-  truecharts.org/min_helm_version: "3.11"
+  truecharts.org/max_helm_version: '3.15'
+  truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
-  truecharts.org/SCALE-support: "true"
+  truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: 7dtd
+appVersion: "7dtd"
 dependencies:
   - name: common
-    version: 24.1.5
-    repository: oci://tccr.io/truecharts
-    condition: ""
-    alias: ""
+    version: 24.1.8
+    repository: https://petersandor.github.io/truecharts-common
+    condition: ''
+    alias: ''
     tags: []
     import-values: []
 deprecated: false
-description: This chart will download and install SteamCMD. It will also install 7
-  Days to Die and run it.
+description: This chart will download and install SteamCMD. It will also install 7 Days to Die and run it.
 home: https://truecharts.org/charts/stable/sdtd
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/sdtd.webp
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/sdtd.png
 keywords:
   - sevendaystodie
   - game-servers
-kubeVersion: ">=1.24.0-0"
+kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
@@ -35,4 +34,4 @@ sources:
   - https://hub.docker.com/r/ich777/steamcmd
   - https://www.steampowered.com/
 type: application
-version: 9.1.4
+version: 9.1.6
