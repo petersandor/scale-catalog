@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: 2024.03.0
+appVersion: "2024.03"
 dependencies:
   - name: common
     version: 24.1.8
@@ -17,15 +17,15 @@ dependencies:
     tags: []
     import-values: []
   - name: mariadb
-    version: 15.2.2
-    repository: oci://tccr.io/truecharts
+    version: 15.2.3
+    repository: https://petersandor.github.io/truecharts-common
     condition: mariadb.enabled
     alias: ''
     tags: []
     import-values: []
   - name: redis
-    version: 15.1.5
-    repository: oci://tccr.io/truecharts
+    version: 15.2.2
+    repository: https://petersandor.github.io/truecharts-common
     condition: redis.enabled
     alias: ''
     tags: []
@@ -33,7 +33,7 @@ dependencies:
 deprecated: false
 description: Welcome to the free social web
 home: https://truecharts.org/charts/stable/friendica
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/friendica.webp
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/friendica.png
 keywords:
   - friend
   - social
@@ -44,8 +44,8 @@ maintainers:
     url: https://truecharts.org
 name: friendica
 sources:
-  - https://friendi.ca/
   - https://github.com/truecharts/charts/tree/master/charts/stable/friendica
+  - https://friendi.ca/
   - https://hub.docker.com/_/friendica
 type: application
-version: 16.3.6
+version: 16.3.8
