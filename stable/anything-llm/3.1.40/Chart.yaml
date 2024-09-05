@@ -7,11 +7,11 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: latest
+appVersion: "latest"
 dependencies:
   - name: common
-    version: 24.1.10
-    repository: oci://tccr.io/truecharts
+    version: 24.1.8
+    repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
     tags: []
@@ -19,7 +19,7 @@ dependencies:
 deprecated: false
 description: Open-source ChatGPT experience for LLMs, embedders, and vector databases.
 home: https://truecharts.org/charts/stable/anything-llm
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/anything-llm.webp
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/anything-llm.png
 keywords:
   - anything-llm
   - ai
@@ -30,8 +30,8 @@ maintainers:
     url: https://truecharts.org
 name: anything-llm
 sources:
+  - https://github.com/truecharts/charts/tree/master/charts/stable/anything-llm
   - https://ghcr.io/mintplex-labs/anything-llm
   - https://github.com/Mintplex-Labs/anything-llm
-  - https://github.com/truecharts/charts/tree/master/charts/stable/anything-llm
 type: application
-version: 3.1.37
+version: 3.1.40
