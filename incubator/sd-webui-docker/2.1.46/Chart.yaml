@@ -7,19 +7,19 @@ annotations:
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: incubator
 apiVersion: v2
-appVersion: latest
+appVersion: "latest"
 dependencies:
   - name: common
-    version: 24.1.10
-    repository: oci://tccr.io/truecharts
+    version: 24.1.8
+    repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
     tags: []
     import-values: []
 deprecated: false
 description: sd-webui-docker Chart
-home: https://truecharts.org/charts/incubator/sd-webui-docker
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/sd-webui-docker.webp
+home: https://truecharts.org/charts/incubator/sd-webui
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/sd-webui.png
 keywords:
   - Whisper
   - AI
@@ -31,8 +31,8 @@ maintainers:
     url: https://truecharts.org
 name: sd-webui-docker
 sources:
+  - https://github.com/truecharts/charts/tree/master/charts/incubator/sd-webui
   - https://ghcr.io/neggles/sd-webui-docker
   - https://github.com/ahmetoner/sd-webui-docker/
-  - https://github.com/truecharts/charts/tree/master/charts/incubator/sd-webui-docker
 type: application
-version: 2.1.42
+version: 2.1.46
