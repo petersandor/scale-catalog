@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: 0.3.6
+appVersion: "0.3.6"
 dependencies:
   - name: common
     version: 24.1.8
@@ -19,7 +19,7 @@ dependencies:
 deprecated: false
 description: Get up and running with large language models locally.
 home: https://truecharts.org/charts/stable/ollama
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/ollama.webp
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/ollama.png
 keywords:
   - ollama
   - language-models
@@ -30,10 +30,10 @@ maintainers:
     url: https://truecharts.org
 name: ollama
 sources:
+  - https://github.com/truecharts/charts/tree/master/charts/stable/ollama
   - https://ghcr.io/open-webui/open-webui
   - https://github.com/ollama/ollama
   - https://github.com/open-webui/open-webui
-  - https://github.com/truecharts/charts/tree/master/charts/stable/ollama
   - https://hub.docker.com/r/ollama/ollama
 type: application
-version: 7.3.15
+version: 7.3.17
