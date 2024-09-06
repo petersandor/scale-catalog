@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: latest
+appVersion: "latest"
 dependencies:
   - name: common
     version: 24.1.8
@@ -17,12 +17,9 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: TwonkyMedia server (TMS) is DLNA-compliant UPnP AV server software from
-  PacketVideo. TwonkyMedia server can be used to share and stream media to most UPnP
-  AV or DLNA-compliant clients, in addition to non-UPnP devices through the HTML,
-  RSS, and JSON supported front ends.
+description: TwonkyMedia server (TMS) is DLNA-compliant UPnP AV server software from PacketVideo. TwonkyMedia server can be used to share and stream media to most UPnP AV or DLNA-compliant clients, in addition to non-UPnP devices through the HTML, RSS, and JSON supported front ends.
 home: https://truecharts.org/charts/stable/twonky-server
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/twonky-server.webp
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/twonky-server.png
 keywords:
   - twonky-server
   - MediaServer-Video
@@ -35,8 +32,8 @@ maintainers:
     url: https://truecharts.org
 name: twonky-server
 sources:
-  - https://github.com/H2CK/twonkyserver
   - https://github.com/truecharts/charts/tree/master/charts/stable/twonky-server
+  - https://github.com/H2CK/twonkyserver
   - https://hub.docker.com/r/dtjs48jkt/twonkyserver
 type: application
-version: 7.1.11
+version: 7.1.13
