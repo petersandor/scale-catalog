@@ -19,7 +19,7 @@ dependencies:
 deprecated: false
 description: Open-source ChatGPT experience for LLMs, embedders, and vector databases.
 home: https://truecharts.org/charts/stable/anything-llm
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/anything-llm.png
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/anything-llm.webp
 keywords:
   - anything-llm
   - ai
@@ -34,4 +34,4 @@ sources:
   - https://ghcr.io/mintplex-labs/anything-llm
   - https://github.com/Mintplex-Labs/anything-llm
 type: application
-version: 3.1.40
+version: 3.1.42
