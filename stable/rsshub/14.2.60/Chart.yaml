@@ -26,7 +26,7 @@ dependencies:
 deprecated: false
 description: RSSHub can generate RSS feeds from pretty much everything
 home: https://truecharts.org/charts/stable/rsshub
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/rsshub.png
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/rsshub.webp
 keywords:
   - rsshub
   - rss
@@ -43,4 +43,4 @@ sources:
   - https://hub.docker.com/r/browserless/chrome
   - https://hub.docker.com/r/diygod/rsshub
 type: application
-version: 14.2.58
+version: 14.2.60
