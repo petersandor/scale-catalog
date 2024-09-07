@@ -7,25 +7,24 @@ annotations:
   truecharts.org/train: premium
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: 29.0.4
+appVersion: "29.0.4"
 dependencies:
   - name: common
-    version: 24.1.7
-    repository: oci://tccr.io/truecharts
+    version: 24.1.8
+    repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
     tags: []
     import-values: []
   - name: redis
-    version: 15.1.7
-    repository: oci://tccr.io/truecharts
+    version: 15.2.2
+    repository: https://petersandor.github.io/truecharts-common
     condition: redis.enabled
     alias: ''
     tags: []
     import-values: []
 deprecated: false
-description: A private cloud server that puts the control and security of your own
-  data back into your hands.
+description: A private cloud server that puts the control and security of your own data back into your hands.
 home: https://truecharts.org/charts/premium/nextcloud
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/nextcloud.webp
 keywords:
@@ -41,14 +40,11 @@ maintainers:
     url: https://truecharts.org
 name: nextcloud
 sources:
+  - https://github.com/truecharts/charts/tree/master/charts/premium/nextcloud
   - https://github.com/nextcloud/docker
   - https://github.com/nextcloud/helm
-  - https://github.com/truecharts/charts/tree/master/charts/premium/nextcloud
-  - https://github.com/truecharts/containers/tree/master/apps/nextcloud-fpm
-  - https://github.com/truecharts/containers/tree/master/apps/nextcloud-imaginary
-  - https://github.com/truecharts/containers/tree/master/apps/nextcloud-push-notify
   - https://hub.docker.com/r/clamav/clamav
   - https://hub.docker.com/r/collabora/code
   - https://hub.docker.com/r/nginxinc/nginx-unprivileged
 type: application
-version: 31.4.10
+version: 31.4.13
