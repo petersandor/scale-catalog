@@ -19,7 +19,7 @@ dependencies:
 deprecated: false
 description: Get all your books, like series with Sonarr...
 home: https://truecharts.org/charts/stable/lazylibrarian
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/lazylibrarian.png
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/lazylibrarian.webp
 keywords:
   - lazylibrarian
   - ebooks
@@ -35,4 +35,4 @@ sources:
   - https://gitlab.com/LazyLibrarian/LazyLibrarian.git
   - https://lazylibrarian.gitlab.io
 type: application
-version: 20.1.20
+version: 20.1.22
