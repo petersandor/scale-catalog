@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: latest
+appVersion: "latest"
 dependencies:
   - name: common
     version: 24.1.8
@@ -17,8 +17,7 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Headless Ubuntu/Xfce Charts with VNC/noVNC for diagramming, image editing
-  and 2D/3D drawing
+description: Headless Ubuntu/Xfce Charts with VNC/noVNC for diagramming, image editing and 2D/3D drawing
 home: https://truecharts.org/charts/stable/firefox-desktop-g3
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/firefox-desktop-g3.webp
 keywords:
@@ -33,8 +32,8 @@ maintainers:
     url: https://truecharts.org
 name: firefox-desktop-g3
 sources:
-  - https://github.com/accetto/headless-drawing-g3/
   - https://github.com/truecharts/charts/tree/master/charts/stable/firefox-desktop-g3
+  - https://github.com/accetto/headless-drawing-g3/
   - https://hub.docker.com/r/accetto/ubuntu-vnc-xfce-firefox-g3
 type: application
-version: 7.1.6
+version: 7.1.8
