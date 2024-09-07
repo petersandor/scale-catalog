@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: 1.7.46
+appVersion: "1.7.46"
 dependencies:
   - name: common
     version: 24.1.8
@@ -32,9 +32,9 @@ maintainers:
     url: https://truecharts.org
 name: grav
 sources:
+  - https://github.com/truecharts/charts/tree/master/charts/stable/grav
   - https://ghcr.io/linuxserver/grav
   - https://github.com/getgrav/grav/
   - https://github.com/linuxserver/docker-grav
-  - https://github.com/truecharts/charts/tree/master/charts/stable/grav
 type: application
-version: 13.1.10
+version: 13.1.12
