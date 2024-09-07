@@ -4,12 +4,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/mongodb/14.1.9",
-        "last_update": "2024-09-07 00:50:10",
+        "last_update": "2024-09-07 06:42:16",
         "required_features": [
-            "definitions/interface",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
-            "definitions/certificate"
+            "definitions/certificate",
+            "definitions/interface",
+            "definitions/timezone"
         ],
         "human_version": "7.0.14_14.1.9",
         "version": "14.1.9",
@@ -4340,12 +4340,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/mongodb/14.1.8",
-        "last_update": "2024-09-07 00:50:10",
+        "last_update": "2024-09-07 06:42:16",
         "required_features": [
-            "definitions/interface",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
-            "definitions/certificate"
+            "definitions/certificate",
+            "definitions/interface",
+            "definitions/timezone"
         ],
         "human_version": "7.0.12_14.1.8",
         "version": "14.1.8",
@@ -8676,12 +8676,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/mongodb/13.0.12",
-        "last_update": "2024-09-07 00:50:10",
+        "last_update": "2024-09-07 06:42:16",
         "required_features": [
-            "definitions/interface",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
-            "definitions/certificate"
+            "definitions/certificate",
+            "definitions/interface",
+            "definitions/timezone"
         ],
         "human_version": "7.0.11_13.0.12",
         "version": "13.0.12",
@@ -13009,12 +13009,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/mongodb/13.0.11",
-        "last_update": "2024-09-07 00:50:10",
+        "last_update": "2024-09-07 06:42:16",
         "required_features": [
-            "definitions/interface",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
-            "definitions/certificate"
+            "definitions/certificate",
+            "definitions/interface",
+            "definitions/timezone"
         ],
         "human_version": "7.0.11_13.0.11",
         "version": "13.0.11",
@@ -17342,12 +17342,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/mongodb/12.8.18",
-        "last_update": "2024-09-07 00:50:10",
+        "last_update": "2024-09-07 06:42:16",
         "required_features": [
-            "definitions/interface",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
-            "definitions/certificate"
+            "definitions/certificate",
+            "definitions/interface",
+            "definitions/timezone"
         ],
         "human_version": "7.0.9_12.8.18",
         "version": "12.8.18",
@@ -21346,12 +21346,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/mongodb/12.8.17",
-        "last_update": "2024-09-07 00:50:10",
+        "last_update": "2024-09-07 06:42:16",
         "required_features": [
-            "definitions/interface",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
-            "definitions/certificate"
+            "definitions/certificate",
+            "definitions/interface",
+            "definitions/timezone"
         ],
         "human_version": "7.0.8_12.8.17",
         "version": "12.8.17",
