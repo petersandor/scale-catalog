@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/premium/nextcloud/31.4.12",
-        "last_update": "2024-09-07 06:42:16",
+        "last_update": "2024-09-07 11:22:44",
         "required_features": [
             "definitions/certificate",
             "definitions/nodeIP",
@@ -7323,7 +7323,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/premium/nextcloud/31.4.10",
-        "last_update": "2024-09-07 06:42:16",
+        "last_update": "2024-09-07 11:22:44",
         "required_features": [
             "definitions/certificate",
             "definitions/nodeIP",
@@ -14642,7 +14642,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/premium/nextcloud/30.1.24",
-        "last_update": "2024-09-07 06:42:16",
+        "last_update": "2024-09-07 11:22:44",
         "required_features": [
             "definitions/certificate",
             "definitions/nodeIP",
@@ -21958,7 +21958,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/premium/nextcloud/30.1.23",
-        "last_update": "2024-09-07 06:42:16",
+        "last_update": "2024-09-07 11:22:44",
         "required_features": [
             "definitions/certificate",
             "definitions/nodeIP",
@@ -29274,7 +29274,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/premium/nextcloud/29.11.0",
-        "last_update": "2024-09-07 06:42:16",
+        "last_update": "2024-09-07 11:22:44",
         "required_features": [
             "definitions/certificate",
             "definitions/nodeIP",
@@ -36517,7 +36517,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/premium/nextcloud/29.10.36",
-        "last_update": "2024-09-07 06:42:16",
+        "last_update": "2024-09-07 11:22:44",
         "required_features": [
             "definitions/certificate",
             "definitions/nodeIP",
