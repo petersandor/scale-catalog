@@ -10,7 +10,7 @@ apiVersion: v2
 appVersion: "latest"
 dependencies:
   - name: common
-    version: 24.1.8
+    version: 24.1.10
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
@@ -19,7 +19,7 @@ dependencies:
 deprecated: false
 description: sd-webui-docker Chart
 home: https://truecharts.org/charts/incubator/sd-webui
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/sd-webui.png
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/sd-webui.webp
 keywords:
   - Whisper
   - AI
@@ -35,4 +35,4 @@ sources:
   - https://ghcr.io/neggles/sd-webui-docker
   - https://github.com/ahmetoner/sd-webui-docker/
 type: application
-version: 2.1.46
+version: 2.1.50
