@@ -7,10 +7,10 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: 5.8.3.8933
+appVersion: "5.9.1.9070"
 dependencies:
   - name: common
-    version: 24.1.8
+    version: 24.1.10
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
@@ -31,9 +31,9 @@ maintainers:
     url: https://truecharts.org
 name: radarr
 sources:
+  - https://github.com/truecharts/charts/tree/master/charts/stable/radarr
   - https://ghcr.io/onedr0p/exportarr
   - https://ghcr.io/onedr0p/radarr
   - https://github.com/Radarr/Radarr
-  - https://github.com/truecharts/charts/tree/master/charts/stable/radarr
 type: application
-version: 23.3.1
+version: 23.3.3
