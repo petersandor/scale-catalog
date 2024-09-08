@@ -17,9 +17,7 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: 'Cops(http://blog.slucas.fr/en/oss/calibre-opds-php-server) by Sbastien Lucas, stands for Calibre OPDS (and HTML) Php Server.
-
-'
+description: 'Cops(http://blog.slucas.fr/en/oss/calibre-opds-php-server) by Sbastien Lucas, stands for Calibre OPDS (and HTML) Php Server.'
 home: https://truecharts.org/charts/stable/cops
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/cops.webp
 keywords:
