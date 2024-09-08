@@ -4,10 +4,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/rimgo/8.1.55",
-        "last_update": "2024-09-08 01:40:56",
+        "last_update": "2024-09-08 06:47:37",
         "required_features": [
-            "definitions/certificate",
             "definitions/interface",
+            "definitions/certificate",
             "definitions/timezone",
             "normalize/interfaceConfiguration"
         ],
@@ -4701,10 +4701,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/rimgo/8.1.54",
-        "last_update": "2024-09-08 01:40:56",
+        "last_update": "2024-09-08 06:47:37",
         "required_features": [
-            "definitions/certificate",
             "definitions/interface",
+            "definitions/certificate",
             "definitions/timezone",
             "normalize/interfaceConfiguration"
         ],
@@ -9398,10 +9398,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/rimgo/7.0.34",
-        "last_update": "2024-09-08 01:40:56",
+        "last_update": "2024-09-08 06:47:37",
         "required_features": [
-            "definitions/certificate",
             "definitions/interface",
+            "definitions/certificate",
             "definitions/timezone",
             "normalize/interfaceConfiguration"
         ],
@@ -14092,10 +14092,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/rimgo/7.0.33",
-        "last_update": "2024-09-08 01:40:56",
+        "last_update": "2024-09-08 06:47:37",
         "required_features": [
-            "definitions/certificate",
             "definitions/interface",
+            "definitions/certificate",
             "definitions/timezone",
             "normalize/interfaceConfiguration"
         ],
@@ -18786,10 +18786,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/rimgo/6.8.56",
-        "last_update": "2024-09-08 01:40:56",
+        "last_update": "2024-09-08 06:47:37",
         "required_features": [
-            "definitions/certificate",
             "definitions/interface",
+            "definitions/certificate",
             "definitions/timezone",
             "normalize/interfaceConfiguration"
         ],
@@ -23252,10 +23252,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/rimgo/6.8.55",
-        "last_update": "2024-09-08 01:40:56",
+        "last_update": "2024-09-08 06:47:37",
         "required_features": [
-            "definitions/certificate",
             "definitions/interface",
+            "definitions/certificate",
             "definitions/timezone",
             "normalize/interfaceConfiguration"
         ],
@@ -27718,10 +27718,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/rimgo/5.3.0",
-        "last_update": "2024-09-08 01:40:56",
+        "last_update": "2024-09-08 06:47:37",
         "required_features": [
-            "definitions/certificate",
             "definitions/interface",
+            "definitions/certificate",
             "definitions/timezone",
             "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration"
@@ -32227,10 +32227,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/rimgo/5.2.2",
-        "last_update": "2024-09-08 01:40:56",
+        "last_update": "2024-09-08 06:47:37",
         "required_features": [
-            "definitions/certificate",
             "definitions/interface",
+            "definitions/certificate",
             "definitions/timezone",
             "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration"
