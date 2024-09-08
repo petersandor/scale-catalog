@@ -7,10 +7,10 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: 24.8.0
+appVersion: "24.9.0"
 dependencies:
   - name: common
-    version: 24.1.8
+    version: 24.1.10
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
@@ -30,8 +30,8 @@ maintainers:
     url: https://truecharts.org
 name: actualserver
 sources:
+  - https://github.com/truecharts/charts/tree/master/charts/stable/actualserver
   - https://ghcr.io/actualbudget/actual-server
   - https://github.com/Kippenhof/docker-templates
-  - https://github.com/truecharts/charts/tree/master/charts/stable/actualserver
 type: application
-version: 12.4.1
+version: 12.4.3
