@@ -1,0 +1,25 @@
+image:
+  repository: bitnami/memcached
+  pullPolicy: IfNotPresent
+  tag: 1.6.29@sha256:b682de43e73655c90ddc9160168064c6d596fa2bc4d6c8984ee330a2d5cc201f
+
+includeCommon: true
+service:
+  main:
+    ports:
+      main:
+        port: 11211
+        protocol: tcp
+        targetPort: 11211
+portal:
+  open:
+    enabled: false
+
+configmap:
+  dashboard:
+    enabled: true
+    labels:
+      grafana_dashboard: "1"
+    data:
+      memcached.json: >-
+        {{ .Files.Get "dashboard.json" | indent 8 }}

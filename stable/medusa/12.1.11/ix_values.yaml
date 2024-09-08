@@ -1,0 +1,25 @@
+image:
+  repository: ghcr.io/linuxserver/medusa
+  pullPolicy: IfNotPresent
+  tag: 1.0.21@sha256:b6f35c9a9e292cf466a744f65767de8471ecd41f9684175fca7e6875d86f2c22
+service:
+  main:
+    ports:
+      main:
+        port: 10068
+        targetPort: 8081
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+  varrun:
+    enabled: true
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsNonRoot: false
+    runAsUser: 0
+    runAsGroup: 0

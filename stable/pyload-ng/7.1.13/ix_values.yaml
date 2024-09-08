@@ -1,0 +1,40 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: lscr.io/linuxserver/pyload-ng
+  tag: latest@sha256:c8c5da4c257a23e1cc467ffa048a6f77aeb6d6954afa5fada264f7121cf2a191
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+  pathdownloads:
+    enabled: true
+    mountPath: /downloads
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 8000
+        protocol: http
+        targetPort: 8000
+  port9666:
+    enabled: true
+    ports:
+      port9666:
+        enabled: true
+        port: 9666
+        protocol: tcp
+        targetPort: 9666
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
