@@ -7,18 +7,17 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: 2.17.9
+appVersion: "2.17.10"
 dependencies:
   - name: common
-    version: 24.1.8
+    version: 24.1.10
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
     tags: []
     import-values: []
 deprecated: false
-description: A timed task management panel that supports typescript, javaScript, python3,
-  and shell
+description: A timed task management panel that supports typescript, javaScript, python3, and shell
 home: https://truecharts.org/charts/stable/qinglong
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/qinglong.webp
 keywords:
@@ -34,4 +33,4 @@ sources:
   - https://github.com/truecharts/charts/tree/master/charts/stable/qinglong
   - https://hub.docker.com/r/whyour/qinglong
 type: application
-version: 11.1.11
+version: 11.1.13
