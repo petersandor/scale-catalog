@@ -1,7 +1,7 @@
 image:
   pullPolicy: IfNotPresent
   repository: mikeah/prusaslicer-novnc
-  tag: latest@sha256:ce7a1559f51aa4f2557834194445811bd23c2cf26f41dc0b925083bbff4b4e79
+  tag: latest@sha256:33e457efb6efc22800edd026c0ffd0e4d621e8aa464bb69a940ad9982008868b
 persistence:
   configsfolder:
     enabled: true
