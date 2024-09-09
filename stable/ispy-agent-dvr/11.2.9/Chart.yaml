@@ -7,10 +7,10 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "5.6.9.0"
+appVersion: "5.7.5.0"
 dependencies:
   - name: common
-    version: 24.1.8
+    version: 24.1.10
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
@@ -19,7 +19,7 @@ dependencies:
 deprecated: false
 description: iSpy"s Agent DVR, a standalone DVR service to manage IP cameras.
 home: https://truecharts.org/charts/stable/ispy-agent-dvr
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/ispy-agent-dvr.png
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/ispy-agent-dvr.webp
 keywords:
   - dvr
   - ispy
@@ -35,4 +35,4 @@ sources:
   - https://github.com/doitandbedone/ispyagentdvr-docker
   - https://hub.docker.com/r/doitandbedone/ispyagentdvr
 type: application
-version: 11.2.7
+version: 11.2.9
