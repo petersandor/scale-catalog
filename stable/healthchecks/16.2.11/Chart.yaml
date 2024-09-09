@@ -7,10 +7,10 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "3.4.202408"
+appVersion: "3.6.202409"
 dependencies:
   - name: common
-    version: 24.1.8
+    version: 24.1.10
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
@@ -19,7 +19,7 @@ dependencies:
 deprecated: false
 description: Healthchecks is a cron job monitoring service. It listens for HTTP requests and email messages ("pings") from your cron jobs and scheduled tasks ("checks"). When a ping does not arrive on time, Healthchecks sends out alerts.
 home: https://truecharts.org/charts/stable/healthchecks
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/healthchecks.png
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/healthchecks.webp
 keywords:
   - cron
   - monitoring
@@ -35,4 +35,4 @@ sources:
   - https://ghcr.io/linuxserver/healthchecks
   - https://github.com/healthchecks/healthchecks
 type: application
-version: 16.2.9
+version: 16.2.11
