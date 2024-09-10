@@ -7,10 +7,10 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "2024.8.3"
+appVersion: "2024.9.0"
 dependencies:
   - name: common
-    version: 24.1.8
+    version: 24.1.10
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
@@ -19,7 +19,7 @@ dependencies:
 deprecated: false
 description: Client for Cloudflare Tunnel, a daemon that exposes private services through the Cloudflare edge.
 home: https://truecharts.org/charts/stable/cloudflared
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/cloudflared.png
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/cloudflared.webp
 keywords:
   - cloudflared
   - networking
@@ -33,4 +33,4 @@ sources:
   - https://github.com/truecharts/charts/tree/master/charts/stable/cloudflared
   - https://hub.docker.com/r/cloudflare/cloudflared
 type: application
-version: 12.3.2
+version: 12.3.4
