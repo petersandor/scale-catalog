@@ -7,10 +7,10 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: 1.6.2
+appVersion: "1.7.1"
 dependencies:
   - name: common
-    version: 24.1.8
+    version: 24.1.10
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
@@ -33,4 +33,4 @@ sources:
   - https://github.com/wolveix/satisfactory-server
   - https://hub.docker.com/r/wolveix/satisfactory-server
 type: application
-version: 11.1.4
+version: 11.1.6
