@@ -7,10 +7,10 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "9.6.1"
+appVersion: "9.7.0"
 dependencies:
   - name: common
-    version: 24.1.8
+    version: 24.1.10
     repository: https://petersandor.github.io/truecharts-common
     condition: includeCommon
     alias: ''
@@ -19,7 +19,7 @@ dependencies:
 deprecated: false
 description: Apache Solr
 home: https://truecharts.org/charts/stable/solr
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/solr.png
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/solr.webp
 keywords:
   - solr
   - apache
@@ -35,4 +35,4 @@ sources:
   - https://github.com/apache/solr
   - https://hub.docker.com/r/bitnami/solr
 type: application
-version: 12.1.9
+version: 12.1.11
