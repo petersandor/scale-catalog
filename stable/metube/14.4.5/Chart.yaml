@@ -7,10 +7,10 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "2024-08"
+appVersion: "2024-09"
 dependencies:
   - name: common
-    version: 24.1.8
+    version: 24.1.10
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
@@ -19,7 +19,7 @@ dependencies:
 deprecated: false
 description: Web GUI for youtube-dl.
 home: https://truecharts.org/charts/stable/metube
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/metube.png
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/metube.webp
 keywords:
   - metube
   - media
@@ -34,4 +34,4 @@ sources:
   - https://github.com/alexta69/metube
   - https://hub.docker.com/r/alexta69/metube
 type: application
-version: 14.4.3
+version: 14.4.5
