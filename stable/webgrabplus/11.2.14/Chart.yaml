@@ -10,7 +10,7 @@ apiVersion: v2
 appVersion: "5.2.2"
 dependencies:
   - name: common
-    version: 24.1.8
+    version: 24.1.10
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
@@ -19,7 +19,7 @@ dependencies:
 deprecated: false
 description: Webgrabplus is a multi-site incremental xmltv epg grabber.
 home: https://truecharts.org/charts/stable/webgrabplus
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/webgrabplus.png
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/webgrabplus.webp
 keywords:
   - webgrabplus
 kubeVersion: '>=1.24.0-0'
@@ -32,4 +32,4 @@ sources:
   - https://github.com/truecharts/charts/tree/master/charts/stable/webgrabplus
   - https://ghcr.io/linuxserver/webgrabplus
 type: application
-version: 11.2.12
+version: 11.2.14
