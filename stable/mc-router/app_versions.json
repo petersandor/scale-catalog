@@ -4,10 +4,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/mc-router/6.3.2",
-        "last_update": "2024-09-13 10:35:38",
+        "last_update": "2024-09-13 15:24:04",
         "required_features": [
-            "definitions/interface",
             "definitions/certificate",
+            "definitions/interface",
             "normalize/interfaceConfiguration",
             "definitions/timezone"
         ],
@@ -4768,10 +4768,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/mc-router/6.3.1",
-        "last_update": "2024-09-13 10:35:38",
+        "last_update": "2024-09-13 15:24:04",
         "required_features": [
-            "definitions/interface",
             "definitions/certificate",
+            "definitions/interface",
             "normalize/interfaceConfiguration",
             "definitions/timezone"
         ],
@@ -9532,10 +9532,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/mc-router/5.0.10",
-        "last_update": "2024-09-13 10:35:38",
+        "last_update": "2024-09-13 15:24:04",
         "required_features": [
-            "definitions/interface",
             "definitions/certificate",
+            "definitions/interface",
             "normalize/interfaceConfiguration",
             "definitions/timezone"
         ],
@@ -14293,10 +14293,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/mc-router/5.0.9",
-        "last_update": "2024-09-13 10:35:38",
+        "last_update": "2024-09-13 15:24:04",
         "required_features": [
-            "definitions/interface",
             "definitions/certificate",
+            "definitions/interface",
             "normalize/interfaceConfiguration",
             "definitions/timezone"
         ],
@@ -19054,10 +19054,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/mc-router/4.8.15",
-        "last_update": "2024-09-13 10:35:38",
+        "last_update": "2024-09-13 15:24:04",
         "required_features": [
-            "definitions/interface",
             "definitions/certificate",
+            "definitions/interface",
             "normalize/interfaceConfiguration",
             "definitions/timezone"
         ],
@@ -23587,10 +23587,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/mc-router/4.8.14",
-        "last_update": "2024-09-13 10:35:38",
+        "last_update": "2024-09-13 15:24:04",
         "required_features": [
-            "definitions/interface",
             "definitions/certificate",
+            "definitions/interface",
             "normalize/interfaceConfiguration",
             "definitions/timezone"
         ],
@@ -28120,12 +28120,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/mc-router/3.3.0",
-        "last_update": "2024-09-13 10:35:38",
+        "last_update": "2024-09-13 15:24:04",
         "required_features": [
-            "definitions/interface",
-            "definitions/certificate",
-            "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration",
+            "definitions/gpuConfiguration",
+            "definitions/certificate",
+            "definitions/interface",
             "definitions/timezone"
         ],
         "human_version": "1.20.1_3.3.0",
@@ -32696,12 +32696,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/mc-router/3.2.0",
-        "last_update": "2024-09-13 10:35:38",
+        "last_update": "2024-09-13 15:24:04",
         "required_features": [
-            "definitions/interface",
-            "definitions/certificate",
-            "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration",
+            "definitions/gpuConfiguration",
+            "definitions/certificate",
+            "definitions/interface",
             "definitions/timezone"
         ],
         "human_version": "1.20.1_3.2.0",

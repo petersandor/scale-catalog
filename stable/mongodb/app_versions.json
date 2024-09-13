@@ -4,10 +4,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/mongodb/14.1.10",
-        "last_update": "2024-09-13 10:35:38",
+        "last_update": "2024-09-13 15:24:04",
         "required_features": [
-            "definitions/interface",
             "definitions/certificate",
+            "definitions/interface",
             "normalize/interfaceConfiguration",
             "definitions/timezone"
         ],
@@ -4340,10 +4340,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/mongodb/14.1.9",
-        "last_update": "2024-09-13 10:35:38",
+        "last_update": "2024-09-13 15:24:04",
         "required_features": [
-            "definitions/interface",
             "definitions/certificate",
+            "definitions/interface",
             "normalize/interfaceConfiguration",
             "definitions/timezone"
         ],
@@ -8676,10 +8676,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/mongodb/13.0.12",
-        "last_update": "2024-09-13 10:35:38",
+        "last_update": "2024-09-13 15:24:04",
         "required_features": [
-            "definitions/interface",
             "definitions/certificate",
+            "definitions/interface",
             "normalize/interfaceConfiguration",
             "definitions/timezone"
         ],
@@ -13009,10 +13009,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/mongodb/13.0.11",
-        "last_update": "2024-09-13 10:35:38",
+        "last_update": "2024-09-13 15:24:04",
         "required_features": [
-            "definitions/interface",
             "definitions/certificate",
+            "definitions/interface",
             "normalize/interfaceConfiguration",
             "definitions/timezone"
         ],
@@ -17342,10 +17342,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/mongodb/12.8.18",
-        "last_update": "2024-09-13 10:35:38",
+        "last_update": "2024-09-13 15:24:04",
         "required_features": [
-            "definitions/interface",
             "definitions/certificate",
+            "definitions/interface",
             "normalize/interfaceConfiguration",
             "definitions/timezone"
         ],
@@ -21346,10 +21346,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/mongodb/12.8.17",
-        "last_update": "2024-09-13 10:35:38",
+        "last_update": "2024-09-13 15:24:04",
         "required_features": [
-            "definitions/interface",
             "definitions/certificate",
+            "definitions/interface",
             "normalize/interfaceConfiguration",
             "definitions/timezone"
         ],
