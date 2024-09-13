@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/minetest/10.2.5",
-        "last_update": "2024-09-13 15:24:04",
+        "last_update": "2024-09-13 19:12:50",
         "required_features": [
             "definitions/certificate",
             "definitions/interface",
@@ -5279,7 +5279,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/minetest/10.2.4",
-        "last_update": "2024-09-13 15:24:04",
+        "last_update": "2024-09-13 19:12:50",
         "required_features": [
             "definitions/certificate",
             "definitions/interface",
@@ -10554,7 +10554,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/minetest/9.0.13",
-        "last_update": "2024-09-13 15:24:04",
+        "last_update": "2024-09-13 19:12:50",
         "required_features": [
             "definitions/certificate",
             "definitions/interface",
@@ -15826,7 +15826,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/minetest/9.0.12",
-        "last_update": "2024-09-13 15:24:04",
+        "last_update": "2024-09-13 19:12:50",
         "required_features": [
             "definitions/certificate",
             "definitions/interface",
@@ -21098,7 +21098,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/minetest/8.8.16",
-        "last_update": "2024-09-13 15:24:04",
+        "last_update": "2024-09-13 19:12:50",
         "required_features": [
             "definitions/certificate",
             "definitions/interface",
@@ -26041,7 +26041,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/minetest/8.8.15",
-        "last_update": "2024-09-13 15:24:04",
+        "last_update": "2024-09-13 19:12:50",
         "required_features": [
             "definitions/certificate",
             "definitions/interface",
@@ -30984,7 +30984,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/minetest/7.3.0",
-        "last_update": "2024-09-13 15:24:04",
+        "last_update": "2024-09-13 19:12:50",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration",
@@ -35970,7 +35970,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/minetest/7.2.0",
-        "last_update": "2024-09-13 15:24:04",
+        "last_update": "2024-09-13 19:12:50",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration",

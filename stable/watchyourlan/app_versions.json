@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/watchyourlan/11.0.0",
-        "last_update": "2024-09-13 15:24:04",
+        "last_update": "2024-09-13 19:12:50",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/nodeIP",
@@ -5353,7 +5353,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/watchyourlan/10.1.5",
-        "last_update": "2024-09-13 15:24:04",
+        "last_update": "2024-09-13 19:12:50",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/nodeIP",
@@ -10702,7 +10702,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/watchyourlan/10.1.4",
-        "last_update": "2024-09-13 15:24:04",
+        "last_update": "2024-09-13 19:12:50",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/nodeIP",
@@ -16051,7 +16051,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/watchyourlan/9.0.8",
-        "last_update": "2024-09-13 15:24:04",
+        "last_update": "2024-09-13 19:12:50",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/nodeIP",
@@ -21397,7 +21397,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/watchyourlan/9.0.7",
-        "last_update": "2024-09-13 15:24:04",
+        "last_update": "2024-09-13 19:12:50",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/nodeIP",
@@ -26743,7 +26743,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/watchyourlan/8.8.14",
-        "last_update": "2024-09-13 15:24:04",
+        "last_update": "2024-09-13 19:12:50",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/nodeIP",
@@ -31760,7 +31760,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/watchyourlan/8.8.13",
-        "last_update": "2024-09-13 15:24:04",
+        "last_update": "2024-09-13 19:12:50",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/nodeIP",
@@ -36777,11 +36777,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/watchyourlan/7.3.0",
-        "last_update": "2024-09-13 15:24:04",
+        "last_update": "2024-09-13 19:12:50",
         "required_features": [
             "normalize/interfaceConfiguration",
-            "definitions/gpuConfiguration",
             "definitions/nodeIP",
+            "definitions/gpuConfiguration",
             "definitions/certificate",
             "definitions/interface",
             "definitions/timezone"
@@ -41837,11 +41837,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/watchyourlan/7.2.0",
-        "last_update": "2024-09-13 15:24:04",
+        "last_update": "2024-09-13 19:12:50",
         "required_features": [
             "normalize/interfaceConfiguration",
-            "definitions/gpuConfiguration",
             "definitions/nodeIP",
+            "definitions/gpuConfiguration",
             "definitions/certificate",
             "definitions/interface",
             "definitions/timezone"

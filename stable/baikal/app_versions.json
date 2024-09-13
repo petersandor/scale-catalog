@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/baikal/7.1.5",
-        "last_update": "2024-09-13 15:24:04",
+        "last_update": "2024-09-13 19:12:50",
         "required_features": [
             "definitions/certificate",
             "definitions/interface",
@@ -5905,7 +5905,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/baikal/7.1.4",
-        "last_update": "2024-09-13 15:24:04",
+        "last_update": "2024-09-13 19:12:50",
         "required_features": [
             "definitions/certificate",
             "definitions/interface",
@@ -11806,7 +11806,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/baikal/6.0.9",
-        "last_update": "2024-09-13 15:24:04",
+        "last_update": "2024-09-13 19:12:50",
         "required_features": [
             "definitions/certificate",
             "definitions/interface",
@@ -17704,7 +17704,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/baikal/6.0.8",
-        "last_update": "2024-09-13 15:24:04",
+        "last_update": "2024-09-13 19:12:50",
         "required_features": [
             "definitions/certificate",
             "definitions/interface",
@@ -23602,7 +23602,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/baikal/5.8.15",
-        "last_update": "2024-09-13 15:24:04",
+        "last_update": "2024-09-13 19:12:50",
         "required_features": [
             "definitions/certificate",
             "definitions/interface",
@@ -29070,7 +29070,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/baikal/5.8.14",
-        "last_update": "2024-09-13 15:24:04",
+        "last_update": "2024-09-13 19:12:50",
         "required_features": [
             "definitions/certificate",
             "definitions/interface",
@@ -34538,7 +34538,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/baikal/4.4.0",
-        "last_update": "2024-09-13 15:24:04",
+        "last_update": "2024-09-13 19:12:50",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration",
@@ -40049,7 +40049,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/baikal/4.3.0",
-        "last_update": "2024-09-13 15:24:04",
+        "last_update": "2024-09-13 19:12:50",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration",

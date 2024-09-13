@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/openvscode-server/11.4.4",
-        "last_update": "2024-09-13 15:24:04",
+        "last_update": "2024-09-13 19:12:50",
         "required_features": [
             "definitions/certificate",
             "definitions/interface",
@@ -5319,7 +5319,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/openvscode-server/11.4.3",
-        "last_update": "2024-09-13 15:24:04",
+        "last_update": "2024-09-13 19:12:50",
         "required_features": [
             "definitions/certificate",
             "definitions/interface",
@@ -10634,7 +10634,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/openvscode-server/10.1.6",
-        "last_update": "2024-09-13 15:24:04",
+        "last_update": "2024-09-13 19:12:50",
         "required_features": [
             "definitions/certificate",
             "definitions/interface",
@@ -15946,7 +15946,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/openvscode-server/10.1.5",
-        "last_update": "2024-09-13 15:24:04",
+        "last_update": "2024-09-13 19:12:50",
         "required_features": [
             "definitions/certificate",
             "definitions/interface",
@@ -21258,7 +21258,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/openvscode-server/9.10.11",
-        "last_update": "2024-09-13 15:24:04",
+        "last_update": "2024-09-13 19:12:50",
         "required_features": [
             "definitions/certificate",
             "definitions/interface",
@@ -26241,7 +26241,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/openvscode-server/9.10.10",
-        "last_update": "2024-09-13 15:24:04",
+        "last_update": "2024-09-13 19:12:50",
         "required_features": [
             "definitions/certificate",
             "definitions/interface",
@@ -31224,7 +31224,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/openvscode-server/8.4.0",
-        "last_update": "2024-09-13 15:24:04",
+        "last_update": "2024-09-13 19:12:50",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration",
@@ -36250,7 +36250,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/openvscode-server/8.3.1",
-        "last_update": "2024-09-13 15:24:04",
+        "last_update": "2024-09-13 19:12:50",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration",
