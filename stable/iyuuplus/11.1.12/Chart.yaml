@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.1
   min_scale_version: 24.04.0
-  truecharts.org/category: docker
+  truecharts.org/category: media
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "27.2.1"
+appVersion: "latest"
 dependencies:
   - name: common
     version: 24.1.10
@@ -17,19 +17,20 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Dedicated App for using Docker-in-Docker
-home: https://truecharts.org/charts/stable/docker
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/docker.webp
+description: The IYUU automatic seeding tool can automatically seed most PT sites in China, support downloader clusters, multiple disks, multiple download directories, connecting to remote downloaders, etc.
+home: https://truecharts.org/charts/stable/iyuuplus
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/iyuuplus.webp
 keywords:
-  - docker
+  - iyuuplus
+  - pt
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: docker
+name: iyuuplus
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/docker
-  - https://hub.docker.com/_/docker
+  - https://github.com/truecharts/charts/tree/master/charts/stable/iyuuplus
+  - https://hub.docker.com/r/iyuucn/iyuuplus
 type: application
-version: 9.1.14
+version: 11.1.12
