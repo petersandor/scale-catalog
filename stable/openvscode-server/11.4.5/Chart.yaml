@@ -7,10 +7,10 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "1.92.1"
+appVersion: "1.93.0"
 dependencies:
   - name: common
-    version: 24.1.8
+    version: 24.1.10
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
@@ -19,7 +19,7 @@ dependencies:
 deprecated: false
 description: Openvscode-server provides a version of VS Code that runs a server on a remote machine.
 home: https://truecharts.org/charts/stable/openvscode-server
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/openvscode-server.png
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/openvscode-server.webp
 keywords:
   - openvscode-server
 kubeVersion: '>=1.24.0-0'
@@ -32,4 +32,4 @@ sources:
   - https://github.com/truecharts/charts/tree/master/charts/stable/openvscode-server
   - https://ghcr.io/linuxserver/openvscode-server
 type: application
-version: 11.4.3
+version: 11.4.5

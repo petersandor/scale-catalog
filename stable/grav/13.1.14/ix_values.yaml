@@ -1,14 +1,13 @@
 image:
-  repository: ghcr.io/linuxserver/mysql-workbench
+  repository: ghcr.io/linuxserver/grav
   pullPolicy: IfNotPresent
-  tag: 8.0.38@sha256:20d178276f7bcc277dd9fa0eb7e37d546b5c4e254ed234c56c44e17d32c13bfc
+  tag: 1.7.46@sha256:82d6846540514041e5e87fccfd7f47b32c5805aa9674de156da8f941bc4ce499
 service:
   main:
     ports:
       main:
-        targetPort: 3000
-        protocol: http
-        port: 10134
+        port: 10012
+        targetPort: 80
 persistence:
   config:
     enabled: true
@@ -20,10 +19,7 @@ portal:
     enabled: true
 securityContext:
   container:
-    runAsNonRoot: false
     readOnlyRootFilesystem: false
-    capabilities:
-      add:
-        - IPC_LOCK
+    runAsNonRoot: false
     runAsUser: 0
     runAsGroup: 0
