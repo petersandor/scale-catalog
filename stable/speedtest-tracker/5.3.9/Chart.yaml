@@ -10,7 +10,7 @@ apiVersion: v2
 appVersion: "0.21.2"
 dependencies:
   - name: common
-    version: 24.1.8
+    version: 24.1.10
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
@@ -42,4 +42,4 @@ sources:
   - https://github.com/alexjustesen/speedtest-tracker
   - https://github.com/linuxserver/docker-speedtest-tracker
 type: application
-version: 5.3.7
+version: 5.3.9

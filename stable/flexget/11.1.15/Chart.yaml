@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "2.24.03"
+appVersion: "3.11.45"
 dependencies:
   - name: common
     version: 24.1.10
@@ -17,22 +17,21 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Audio/Video library transcoding automation
-home: https://truecharts.org/charts/stable/tdarr-node
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/tdarr-node.webp
+description: FlexGet is a multipurpose automation tool for all of your media
+home: https://truecharts.org/charts/stable/flexget
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/flexget.webp
 keywords:
-  - encode
-  - media
-  - tdarr
+  - flexget
+  - automation
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: tdarr-node
+name: flexget
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/tdarr-node
-  - https://github.com/HaveAGitGat/Tdarr
-  - https://hub.docker.com/r/haveagitgat/tdarr_node
+  - https://github.com/truecharts/charts/tree/master/charts/stable/flexget
+  - https://github.com/wiserain/docker-flexget
+  - https://hub.docker.com/r/wiserain/flexget
 type: application
-version: 11.6.4
+version: 11.1.15
