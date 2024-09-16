@@ -7,23 +7,17 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: latest
+appVersion: "latest"
 dependencies:
   - name: common
-    version: 24.1.8
+    version: 24.1.10
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
     tags: []
     import-values: []
 deprecated: false
-description: 'With this Chart you can run FiveM (GTA V MOD SERVER) it will automatically
-  download the latest version or if you want to updated it yourself set the Manual
-  Updates (in the ''Show more settings'' tab down below) to true (without quotes).
-  The Chart will automatically extract it and download all other required files (resources,
-  server.cfg). You can get fx.tar.xz from here: https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/
-  To run this Chart you must provide a valid Server Key (you can get them from here:
-  https://keymaster.fivem.net/) and your prefered Server Name.'
+description: 'With this Chart you can run FiveM (GTA V MOD SERVER) it will automatically download the latest version or if you want to updated it yourself set the Manual Updates (in the ''Show more settings'' tab down below) to true (without quotes). The Chart will automatically extract it and download all other required files (resources, server.cfg). You can get fx.tar.xz from here: https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/ To run this Chart you must provide a valid Server Key (you can get them from here: https://keymaster.fivem.net/) and your prefered Server Name.'
 home: https://truecharts.org/charts/stable/fivem
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/fivem.webp
 keywords:
@@ -36,8 +30,8 @@ maintainers:
     url: https://truecharts.org
 name: fivem
 sources:
-  - https://fivem.net/
   - https://github.com/truecharts/charts/tree/master/charts/stable/fivem
+  - https://fivem.net/
   - https://hub.docker.com/r/ich777/fivemserver
 type: application
-version: 7.1.4
+version: 7.1.6
