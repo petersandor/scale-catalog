@@ -1,7 +1,7 @@
 annotations:
   max_scale_version: 24.04.1
   min_scale_version: 24.04.0
-  truecharts.org/category: AI
+  truecharts.org/category: Network-Other
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
@@ -17,21 +17,24 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Open-source ChatGPT experience for LLMs, embedders, and vector databases.
-home: https://truecharts.org/charts/stable/anything-llm
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/anything-llm.webp
+description: MEGAsync can synchronize all of your devices with your MEGA account.
+home: https://truecharts.org/charts/stable/megasync
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/megasync.webp
 keywords:
-  - anything-llm
-  - ai
+  - megasync
+  - Network-Other
+  - Productivity
+  - Tools-Utilities
+  - Backup
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: anything-llm
+name: megasync
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/anything-llm
-  - https://ghcr.io/mintplex-labs/anything-llm
-  - https://github.com/Mintplex-Labs/anything-llm
+  - https://github.com/truecharts/charts/tree/master/charts/stable/megasync
+  - https://github.com/ich777/docker-megasync
+  - https://hub.docker.com/r/ich777/megasync
 type: application
-version: 3.1.49
+version: 8.1.8
