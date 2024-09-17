@@ -7,32 +7,31 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: latest
+appVersion: "latest"
 dependencies:
   - name: common
-    version: 24.1.8
+    version: 24.1.10
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
     tags: []
     import-values: []
 deprecated: false
-description: This Chart will download and install Quake III Server (You have to copy
-  your .pk3 files from your game directory to your server).
-home: https://truecharts.org/charts/stable/quake3
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/quake3.webp
+description: This Chart will download and install the version of OpenTTD that you enter in the variable "GAME_VERSION" (if you define "latest" it will always pull the latest build, if you define "testing" it will always pull down the latest testing build).
+home: https://truecharts.org/charts/stable/openttd
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/openttd.webp
 keywords:
-  - quake3
+  - openttd
   - GameServers
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: quake3
+name: openttd
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/quake3
-  - https://hub.docker.com/r/ich777/quake3
-  - https://www.idsoftware.com/
+  - https://github.com/truecharts/charts/tree/master/charts/stable/openttd
+  - https://hub.docker.com/r/ich777/openttdserver
+  - https://www.openttd.org/
 type: application
-version: 7.1.4
+version: 7.1.6
