@@ -7,18 +7,17 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: latest
+appVersion: "latest"
 dependencies:
   - name: common
-    version: 24.1.8
+    version: 24.1.10
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
     tags: []
     import-values: []
 deprecated: false
-description: This is a Basic Mindustry Server. It will download the preferred version
-  of Mindustry and run it.
+description: This is a Basic Mindustry Server. It will download the preferred version of Mindustry and run it.
 home: https://truecharts.org/charts/stable/mindustry
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/mindustry.webp
 keywords:
@@ -31,8 +30,8 @@ maintainers:
     url: https://truecharts.org
 name: mindustry
 sources:
-  - https://anuke.itch.io/mindustry
   - https://github.com/truecharts/charts/tree/master/charts/stable/mindustry
+  - https://anuke.itch.io/mindustry
   - https://hub.docker.com/r/ich777/mindustry-server
 type: application
-version: 7.1.6
+version: 7.1.8
