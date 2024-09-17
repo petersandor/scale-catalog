@@ -1,14 +1,11 @@
 image:
   pullPolicy: IfNotPresent
-  repository: ich777/krusader
-  tag: latest@sha256:6f70afdb63a0d620a49c417562017eb3a8f16f4b3d03207a6b2a4979b63fc012
+  repository: ich777/chrome
+  tag: latest@sha256:bbe3f4a4d1c7e27f592a9f6e2deb7d92077cff43d4022e2a8b12032eea252e53
 persistence:
-  containerpath:
+  datadir:
     enabled: true
-    mountPath: /krusader
-  datapath:
-    enabled: true
-    mountPath: /mnt/user
+    mountPath: /chrome
 portal:
   open:
     enabled: true
@@ -32,6 +29,4 @@ workload:
           env:
             CUSTOM_RES_H: "768"
             CUSTOM_RES_W: "1280"
-            NOVNC_RESIZE: remote
-            RUNASROOT: "false"
-            USER_LOCALES: en_US.UTF-8 UTF-8
+            EXTRA_PARAMETERS: ""

@@ -1,11 +1,14 @@
 image:
   pullPolicy: IfNotPresent
-  repository: ich777/electrum
-  tag: latest@sha256:ba529830694b08478418e98689f26b4685e3e02ae177810445fac526f6e5212b
+  repository: ich777/krusader
+  tag: latest@sha256:0948b3aac126de4d7c7dae40680b7f4a8cf7bb3728bd27c0a0c41af4b5091cd6
 persistence:
+  containerpath:
+    enabled: true
+    mountPath: /krusader
   datapath:
     enabled: true
-    mountPath: /electrum
+    mountPath: /mnt/user
 portal:
   open:
     enabled: true
@@ -28,5 +31,7 @@ workload:
         main:
           env:
             CUSTOM_RES_H: "768"
-            CUSTOM_RES_W: "1024"
-            DATA_PERM: "770"
+            CUSTOM_RES_W: "1280"
+            NOVNC_RESIZE: remote
+            RUNASROOT: "false"
+            USER_LOCALES: en_US.UTF-8 UTF-8

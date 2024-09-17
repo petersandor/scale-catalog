@@ -1,11 +1,11 @@
 image:
   pullPolicy: IfNotPresent
-  repository: ich777/chrome
-  tag: latest@sha256:2367a5eba5a80c68a156ca67cf0dd810a0045b3400ab44935a7cd8655da6200c
+  repository: ich777/electrum
+  tag: latest@sha256:be7f12ce6c1b94e3008964f34f54a497368ad04ac71433b46d4f6ab7a96ce08e
 persistence:
-  datadir:
+  datapath:
     enabled: true
-    mountPath: /chrome
+    mountPath: /electrum
 portal:
   open:
     enabled: true
@@ -28,5 +28,5 @@ workload:
         main:
           env:
             CUSTOM_RES_H: "768"
-            CUSTOM_RES_W: "1280"
-            EXTRA_PARAMETERS: ""
+            CUSTOM_RES_W: "1024"
+            DATA_PERM: "770"

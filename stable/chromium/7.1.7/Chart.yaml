@@ -1,7 +1,7 @@
 annotations:
   max_scale_version: 24.04.1
   min_scale_version: 24.04.0
-  truecharts.org/category: Network-Other
+  truecharts.org/category: Productivity
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
@@ -17,12 +17,11 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Electrum is a Bitcoin wallet focused on speed and simplicity, with low resource usage. It uses remote servers that handle the most complicated parts of the Bitcoin system, and it allows you to recover your wallet from a secret phrase.
-home: https://truecharts.org/charts/stable/electrum
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/electrum.webp
+description: Chromium is a free and open-source software project developed by the Google-sponsored Chromium project.
+home: https://truecharts.org/charts/stable/chromium
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/chromium.webp
 keywords:
-  - electrum
-  - Network-Other
+  - chromium
   - Productivity
   - Tools-Utilities
 kubeVersion: '>=1.24.0-0'
@@ -30,10 +29,10 @@ maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: electrum
+name: chromium
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/electrum
-  - https://electrum.org/
-  - https://hub.docker.com/r/ich777/electrum
+  - https://github.com/truecharts/charts/tree/master/charts/stable/chromium
+  - https://hub.docker.com/r/ich777/chrome
+  - https://www.google.com/chrome/
 type: application
-version: 7.1.5
+version: 7.1.7
