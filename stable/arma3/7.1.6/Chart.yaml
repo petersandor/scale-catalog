@@ -7,18 +7,17 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: arma3
+appVersion: "arma3"
 dependencies:
   - name: common
-    version: 24.1.8
+    version: 24.1.10
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
     tags: []
     import-values: []
 deprecated: false
-description: This Chart will download and install SteamCMD. It will also install ArmA
-  III and run it.
+description: This Chart will download and install SteamCMD. It will also install ArmA III and run it.
 home: https://truecharts.org/charts/stable/arma3
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/arma3.webp
 keywords:
@@ -31,8 +30,8 @@ maintainers:
     url: https://truecharts.org
 name: arma3
 sources:
-  - https://arma3.com/
   - https://github.com/truecharts/charts/tree/master/charts/stable/arma3
+  - https://arma3.com/
   - https://hub.docker.com/r/ich777/steamcmd
 type: application
-version: 7.1.4
+version: 7.1.6
