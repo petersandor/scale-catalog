@@ -7,31 +7,31 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: arma3exilemod
+appVersion: "orion"
 dependencies:
   - name: common
-    version: 24.1.8
+    version: 24.1.10
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
     tags: []
     import-values: []
 deprecated: false
-description: This Chart will download and install SteamCMD. It will also install ArmA
-  III including ExileMod and run it.
-home: https://truecharts.org/charts/stable/arma3exilemod
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/arma3exilemod.webp
+description: This Chart will download and install SteamCMD. It will also install Avorion and run it.
+home: https://truecharts.org/charts/stable/avorion
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/avorion.webp
 keywords:
-  - arma3exilemod
+  - avorion
   - GameServers
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: arma3exilemod
+name: avorion
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/arma3exilemod
+  - https://github.com/truecharts/charts/tree/master/charts/stable/avorion
   - https://hub.docker.com/r/ich777/steamcmd
+  - https://www.steampowered.com/
 type: application
-version: 7.1.4
+version: 7.1.6

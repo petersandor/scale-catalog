@@ -7,18 +7,17 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: assettocorsa
+appVersion: "assettocor"
 dependencies:
   - name: common
-    version: 24.1.8
+    version: 24.1.10
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
     tags: []
     import-values: []
 deprecated: false
-description: This Chart will download and install SteamCMD. It will also install AssettoCorsa
-  and run it.
+description: This Chart will download and install SteamCMD. It will also install AssettoCorsa and run it.
 home: https://truecharts.org/charts/stable/assettocorsa
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/assettocorsa.webp
 keywords:
@@ -35,4 +34,4 @@ sources:
   - https://hub.docker.com/r/ich777/steamcmd
   - https://www.assettocorsa.net/
 type: application
-version: 7.1.4
+version: 7.1.6
