@@ -7,31 +7,30 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: conanexiles
+appVersion: "citadelfwf"
 dependencies:
   - name: common
-    version: 24.1.8
+    version: 24.1.10
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
     tags: []
     import-values: []
 deprecated: false
-description: This Chart will download and install SteamCMD. It will also install Conan
-  Exiles and run it.
-home: https://truecharts.org/charts/stable/conanexiles
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/conanexiles.webp
+description: This Chart will download and install SteamCMD. It will also install Citadel - Forged with Fire and run it.
+home: https://truecharts.org/charts/stable/citadel-forgedwithfire
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/citadel-forgedwithfire.webp
 keywords:
-  - conanexiles
+  - citadel-forgedwithfire
   - GameServers
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: conanexiles
+name: citadel-forgedwithfire
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/conanexiles
+  - https://github.com/truecharts/charts/tree/master/charts/stable/citadel-forgedwithfire
   - https://hub.docker.com/r/ich777/steamcmd
   - https://www.steampowered.com/
 type: application

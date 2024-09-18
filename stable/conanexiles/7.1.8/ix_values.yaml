@@ -1,7 +1,7 @@
 image:
   pullPolicy: IfNotPresent
   repository: ich777/steamcmd
-  tag: citadelfwf@sha256:6d2f614637a8ba58b6062c02377ed9c568964db955d90533a71a16ae0e6fc5b5
+  tag: conanexiles@sha256:0958cc4ab154a2984eb6140b3b00407693f5726421f18d48f03b2a5c9eada674
 persistence:
   serverfiles:
     enabled: true
@@ -18,16 +18,24 @@ securityContext:
     runAsGroup: 0
     runAsUser: 0
 service:
+  gameport1:
+    enabled: true
+    ports:
+      gameport1:
+        enabled: true
+        port: 7778
+        protocol: udp
+        targetPort: 7778
   main:
     ports:
       main:
         port: 7777
         protocol: udp
         targetPort: 7777
-  queryport:
+  steamport:
     enabled: true
     ports:
-      queryport:
+      steamport:
         enabled: true
         port: 27015
         protocol: udp
@@ -38,11 +46,12 @@ workload:
       containers:
         main:
           env:
-            GAME_ID: "489650 "
+            GAME_ID: "443030"
             GAME_PARAMS: ""
             PASSWRD: ""
             USERNAME: ""
             VALIDATE: "false"
+            WS_CONTENT: ""
           probes:
             liveness:
               enabled: false

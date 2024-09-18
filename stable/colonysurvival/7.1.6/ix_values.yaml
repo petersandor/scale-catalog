@@ -1,7 +1,7 @@
 image:
   pullPolicy: IfNotPresent
   repository: ich777/steamcmd
-  tag: conanexiles@sha256:5e57bceebe629f1304d9aa173a0319972c09e35ba5d59a8b08feab43e0562336
+  tag: colonysurvival@sha256:9d4384f461ec1fd61635b7ca86dbdbcff8f84b9d91d3cd1ff1236739775c10cb
 persistence:
   serverfiles:
     enabled: true
@@ -18,40 +18,26 @@ securityContext:
     runAsGroup: 0
     runAsUser: 0
 service:
-  gameport1:
-    enabled: true
-    ports:
-      gameport1:
-        enabled: true
-        port: 7778
-        protocol: udp
-        targetPort: 7778
   main:
     ports:
       main:
-        port: 7777
+        port: 27016
         protocol: udp
-        targetPort: 7777
-  steamport:
-    enabled: true
-    ports:
-      steamport:
-        enabled: true
-        port: 27015
-        protocol: udp
-        targetPort: 27015
+        targetPort: 27016
 workload:
   main:
     podSpec:
       containers:
         main:
           env:
-            GAME_ID: "443030"
-            GAME_PARAMS: ""
+            GAME_ID: "748090"
+            GAME_PARAMS: +server.gameport 27016
             PASSWRD: ""
+            SRV_NAME: Colony Survival Docker
+            SRV_NETTYPE: SteamOnline
+            SRV_WORLDNAME: ColonySurvival
             USERNAME: ""
             VALIDATE: "false"
-            WS_CONTENT: ""
           probes:
             liveness:
               enabled: false
