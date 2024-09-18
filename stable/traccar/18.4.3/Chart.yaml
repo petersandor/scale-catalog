@@ -7,10 +7,10 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: 6.4.0
+appVersion: "6.5"
 dependencies:
   - name: common
-    version: 24.1.8
+    version: 24.1.10
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
@@ -30,8 +30,8 @@ maintainers:
     url: https://truecharts.org
 name: traccar
 sources:
-  - https://github.com/traccar/traccar
   - https://github.com/truecharts/charts/tree/master/charts/stable/traccar
+  - https://github.com/traccar/traccar
   - https://hub.docker.com/r/traccar/traccar
 type: application
-version: 18.4.1
+version: 18.4.3
