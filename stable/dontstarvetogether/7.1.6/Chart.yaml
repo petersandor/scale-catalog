@@ -7,32 +7,31 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: dayz
+appVersion: "e"
 dependencies:
   - name: common
-    version: 24.1.8
+    version: 24.1.10
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
     tags: []
     import-values: []
 deprecated: false
-description: This Chart will download and install SteamCMD. It will also install DayZ
-  and run it.
-home: https://truecharts.org/charts/stable/dayz
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/dayz.webp
+description: This Chart will download and install SteamCMD. It will also install Don"t Starve Together and run it.
+home: https://truecharts.org/charts/stable/dontstarvetogether
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/dontstarvetogether.webp
 keywords:
-  - dayz
+  - dontstarvetogether
   - GameServers
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: dayz
+name: dontstarvetogether
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/dayz
+  - https://github.com/truecharts/charts/tree/master/charts/stable/dontstarvetogether
   - https://hub.docker.com/r/ich777/steamcmd
-  - https://www.bohemia.net/games/dayz
+  - https://www.klei.com/games/dont-starve-together
 type: application
-version: 7.1.4
+version: 7.1.6
