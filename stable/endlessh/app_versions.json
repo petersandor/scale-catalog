@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/endlessh/11.1.5",
-        "last_update": "2024-09-19 16:02:18",
+        "last_update": "2024-09-19 19:21:30",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/certificate",
@@ -5267,7 +5267,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/endlessh/11.1.4",
-        "last_update": "2024-09-19 16:02:18",
+        "last_update": "2024-09-19 19:21:30",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/certificate",
@@ -10530,7 +10530,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/endlessh/10.0.9",
-        "last_update": "2024-09-19 16:02:18",
+        "last_update": "2024-09-19 19:21:30",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/certificate",
@@ -15790,7 +15790,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/endlessh/10.0.8",
-        "last_update": "2024-09-19 16:02:18",
+        "last_update": "2024-09-19 19:21:30",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/certificate",
@@ -21050,7 +21050,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/endlessh/9.8.14",
-        "last_update": "2024-09-19 16:02:18",
+        "last_update": "2024-09-19 19:21:30",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/certificate",
@@ -25981,7 +25981,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/endlessh/9.8.13",
-        "last_update": "2024-09-19 16:02:18",
+        "last_update": "2024-09-19 19:21:30",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/certificate",
@@ -30912,12 +30912,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/endlessh/8.3.0",
-        "last_update": "2024-09-19 16:02:18",
+        "last_update": "2024-09-19 19:21:30",
         "required_features": [
             "definitions/gpuConfiguration",
+            "definitions/interface",
             "definitions/certificate",
             "definitions/timezone",
-            "definitions/interface",
             "normalize/interfaceConfiguration"
         ],
         "human_version": "2021.11.21_8.3.0",
@@ -35886,12 +35886,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/endlessh/8.2.0",
-        "last_update": "2024-09-19 16:02:18",
+        "last_update": "2024-09-19 19:21:30",
         "required_features": [
             "definitions/gpuConfiguration",
+            "definitions/interface",
             "definitions/certificate",
             "definitions/timezone",
-            "definitions/interface",
             "normalize/interfaceConfiguration"
         ],
         "human_version": "2021.11.21_8.2.0",

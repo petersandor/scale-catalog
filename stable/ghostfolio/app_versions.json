@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/ghostfolio/6.15.7",
-        "last_update": "2024-09-19 16:02:18",
+        "last_update": "2024-09-19 19:21:30",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/certificate",
@@ -4851,7 +4851,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/ghostfolio/6.15.6",
-        "last_update": "2024-09-19 16:02:18",
+        "last_update": "2024-09-19 19:21:30",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/certificate",
@@ -9698,7 +9698,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/ghostfolio/5.5.2",
-        "last_update": "2024-09-19 16:02:18",
+        "last_update": "2024-09-19 19:21:30",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/certificate",
@@ -14542,7 +14542,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/ghostfolio/5.5.1",
-        "last_update": "2024-09-19 16:02:18",
+        "last_update": "2024-09-19 19:21:30",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/certificate",
@@ -19386,7 +19386,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/ghostfolio/4.27.1",
-        "last_update": "2024-09-19 16:02:18",
+        "last_update": "2024-09-19 19:21:30",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/certificate",
@@ -24460,7 +24460,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/ghostfolio/4.27.0",
-        "last_update": "2024-09-19 16:02:18",
+        "last_update": "2024-09-19 19:21:30",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/certificate",
@@ -29534,12 +29534,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/ghostfolio/3.14.0",
-        "last_update": "2024-09-19 16:02:18",
+        "last_update": "2024-09-19 19:21:30",
         "required_features": [
             "definitions/gpuConfiguration",
+            "definitions/interface",
             "definitions/certificate",
             "definitions/timezone",
-            "definitions/interface",
             "normalize/interfaceConfiguration"
         ],
         "human_version": "2.54.0_3.14.0",
@@ -34683,12 +34683,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/ghostfolio/3.13.0",
-        "last_update": "2024-09-19 16:02:18",
+        "last_update": "2024-09-19 19:21:30",
         "required_features": [
             "definitions/gpuConfiguration",
+            "definitions/interface",
             "definitions/certificate",
             "definitions/timezone",
-            "definitions/interface",
             "normalize/interfaceConfiguration"
         ],
         "human_version": "2.54.0_3.13.0",

@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/qwantify/5.1.5",
-        "last_update": "2024-09-19 16:02:18",
+        "last_update": "2024-09-19 19:21:30",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/certificate",
@@ -5312,7 +5312,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/qwantify/5.1.4",
-        "last_update": "2024-09-19 16:02:18",
+        "last_update": "2024-09-19 19:21:30",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/certificate",
@@ -10620,7 +10620,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/qwantify/4.0.8",
-        "last_update": "2024-09-19 16:02:18",
+        "last_update": "2024-09-19 19:21:30",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/certificate",
@@ -15925,7 +15925,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/qwantify/4.0.7",
-        "last_update": "2024-09-19 16:02:18",
+        "last_update": "2024-09-19 19:21:30",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/certificate",
@@ -21230,7 +21230,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/qwantify/3.8.14",
-        "last_update": "2024-09-19 16:02:18",
+        "last_update": "2024-09-19 19:21:30",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/certificate",
@@ -26206,7 +26206,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/qwantify/3.8.13",
-        "last_update": "2024-09-19 16:02:18",
+        "last_update": "2024-09-19 19:21:30",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/certificate",
@@ -31182,12 +31182,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/qwantify/2.3.0",
-        "last_update": "2024-09-19 16:02:18",
+        "last_update": "2024-09-19 19:21:30",
         "required_features": [
             "definitions/gpuConfiguration",
+            "definitions/interface",
             "definitions/certificate",
             "definitions/timezone",
-            "definitions/interface",
             "normalize/interfaceConfiguration"
         ],
         "human_version": "20.04.0_2.3.0",
@@ -36201,12 +36201,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/qwantify/2.2.0",
-        "last_update": "2024-09-19 16:02:18",
+        "last_update": "2024-09-19 19:21:30",
         "required_features": [
             "definitions/gpuConfiguration",
+            "definitions/interface",
             "definitions/certificate",
             "definitions/timezone",
-            "definitions/interface",
             "normalize/interfaceConfiguration"
         ],
         "human_version": "20.04.0_2.2.0",
