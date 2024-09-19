@@ -10,7 +10,7 @@ apiVersion: v2
 appVersion: "latest"
 dependencies:
   - name: common
-    version: 24.1.8
+    version: 24.1.10
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
@@ -19,7 +19,7 @@ dependencies:
 deprecated: false
 description: Wallos - Self Hosted Subscription tracker
 home: https://truecharts.org/charts/stable/wallos
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/wallos.png
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/wallos.webp
 keywords:
   - dashboard
 kubeVersion: '>=1.24.0-0'
@@ -33,4 +33,4 @@ sources:
   - https://github.com/ellite/Wallos
   - https://hub.docker.com/r/bellamy/wallos
 type: application
-version: 6.1.21
+version: 6.1.23
