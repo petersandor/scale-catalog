@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "latest"
+appVersion: "0.8.8"
 dependencies:
   - name: common
     version: 24.1.10
@@ -16,31 +16,22 @@ dependencies:
     alias: ''
     tags: []
     import-values: []
-  - name: redis
-    version: 15.2.2
-    repository: https://petersandor.github.io/truecharts-common
-    condition: redis.enabled
-    alias: ''
-    tags: []
-    import-values: []
 deprecated: false
-description: A free & open source IMDb front-end.
-home: https://truecharts.org/charts/stable/libremdb
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/libremdb.webp
+description: ErsatzTV configuring and streaming custom live channels using your media library.
+home: https://truecharts.org/charts/stable/ersatztv
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/ersatztv.webp
 keywords:
-  - libremdb
+  - ersatztv
   - media
-  - imdb
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: libremdb
+name: ersatztv
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/libremdb
-  - https://github.com/PussTheCat-org/docker-libremdb-quay
-  - https://github.com/zyachel/libremdb
-  - https://quay.io/pussthecatorg/libremdb
+  - https://github.com/truecharts/charts/tree/master/charts/stable/ersatztv
+  - https://github.com/jasongdove/ErsatzTV
+  - https://hub.docker.com/r/jasongdove/ersatztv
 type: application
-version: 9.2.106
+version: 5.1.10

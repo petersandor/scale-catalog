@@ -7,10 +7,10 @@ annotations:
   truecharts.org/train: premium
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: 4.38.10
+appVersion: "4.38.11"
 dependencies:
   - name: common
-    version: 24.1.8
+    version: 24.1.10
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
@@ -46,9 +46,9 @@ maintainers:
     url: https://truecharts.org
 name: authelia
 sources:
+  - https://github.com/truecharts/charts/tree/master/charts/premium/authelia
   - https://ghcr.io/authelia/authelia
   - https://github.com/authelia/authelia
   - https://github.com/authelia/chartrepo
-  - https://github.com/truecharts/charts/tree/master/charts/premium/authelia
 type: application
-version: 25.2.7
+version: 25.2.9
