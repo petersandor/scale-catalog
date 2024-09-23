@@ -4,10 +4,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/redisinsight/8.1.5",
-        "last_update": "2024-09-23 04:49:10",
+        "last_update": "2024-09-23 09:46:11",
         "required_features": [
-            "definitions/timezone",
             "definitions/certificate",
+            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/interface"
         ],
@@ -5968,10 +5968,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/redisinsight/8.1.4",
-        "last_update": "2024-09-23 04:49:10",
+        "last_update": "2024-09-23 09:46:11",
         "required_features": [
-            "definitions/timezone",
             "definitions/certificate",
+            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/interface"
         ],
@@ -11932,10 +11932,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/redisinsight/7.0.8",
-        "last_update": "2024-09-23 04:49:10",
+        "last_update": "2024-09-23 09:46:11",
         "required_features": [
-            "definitions/timezone",
             "definitions/certificate",
+            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/interface"
         ],
@@ -17893,10 +17893,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/redisinsight/7.0.7",
-        "last_update": "2024-09-23 04:49:10",
+        "last_update": "2024-09-23 09:46:11",
         "required_features": [
-            "definitions/timezone",
             "definitions/certificate",
+            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/interface"
         ],
@@ -23854,10 +23854,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/redisinsight/6.8.14",
-        "last_update": "2024-09-23 04:49:10",
+        "last_update": "2024-09-23 09:46:11",
         "required_features": [
-            "definitions/timezone",
             "definitions/certificate",
+            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/interface"
         ],
@@ -29385,10 +29385,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/redisinsight/6.8.13",
-        "last_update": "2024-09-23 04:49:10",
+        "last_update": "2024-09-23 09:46:11",
         "required_features": [
-            "definitions/timezone",
             "definitions/certificate",
+            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/interface"
         ],
@@ -34916,13 +34916,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/redisinsight/5.3.0",
-        "last_update": "2024-09-23 04:49:10",
+        "last_update": "2024-09-23 09:46:11",
         "required_features": [
-            "definitions/gpuConfiguration",
-            "normalize/interfaceConfiguration",
             "definitions/interface",
+            "definitions/certificate",
+            "definitions/gpuConfiguration",
             "definitions/timezone",
-            "definitions/certificate"
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "1.14.0_5.3.0",
         "version": "5.3.0",
@@ -40490,13 +40490,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/redisinsight/5.2.0",
-        "last_update": "2024-09-23 04:49:10",
+        "last_update": "2024-09-23 09:46:11",
         "required_features": [
-            "definitions/gpuConfiguration",
-            "normalize/interfaceConfiguration",
             "definitions/interface",
+            "definitions/certificate",
+            "definitions/gpuConfiguration",
             "definitions/timezone",
-            "definitions/certificate"
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "1.14.0_5.2.0",
         "version": "5.2.0",

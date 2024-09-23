@@ -4,10 +4,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/gaseous-server/3.3.6",
-        "last_update": "2024-09-23 04:49:10",
+        "last_update": "2024-09-23 09:46:11",
         "required_features": [
-            "definitions/timezone",
             "definitions/certificate",
+            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/interface"
         ],
@@ -6539,10 +6539,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/gaseous-server/3.3.5",
-        "last_update": "2024-09-23 04:49:10",
+        "last_update": "2024-09-23 09:46:11",
         "required_features": [
-            "definitions/timezone",
             "definitions/certificate",
+            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/interface"
         ],
@@ -13074,10 +13074,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/gaseous-server/2.1.8",
-        "last_update": "2024-09-23 04:49:10",
+        "last_update": "2024-09-23 09:46:11",
         "required_features": [
-            "definitions/timezone",
             "definitions/certificate",
+            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/interface"
         ],
@@ -19606,10 +19606,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/gaseous-server/2.1.7",
-        "last_update": "2024-09-23 04:49:10",
+        "last_update": "2024-09-23 09:46:11",
         "required_features": [
-            "definitions/timezone",
             "definitions/certificate",
+            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/interface"
         ],
@@ -26138,10 +26138,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/gaseous-server/1.11.25",
-        "last_update": "2024-09-23 04:49:10",
+        "last_update": "2024-09-23 09:46:11",
         "required_features": [
-            "definitions/timezone",
             "definitions/certificate",
+            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/interface"
         ],
@@ -32139,10 +32139,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/gaseous-server/1.11.24",
-        "last_update": "2024-09-23 04:49:10",
+        "last_update": "2024-09-23 09:46:11",
         "required_features": [
-            "definitions/timezone",
             "definitions/certificate",
+            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/interface"
         ],
