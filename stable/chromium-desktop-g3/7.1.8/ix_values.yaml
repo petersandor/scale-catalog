@@ -1,14 +1,11 @@
 image:
   pullPolicy: IfNotPresent
-  repository: accetto/ubuntu-vnc-xfce-blender-g3
-  tag: latest@sha256:1371e2c61398dceb43ba2c25877726839abc5e5b07d43d606d17a4742209d079
+  repository: accetto/ubuntu-vnc-xfce-chromium-g3
+  tag: latest@sha256:9c2fcf5f921a2f1c6c4426d54db3e968166c9de6c457b12c875bdd6d1063d38f
 persistence:
   internalshare:
     enabled: true
     mountPath: /UNRAID_SHARE
-  storageprojects:
-    enabled: true
-    mountPath: /srv/projects
 portal:
   open:
     enabled: true
