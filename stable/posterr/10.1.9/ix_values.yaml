@@ -1,7 +1,7 @@
 image:
   pullPolicy: IfNotPresent
   repository: petersem/posterr
-  tag: latest@sha256:7d721a5034906ae7b330f2f39ab73b69ead9e400e037872dc725ed69b96288cd
+  tag: latest@sha256:8f090949c8551a3bef044a60605db180687be128901ae167d91dafdcc7f21447
 service:
   main:
     ports:
