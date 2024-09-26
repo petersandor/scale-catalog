@@ -1,7 +1,7 @@
 image:
   repository: ghcr.io/linuxserver/rsnapshot
   pullPolicy: IfNotPresent
-  tag: 1.4.5@sha256:4b9577e6bd868a47f768ef8812989a80d8957cd5ee8e2799a40f6990faf978af
+  tag: 1.4.5@sha256:0437021c62ec0bf724810a516b772c6d90460f77b0182e0b1f771af2ef6b6ef1
 service:
   main:
     enabled: false
