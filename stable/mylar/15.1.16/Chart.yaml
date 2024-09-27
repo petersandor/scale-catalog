@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.1
   min_scale_version: 24.04.0
-  truecharts.org/category: Cloud
+  truecharts.org/category: media
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "latest"
+appVersion: "0.8.0"
 dependencies:
   - name: common
     version: 24.1.10
@@ -17,24 +17,21 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: A Dropbox-like file manager that let you manage your data anywhere it is located.
-home: https://truecharts.org/charts/stable/filestash
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/filestash.webp
+description: Mylar is a automated Comic Book downloader
+home: https://truecharts.org/charts/stable/mylar
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/mylar.webp
 keywords:
-  - filestash
-  - Cloud
-  - Productivity
-  - Network-Web
+  - mylar
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: filestash
+name: mylar
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/filestash
-  - https://github.com/mickael-kerjean/filestash
-  - https://hub.docker.com/r/machines/filestash
-  - https://www.filestash.app/
+  - https://github.com/truecharts/charts/tree/master/charts/stable/mylar
+  - https://github.com/linuxserver/docker-mylar3
+  - https://github.com/mylar3/mylar3
+  - https://hub.docker.com/r/linuxserver/mylar3
 type: application
-version: 8.1.18
+version: 15.1.16
