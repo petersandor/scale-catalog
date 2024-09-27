@@ -1,7 +1,7 @@
 annotations:
   max_scale_version: 24.04.1
   min_scale_version: 24.04.0
-  truecharts.org/category: Other
+  truecharts.org/category: desktops
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
@@ -17,20 +17,22 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Multi-arch tar1090 Chart for visualising ADSB data.
-home: https://truecharts.org/charts/stable/tar1090
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/tar1090.webp
+description: Full desktop environments in many popular flavors for Alpine, Ubuntu, Arch, and Fedora accessible via RDP.
+home: https://truecharts.org/charts/stable/rdesktop
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/rdesktop.webp
 keywords:
-  - tar1090
-  - Other
+  - rdesktop
+  - desktops
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: tar1090
+name: rdesktop
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/tar1090
-  - https://hub.docker.com/r/mikenye/tar1090
+  - https://github.com/truecharts/charts/tree/master/charts/stable/rdesktop
+  - https://fleet.linuxserver.io/image?name=linuxserver/rdesktop
+  - https://github.com/linuxserver/docker-rdesktop#readme
+  - https://github.com/orgs/linuxserver/packages/container/package/rdesktop
 type: application
-version: 7.1.29
+version: 10.1.39
