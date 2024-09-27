@@ -4,11 +4,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/ombi/20.1.5",
-        "last_update": "2024-09-27 10:48:52",
+        "last_update": "2024-09-27 14:08:30",
         "required_features": [
-            "definitions/certificate",
-            "normalize/interfaceConfiguration",
             "definitions/timezone",
+            "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/interface"
         ],
         "human_version": "4.43.11_20.1.5",
@@ -5284,11 +5284,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/ombi/20.1.4",
-        "last_update": "2024-09-27 10:48:52",
+        "last_update": "2024-09-27 14:08:30",
         "required_features": [
-            "definitions/certificate",
-            "normalize/interfaceConfiguration",
             "definitions/timezone",
+            "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/interface"
         ],
         "human_version": "4.43.11_20.1.4",
@@ -10565,11 +10565,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/ombi/19.0.9",
-        "last_update": "2024-09-27 10:48:52",
+        "last_update": "2024-09-27 14:08:30",
         "required_features": [
-            "definitions/certificate",
-            "normalize/interfaceConfiguration",
             "definitions/timezone",
+            "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/interface"
         ],
         "human_version": "4.43.11_19.0.9",
@@ -15843,11 +15843,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/ombi/19.0.8",
-        "last_update": "2024-09-27 10:48:52",
+        "last_update": "2024-09-27 14:08:30",
         "required_features": [
-            "definitions/certificate",
-            "normalize/interfaceConfiguration",
             "definitions/timezone",
+            "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/interface"
         ],
         "human_version": "4.43.11_19.0.8",
@@ -21121,11 +21121,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/ombi/18.8.14",
-        "last_update": "2024-09-27 10:48:52",
+        "last_update": "2024-09-27 14:08:30",
         "required_features": [
-            "definitions/certificate",
-            "normalize/interfaceConfiguration",
             "definitions/timezone",
+            "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/interface"
         ],
         "human_version": "4.43.11_18.8.14",
@@ -26070,11 +26070,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/ombi/18.8.13",
-        "last_update": "2024-09-27 10:48:52",
+        "last_update": "2024-09-27 14:08:30",
         "required_features": [
-            "definitions/certificate",
-            "normalize/interfaceConfiguration",
             "definitions/timezone",
+            "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/interface"
         ],
         "human_version": "4.43.11_18.8.13",
@@ -31019,12 +31019,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/ombi/17.3.0",
-        "last_update": "2024-09-27 10:48:52",
+        "last_update": "2024-09-27 14:08:30",
         "required_features": [
             "definitions/certificate",
             "definitions/timezone",
-            "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration",
+            "definitions/gpuConfiguration",
             "definitions/interface"
         ],
         "human_version": "4.43.11_17.3.0",
@@ -36011,12 +36011,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/ombi/17.2.0",
-        "last_update": "2024-09-27 10:48:52",
+        "last_update": "2024-09-27 14:08:30",
         "required_features": [
             "definitions/certificate",
             "definitions/timezone",
-            "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration",
+            "definitions/gpuConfiguration",
             "definitions/interface"
         ],
         "human_version": "4.43.11_17.2.0",
