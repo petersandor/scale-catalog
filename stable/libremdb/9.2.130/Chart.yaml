@@ -16,24 +16,31 @@ dependencies:
     alias: ''
     tags: []
     import-values: []
+  - name: redis
+    version: 15.2.2
+    repository: https://petersandor.github.io/truecharts-common
+    condition: redis.enabled
+    alias: ''
+    tags: []
+    import-values: []
 deprecated: false
-description: TVheadend - a TV streaming server and digital video recorder
-home: https://truecharts.org/charts/stable/tvheadend
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/tvheadend.webp
+description: A free & open source IMDb front-end.
+home: https://truecharts.org/charts/stable/libremdb
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/libremdb.webp
 keywords:
-  - tvheadend
-  - tv
-  - streaming
-  - dvb
+  - libremdb
+  - media
+  - imdb
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: tvheadend
+name: libremdb
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/tvheadend
-  - https://ghcr.io/linuxserver/tvheadend
-  - https://github.com/tvheadend/tvheadend
+  - https://github.com/truecharts/charts/tree/master/charts/stable/libremdb
+  - https://github.com/PussTheCat-org/docker-libremdb-quay
+  - https://github.com/zyachel/libremdb
+  - https://quay.io/pussthecatorg/libremdb
 type: application
-version: 21.1.12
+version: 9.2.130

@@ -7,10 +7,10 @@ annotations:
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: incubator
 apiVersion: v2
-appVersion: latest
+appVersion: "latest"
 dependencies:
   - name: common
-    version: 24.1.8
+    version: 24.1.10
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
@@ -30,8 +30,8 @@ maintainers:
     url: https://truecharts.org
 name: peppermint
 sources:
-  - https://github.com/Peppermint-Lab/peppermint
   - https://github.com/truecharts/charts/tree/master/charts/incubator/peppermint
+  - https://github.com/Peppermint-Lab/peppermint
   - https://hub.docker.com/r/pepperlabs/peppermint
 type: application
-version: 2.1.5
+version: 2.1.7
