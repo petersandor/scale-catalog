@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.1
   min_scale_version: 24.04.0
-  truecharts.org/category: media
+  truecharts.org/category: Network-Web
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "0.52.5"
+appVersion: "latest"
 dependencies:
   - name: common
     version: 24.1.10
@@ -17,22 +17,20 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Navidrome is an open source web-based music collection server and streamer
-home: https://truecharts.org/charts/stable/navidrome
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/navidrome.webp
+description: Alternative Imgur front-end
+home: https://truecharts.org/charts/stable/rimgo
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/rimgo.webp
 keywords:
-  - navidrome
-  - music
-  - streaming
+  - rimgo
+  - Network-Web
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: navidrome
+name: rimgo
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/navidrome
-  - https://github.com/deluan/navidrome
-  - https://hub.docker.com/r/deluan/navidrome
+  - https://github.com/truecharts/charts/tree/master/charts/stable/rimgo
+  - https://quay.io/pussthecatorg/rimgo
 type: application
-version: 21.1.6
+version: 8.1.94
