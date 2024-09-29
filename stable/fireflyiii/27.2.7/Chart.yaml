@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.1
   min_scale_version: 24.04.0
-  truecharts.org/category: media
+  truecharts.org/category: finacial
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "latest"
+appVersion: "6.1.21"
 dependencies:
   - name: common
     version: 24.1.10
@@ -24,23 +24,21 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: A free & open source IMDb front-end.
-home: https://truecharts.org/charts/stable/libremdb
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/libremdb.webp
+description: A free and open source personal finance manager
+home: https://truecharts.org/charts/stable/fireflyiii
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/fireflyiii.webp
 keywords:
-  - libremdb
-  - media
-  - imdb
+  - fireflyiii
+  - finacial
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: libremdb
+name: fireflyiii
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/libremdb
-  - https://github.com/PussTheCat-org/docker-libremdb-quay
-  - https://github.com/zyachel/libremdb
-  - https://quay.io/pussthecatorg/libremdb
+  - https://github.com/truecharts/charts/tree/master/charts/stable/fireflyiii
+  - https://github.com/firefly-iii/firefly-iii/
+  - https://hub.docker.com/r/fireflyiii/core
 type: application
-version: 9.2.138
+version: 27.2.7
