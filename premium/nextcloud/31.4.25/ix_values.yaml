@@ -5,7 +5,7 @@ image:
 nginxImage:
   repository: nginxinc/nginx-unprivileged
   pullPolicy: IfNotPresent
-  tag: 1.27.1@sha256:d98d0e6a5cd5e5795b3ef2d112240efea63798903d323f3fff2c6451e8a6b02b
+  tag: 1.27.1@sha256:144210beee75048a0db053eada2e4555fe70724a122a4049aac9acb8bb1de9bf
 imaginaryImage:
   repository: tccr.io/tccr/nextcloud-imaginary
   pullPolicy: IfNotPresent
