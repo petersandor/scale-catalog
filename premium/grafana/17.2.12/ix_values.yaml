@@ -1,7 +1,7 @@
 image:
   repository: grafana/grafana
   pullPolicy: IfNotPresent
-  tag: 11.1.5@sha256:f4796c6227f4acb0b0dfef12edc2c732f60f18f65a6cf005313700c0896aaa30
+  tag: 11.2.1@sha256:999ac5b9b357e31be729d990e76dc3749285ca0ebd1ce1294a5b69cf6435d869
 
 sidecarImage:
   repository: quay.io/kiwigrid/k8s-sidecar
