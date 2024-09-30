@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.1
   min_scale_version: 24.04.0
-  truecharts.org/category: media
+  truecharts.org/category: incubator
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "24.07.2"
+appVersion: "0.14.0"
 dependencies:
   - name: common
     version: 24.1.10
@@ -17,23 +17,19 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: MKVToolNix is a set of tools to create, alter and inspect Matroska files.
-home: https://truecharts.org/charts/stable/mkvtoolnix
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/mkvtoolnix.webp
+description: Quassel-core is a modern, cross-platform, distributed IRC client.
+home: https://truecharts.org/charts/stable/quassel-core
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/quassel-core.webp
 keywords:
-  - media
-  - mkvtoolnix
-  - mkv
+  - quassel-core
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: mkvtoolnix
+name: quassel-core
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/mkvtoolnix
-  - https://github.com/jlesage/docker-mkvtoolnix
-  - https://hub.docker.com/r/jlesage/mkvtoolnix
-  - https://mkvtoolnix.download/
+  - https://github.com/truecharts/charts/tree/master/charts/stable/quassel-core
+  - https://ghcr.io/linuxserver/quassel-core
 type: application
-version: 12.3.2
+version: 13.1.13

@@ -35,4 +35,4 @@ sources:
   - https://ghcr.io/linuxserver/healthchecks
   - https://github.com/healthchecks/healthchecks
 type: application
-version: 16.2.11
+version: 16.2.13
