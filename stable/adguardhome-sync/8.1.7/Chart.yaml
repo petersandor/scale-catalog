@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.1
   min_scale_version: 24.04.0
-  truecharts.org/category: media
+  truecharts.org/category: Other
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "latest"
+appVersion: "0.6.13"
 dependencies:
   - name: common
     version: 24.1.10
@@ -17,20 +17,21 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Wallos - Self Hosted Subscription tracker
-home: https://truecharts.org/charts/stable/wallos
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/wallos.webp
+description: Synchronize AdGuardHome config to replica instances.
+home: https://truecharts.org/charts/stable/adguardhome-sync
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/adguardhome-sync.webp
 keywords:
-  - dashboard
+  - adguardhome-sync
+  - Other
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: wallos
+name: adguardhome-sync
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/wallos
-  - https://github.com/ellite/Wallos
-  - https://hub.docker.com/r/bellamy/wallos
+  - https://github.com/truecharts/charts/tree/master/charts/stable/adguardhome-sync
+  - https://ghcr.io/bakito/adguardhome-sync
+  - https://github.com/bakito/adguardhome-sync/
 type: application
-version: 6.1.24
+version: 8.1.7
