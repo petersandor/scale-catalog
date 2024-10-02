@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "0.119.0-ja"
+appVersion: "0.119.1-ja"
 dependencies:
   - name: common
     version: 24.1.10
@@ -34,4 +34,4 @@ sources:
   - https://github.com/koush/scrypted
   - https://hub.docker.com/r/koush/scrypted
 type: application
-version: 6.13.15
+version: 6.13.17
