@@ -1,7 +1,7 @@
 image:
-  repository: ghcr.io/linuxserver/booksonic-air
+  repository: jgraph/drawio
+  tag: 24.7.17@sha256:3e14dbd7818bb2222ef93d920809771dbbdc1bf8e1d8794c99314ad9a922eeb6
   pullPolicy: IfNotPresent
-  tag: 2201.1.0@sha256:c93e7f2072858984109b804d50c8ce76fcfbe2215cea93bf987339d70d518cb7
 securityContext:
   container:
     readOnlyRootFilesystem: false
@@ -12,9 +12,8 @@ service:
   main:
     ports:
       main:
-        port: 10048
-        protocol: http
-        targetPort: 4040
+        port: 10214
+        targetPort: 8080
 workload:
   main:
     podSpec:
@@ -31,10 +30,6 @@ workload:
               type: http
               path: /
           env: {}
-persistence:
-  config:
-    enabled: true
-    mountPath: /config
 portal:
   open:
     enabled: true
