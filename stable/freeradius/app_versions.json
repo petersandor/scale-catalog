@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/freeradius/15.1.5",
-        "last_update": "2024-10-03 16:54:42",
+        "last_update": "2024-10-03 21:06:25",
         "required_features": [
             "definitions/timezone",
             "normalize/interfaceConfiguration",
@@ -4382,7 +4382,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/freeradius/15.1.4",
-        "last_update": "2024-10-03 16:54:42",
+        "last_update": "2024-10-03 21:06:25",
         "required_features": [
             "definitions/timezone",
             "normalize/interfaceConfiguration",
@@ -8761,7 +8761,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/freeradius/14.0.8",
-        "last_update": "2024-10-03 16:54:42",
+        "last_update": "2024-10-03 21:06:25",
         "required_features": [
             "definitions/timezone",
             "normalize/interfaceConfiguration",
@@ -13137,7 +13137,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/freeradius/14.0.7",
-        "last_update": "2024-10-03 16:54:42",
+        "last_update": "2024-10-03 21:06:25",
         "required_features": [
             "definitions/timezone",
             "normalize/interfaceConfiguration",
@@ -17513,7 +17513,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/freeradius/13.8.14",
-        "last_update": "2024-10-03 16:54:42",
+        "last_update": "2024-10-03 21:06:25",
         "required_features": [
             "definitions/timezone",
             "normalize/interfaceConfiguration",
@@ -21560,7 +21560,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/freeradius/13.8.13",
-        "last_update": "2024-10-03 16:54:42",
+        "last_update": "2024-10-03 21:06:25",
         "required_features": [
             "definitions/timezone",
             "normalize/interfaceConfiguration",
@@ -25607,13 +25607,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/freeradius/12.3.0",
-        "last_update": "2024-10-03 16:54:42",
+        "last_update": "2024-10-03 21:06:25",
         "required_features": [
             "definitions/gpuConfiguration",
+            "definitions/interface",
             "definitions/timezone",
-            "normalize/interfaceConfiguration",
             "definitions/certificate",
-            "definitions/interface"
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "3.2.0_12.3.0",
         "version": "12.3.0",
@@ -29697,13 +29697,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/freeradius/12.2.0",
-        "last_update": "2024-10-03 16:54:42",
+        "last_update": "2024-10-03 21:06:25",
         "required_features": [
             "definitions/gpuConfiguration",
+            "definitions/interface",
             "definitions/timezone",
-            "normalize/interfaceConfiguration",
             "definitions/certificate",
-            "definitions/interface"
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "3.2.0_12.2.0",
         "version": "12.2.0",
