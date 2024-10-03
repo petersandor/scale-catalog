@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.1
   min_scale_version: 24.04.0
-  truecharts.org/category: games
+  truecharts.org/category: media
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "5.9.0"
+appVersion: "5.2.2"
 dependencies:
   - name: common
     version: 24.1.10
@@ -17,19 +17,19 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Minetest (server) is a near-infinite-world block sandbox game and a game engine.
-home: https://truecharts.org/charts/stable/minetest
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/minetest.webp
+description: Webgrabplus is a multi-site incremental xmltv epg grabber.
+home: https://truecharts.org/charts/stable/webgrabplus
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/webgrabplus.webp
 keywords:
-  - minetest
+  - webgrabplus
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: minetest
+name: webgrabplus
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/minetest
-  - https://ghcr.io/linuxserver/minetest
+  - https://github.com/truecharts/charts/tree/master/charts/stable/webgrabplus
+  - https://ghcr.io/linuxserver/webgrabplus
 type: application
-version: 10.2.5
+version: 11.2.17
