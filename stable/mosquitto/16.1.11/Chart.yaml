@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.1
   min_scale_version: 24.04.0
-  truecharts.org/category: incubator
+  truecharts.org/category: home-automation
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "1.4.5"
+appVersion: "2.0.19"
 dependencies:
   - name: common
     version: 24.1.10
@@ -17,19 +17,23 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Rsnapshot is a filesystem snapshot utility based on rsync.
-home: https://truecharts.org/charts/stable/rsnapshot
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/rsnapshot.webp
+description: Eclipse Mosquitto - An open source MQTT broker
+home: https://truecharts.org/charts/stable/mosquitto
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/mosquitto.webp
 keywords:
-  - rsnapshot
+  - mosquitto
+  - home-automation
+  - MQTT
+  - eclipse-iot
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: rsnapshot
+name: mosquitto
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/rsnapshot
-  - https://ghcr.io/linuxserver/rsnapshot
+  - https://github.com/truecharts/charts/tree/master/charts/stable/mosquitto
+  - https://github.com/eclipse/mosquitto
+  - https://hub.docker.com/_/eclipse-mosquitto
 type: application
-version: 11.1.12
+version: 16.1.11
