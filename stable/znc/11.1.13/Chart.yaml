@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.1
   min_scale_version: 24.04.0
-  truecharts.org/category: media
+  truecharts.org/category: incubator
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "latest"
+appVersion: "1.9.1"
 dependencies:
   - name: common
     version: 24.1.10
@@ -17,20 +17,19 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: The IYUU automatic seeding tool can automatically seed most PT sites in China, support downloader clusters, multiple disks, multiple download directories, connecting to remote downloaders, etc.
-home: https://truecharts.org/charts/stable/iyuuplus
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/iyuuplus.webp
+description: Znc is an IRC network bouncer or BNC. It can detach the client from the actual IRC server, and also from selected channels.
+home: https://truecharts.org/charts/stable/znc
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/znc.webp
 keywords:
-  - iyuuplus
-  - pt
+  - znc
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: iyuuplus
+name: znc
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/iyuuplus
-  - https://hub.docker.com/r/iyuucn/iyuuplus
+  - https://github.com/truecharts/charts/tree/master/charts/stable/znc
+  - https://ghcr.io/linuxserver/znc
 type: application
 version: 11.1.13
