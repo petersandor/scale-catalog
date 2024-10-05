@@ -1,7 +1,7 @@
 image:
   repository: ghcr.io/onedr0p/sabnzbd
   pullPolicy: IfNotPresent
-  tag: 4.3.2@sha256:b23a4ecc680470e88fc04a6dc27097f4da68adcf9d1ad0d6407bab7010fefade
+  tag: 4.3.3@sha256:47c42cd27e20fa37c2ef2e292b259b767de1fea58f63b50895c3366ba2ce1d53
 exportarrImage:
   repository: ghcr.io/onedr0p/exportarr
   pullPolicy: IfNotPresent
