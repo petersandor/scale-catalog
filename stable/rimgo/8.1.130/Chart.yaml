@@ -1,7 +1,7 @@
 annotations:
   max_scale_version: 24.04.1
   min_scale_version: 24.04.0
-  truecharts.org/category: Downloaders
+  truecharts.org/category: Network-Web
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
@@ -17,23 +17,20 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: MetaTube downloads video from YouTube and can add metadata from a specified metadata provider on the downloaded file.
-home: https://truecharts.org/charts/stable/metatube
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/metatube.webp
+description: Alternative Imgur front-end
+home: https://truecharts.org/charts/stable/rimgo
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/rimgo.webp
 keywords:
-  - metatube
-  - Downloaders
-  - Productivity
-  - Tools-Utilities
+  - rimgo
+  - Network-Web
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: metatube
+name: rimgo
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/metatube
-  - https://github.com/JVT038/MetaTube
-  - https://hub.docker.com/r/jvt038/metatube
+  - https://github.com/truecharts/charts/tree/master/charts/stable/rimgo
+  - https://quay.io/pussthecatorg/rimgo
 type: application
-version: 7.1.6
+version: 8.1.130

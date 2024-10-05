@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.1
   min_scale_version: 24.04.0
-  truecharts.org/category: cloud
+  truecharts.org/category: productivity
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
-  truecharts.org/train: premium
+  truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "29.0.7"
+appVersion: "0.22.1"
 dependencies:
   - name: common
     version: 24.1.10
@@ -24,27 +24,22 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: A private cloud server that puts the control and security of your own data back into your hands.
-home: https://truecharts.org/charts/premium/nextcloud
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/nextcloud.webp
+description: The to-do app to organize your life.
+home: https://truecharts.org/charts/stable/vikunja
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/vikunja.webp
 keywords:
-  - nextcloud
-  - storage
-  - http
-  - web
-  - php
+  - vikunja
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: nextcloud
+name: vikunja
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/premium/nextcloud
-  - https://github.com/nextcloud/docker
-  - https://github.com/nextcloud/helm
-  - https://hub.docker.com/r/clamav/clamav
-  - https://hub.docker.com/r/collabora/code
-  - https://hub.docker.com/r/nginxinc/nginx-unprivileged
+  - https://github.com/truecharts/charts/tree/master/charts/stable/vikunja
+  - https://hub.docker.com/_/nginx
+  - https://hub.docker.com/r/vikunja/api
+  - https://hub.docker.com/r/vikunja/frontend
+  - https://vikunja.io/docs
 type: application
-version: 31.4.25
+version: 15.2.16
