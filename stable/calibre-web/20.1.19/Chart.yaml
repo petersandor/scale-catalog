@@ -7,29 +7,32 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: 4.2.1
+appVersion: "0.6.23"
 dependencies:
   - name: common
-    version: 24.1.8
+    version: 24.1.10
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
     tags: []
     import-values: []
 deprecated: false
-description: OpenHab is a home-automation application
-home: https://truecharts.org/charts/stable/openhab
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/openhab.webp
+description: Calibre-Web is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database.
+home: https://truecharts.org/charts/stable/calibre-web
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/calibre-web.webp
 keywords:
-  - openhab
+  - calibre-web
+  - calibre
+  - ebook
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: openhab
+name: calibre-web
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/openhab
-  - https://hub.docker.com/r/openhab/openhab
+  - https://github.com/truecharts/charts/tree/master/charts/stable/calibre-web
+  - https://github.com/janeczku/calibre-web
+  - https://hub.docker.com/r/linuxserver/calibre-web
 type: application
-version: 11.2.2
+version: 20.1.19
