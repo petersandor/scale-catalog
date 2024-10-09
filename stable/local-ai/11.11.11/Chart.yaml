@@ -7,10 +7,10 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "2.19.4"
+appVersion: "2.21.1"
 dependencies:
   - name: common
-    version: 24.1.8
+    version: 24.1.10
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
@@ -19,7 +19,7 @@ dependencies:
 deprecated: false
 description: Self-hosted, community-driven, local OpenAI-compatible API.
 home: https://truecharts.org/charts/stable/local-ai
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/local-ai.png
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/local-ai.webp
 keywords:
   - local-ai
   - ai
@@ -34,4 +34,4 @@ sources:
   - https://github.com/go-skynet/LocalAI
   - https://hub.docker.com/r/localai/localai
 type: application
-version: 11.11.9
+version: 11.11.11
