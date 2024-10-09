@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.1
   min_scale_version: 24.04.0
-  truecharts.org/category: security
+  truecharts.org/category: AI
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "5.7.8.0"
+appVersion: "0.3.12"
 dependencies:
   - name: common
     version: 24.1.10
@@ -17,22 +17,23 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: iSpy"s Agent DVR, a standalone DVR service to manage IP cameras.
-home: https://truecharts.org/charts/stable/ispy-agent-dvr
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/ispy-agent-dvr.webp
+description: Get up and running with large language models locally.
+home: https://truecharts.org/charts/stable/ollama
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/ollama.webp
 keywords:
-  - dvr
-  - ispy
-  - agent
+  - ollama
+  - language-models
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: ispy-agent-dvr
+name: ollama
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/ispy-agent-dvr
-  - https://github.com/doitandbedone/ispyagentdvr-docker
-  - https://hub.docker.com/r/doitandbedone/ispyagentdvr
+  - https://github.com/truecharts/charts/tree/master/charts/stable/ollama
+  - https://ghcr.io/open-webui/open-webui
+  - https://github.com/ollama/ollama
+  - https://github.com/open-webui/open-webui
+  - https://hub.docker.com/r/ollama/ollama
 type: application
-version: 11.2.11
+version: 7.3.38
