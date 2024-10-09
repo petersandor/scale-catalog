@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/satisfactory/11.1.10",
-        "last_update": "2024-10-08 20:34:05",
+        "last_update": "2024-10-09 00:46:52",
         "required_features": [
             "definitions/certificate",
             "normalize/interfaceConfiguration",
@@ -4562,7 +4562,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/satisfactory/11.1.9",
-        "last_update": "2024-10-08 20:34:05",
+        "last_update": "2024-10-09 00:46:52",
         "required_features": [
             "definitions/certificate",
             "normalize/interfaceConfiguration",
@@ -9120,7 +9120,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/satisfactory/10.0.8",
-        "last_update": "2024-10-08 20:34:05",
+        "last_update": "2024-10-09 00:46:52",
         "required_features": [
             "definitions/certificate",
             "normalize/interfaceConfiguration",
@@ -13675,7 +13675,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/satisfactory/10.0.7",
-        "last_update": "2024-10-08 20:34:05",
+        "last_update": "2024-10-09 00:46:52",
         "required_features": [
             "definitions/certificate",
             "normalize/interfaceConfiguration",
@@ -18230,7 +18230,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/satisfactory/9.8.14",
-        "last_update": "2024-10-08 20:34:05",
+        "last_update": "2024-10-09 00:46:52",
         "required_features": [
             "definitions/certificate",
             "normalize/interfaceConfiguration",
@@ -22456,7 +22456,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/satisfactory/9.8.13",
-        "last_update": "2024-10-08 20:34:05",
+        "last_update": "2024-10-09 00:46:52",
         "required_features": [
             "definitions/certificate",
             "normalize/interfaceConfiguration",
@@ -26682,13 +26682,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/satisfactory/8.3.0",
-        "last_update": "2024-10-08 20:34:05",
+        "last_update": "2024-10-09 00:46:52",
         "required_features": [
-            "definitions/certificate",
-            "normalize/interfaceConfiguration",
-            "definitions/interface",
             "definitions/timezone",
-            "definitions/gpuConfiguration"
+            "definitions/interface",
+            "normalize/interfaceConfiguration",
+            "definitions/gpuConfiguration",
+            "definitions/certificate"
         ],
         "human_version": "1.6.1_8.3.0",
         "version": "8.3.0",
@@ -30951,13 +30951,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/satisfactory/8.2.0",
-        "last_update": "2024-10-08 20:34:05",
+        "last_update": "2024-10-09 00:46:52",
         "required_features": [
-            "definitions/certificate",
-            "normalize/interfaceConfiguration",
-            "definitions/interface",
             "definitions/timezone",
-            "definitions/gpuConfiguration"
+            "definitions/interface",
+            "normalize/interfaceConfiguration",
+            "definitions/gpuConfiguration",
+            "definitions/certificate"
         ],
         "human_version": "1.6.1_8.2.0",
         "version": "8.2.0",
