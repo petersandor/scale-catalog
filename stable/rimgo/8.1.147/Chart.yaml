@@ -1,7 +1,7 @@
 annotations:
   max_scale_version: 24.04.1
   min_scale_version: 24.04.0
-  truecharts.org/category: media
+  truecharts.org/category: Network-Web
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
@@ -17,23 +17,20 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: A free cross platform open source file manager with two panels side by side.
-home: https://truecharts.org/charts/stable/doublecommander
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/doublecommander.webp
+description: Alternative Imgur front-end
+home: https://truecharts.org/charts/stable/rimgo
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/rimgo.webp
 keywords:
-  - doublecommander
-  - file
-  - manager
+  - rimgo
+  - Network-Web
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: doublecommander
+name: rimgo
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/doublecommander
-  - https://doublecmd.sourceforge.io/
-  - https://ghcr.io/linuxserver/doublecommander
-  - https://github.com/linuxserver/docker-doublecommander
+  - https://github.com/truecharts/charts/tree/master/charts/stable/rimgo
+  - https://quay.io/pussthecatorg/rimgo
 type: application
-version: 14.1.15
+version: 8.1.147
