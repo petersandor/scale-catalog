@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.1
   min_scale_version: 24.04.0
-  truecharts.org/category: media
+  truecharts.org/category: Cloud
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "7.18.0"
+appVersion: "latest"
 dependencies:
   - name: common
     version: 24.1.10
@@ -17,20 +17,24 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Calibre is a powerful and easy to use e-book manager.
-home: https://truecharts.org/charts/stable/calibre
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/calibre.webp
+description: A Dropbox-like file manager that let you manage your data anywhere it is located.
+home: https://truecharts.org/charts/stable/filestash
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/filestash.webp
 keywords:
-  - calibre
+  - filestash
+  - Cloud
+  - Productivity
+  - Network-Web
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: calibre
+name: filestash
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/calibre
-  - https://ghcr.io/linuxserver/calibre
-  - https://github.com/kovidgoyal/calibre/
+  - https://github.com/truecharts/charts/tree/master/charts/stable/filestash
+  - https://github.com/mickael-kerjean/filestash
+  - https://hub.docker.com/r/machines/filestash
+  - https://www.filestash.app/
 type: application
-version: 16.4.8
+version: 8.1.32
