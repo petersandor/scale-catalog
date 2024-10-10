@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.1
   min_scale_version: 24.04.0
-  truecharts.org/category: media
+  truecharts.org/category: inventory
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "1.41.0"
+appVersion: "0.15.2"
 dependencies:
   - name: common
     version: 24.1.10
@@ -17,21 +17,21 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Open source, self-hostable watched list
-home: https://truecharts.org/charts/stable/watcharr
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/watcharr.webp
+description: Inventory and organization system built for the Home User.
+home: https://truecharts.org/charts/stable/homebox
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/homebox.webp
 keywords:
-  - watcharr
-  - media
+  - homebox
+  - inventory
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: watcharr
+name: homebox
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/watcharr
-  - https://ghcr.io/sbondco/watcharr
-  - https://github.com/sbondCo/Watcharr
+  - https://github.com/truecharts/charts/tree/master/charts/stable/homebox
+  - https://ghcr.io/sysadminsmedia/homebox
+  - https://github.com/sysadminsmedia/homebox
 type: application
-version: 6.3.3
+version: 8.3.5
