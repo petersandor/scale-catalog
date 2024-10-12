@@ -1,7 +1,7 @@
 image:
   repository: ghostfolio/ghostfolio
   pullPolicy: IfNotPresent
-  tag: 2.110.0@sha256:ea80d54c3407a4b51f6ae839dc525c60d5907f36ea6e453aed0dd31737261c06
+  tag: 2.114.0@sha256:71aca54a6961069e20bcd17c6d55ebbd7f33220af37ff21d2e919ac66a4fd39e
 securityContext:
   container:
     runAsNonRoot: false
