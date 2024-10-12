@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "1.12.1"
+appVersion: "2.26.01"
 dependencies:
   - name: common
     version: 24.1.10
@@ -17,24 +17,22 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: A comics/mangas server to serve/stream pages via API
-home: https://truecharts.org/charts/stable/komga
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/komga.webp
+description: Audio/Video library transcoding automation
+home: https://truecharts.org/charts/stable/tdarr-node
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/tdarr-node.webp
 keywords:
-  - komga
-  - comics
-  - mangas
-  - server
+  - encode
+  - media
+  - tdarr
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: komga
+name: tdarr-node
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/komga
-  - https://github.com/gotson/komga
-  - https://hub.docker.com/r/gotson/komga
-  - https://komga.org/
+  - https://github.com/truecharts/charts/tree/master/charts/stable/tdarr-node
+  - https://github.com/HaveAGitGat/Tdarr
+  - https://hub.docker.com/r/haveagitgat/tdarr_node
 type: application
-version: 15.1.8
+version: 11.6.7

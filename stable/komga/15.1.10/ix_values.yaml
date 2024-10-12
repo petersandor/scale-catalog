@@ -1,6 +1,6 @@
 image:
   repository: gotson/komga
-  tag: 1.12.1@sha256:49837d45c6ab713e15772784b44422a21a89bf3f78a30086c7f01483b3197c7b
+  tag: 1.14.0@sha256:243e6c3d06bf64adf29923f9f6d6a1c2ef4ffc5a000317fa90ab2431f6cf978d
   pullPolicy: IfNotPresent
 workload:
   main:
