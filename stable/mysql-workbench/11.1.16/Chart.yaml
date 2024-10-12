@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.1
   min_scale_version: 24.04.0
-  truecharts.org/category: media
+  truecharts.org/category: incubator
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "0.119.1-ja"
+appVersion: "8.0.38"
 dependencies:
   - name: common
     version: 24.1.10
@@ -17,21 +17,19 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Scrypted is a high performance home video integration and automation platform.
-home: https://truecharts.org/charts/stable/scrypted
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/scrypted.webp
+description: MySQL Workbench is a unified visual tool for database architects, developers and DBAs.
+home: https://truecharts.org/charts/stable/mysql-workbench
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/mysql-workbench.webp
 keywords:
-  - scrypted
-  - automation
+  - mysql-workbench
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: scrypted
+name: mysql-workbench
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/scrypted
-  - https://github.com/koush/scrypted
-  - https://hub.docker.com/r/koush/scrypted
+  - https://github.com/truecharts/charts/tree/master/charts/stable/mysql-workbench
+  - https://ghcr.io/linuxserver/mysql-workbench
 type: application
-version: 6.13.20
+version: 11.1.16
