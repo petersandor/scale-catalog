@@ -1,7 +1,7 @@
 image:
   pullPolicy: IfNotPresent
   repository: ich777/thunderbird
-  tag: latest@sha256:c84008480334c29047bd9bfbaeef1b1eb0bf33abb16b5015b5a7d87d0c73cade
+  tag: latest@sha256:c83ddc89687c7666a7f42ac237e21a4d41fb3eee4190d98fb2961a786aefe4c4
 persistence:
   data:
     enabled: true
