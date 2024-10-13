@@ -1,6 +1,6 @@
 image:
   repository: ghcr.io/neggles/sd-webui-docker
-  tag: latest@sha256:2542495f17a027f5f62030b563e6291549eaa7c99b4415a8a73d374a3c91e2c3
+  tag: latest@sha256:dc1e2fd278809d865608092f07fa6c0b43a461989f0c28025069edcaeb3dcc0e
   pullPolicy: Always
 vladImage:
   repository: ghcr.io/neggles/sd-webui-docker

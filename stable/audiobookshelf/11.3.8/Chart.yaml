@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.1
   min_scale_version: 24.04.0
-  truecharts.org/category: home-automation
+  truecharts.org/category: media
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "2024.9.2"
+appVersion: "2.15.0"
 dependencies:
   - name: common
     version: 24.1.10
@@ -17,23 +17,20 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: home-assistant App for TrueNAS SCALE
-home: https://truecharts.org/charts/stable/home-assistant
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/home-assistant.webp
+description: Audiobookshelf is a self-hosted audiobook server for managing and playing your audiobooks.
+home: https://truecharts.org/charts/stable/audiobookshelf
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/audiobookshelf.webp
 keywords:
-  - home-assistant
-  - home-automation
-  - hass
+  - audiobookshelf
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: home-assistant
+name: audiobookshelf
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/home-assistant
-  - https://github.com/cdr/code-server
-  - https://github.com/home-assistant/home-assistant
-  - https://hub.docker.com/r/homeassistant/home-assistant
+  - https://github.com/truecharts/charts/tree/master/charts/stable/audiobookshelf
+  - https://github.com/advplyr/audiobookshelf
+  - https://hub.docker.com/r/advplyr/audiobookshelf
 type: application
-version: 26.4.7
+version: 11.3.8
