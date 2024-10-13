@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "1.24.3.475"
+appVersion: "1.25.2.479"
 dependencies:
   - name: common
     version: 24.1.10
@@ -37,4 +37,4 @@ sources:
   - https://github.com/Prowlarr/Prowlarr
   - https://github.com/k8s-at-home/container-images
 type: application
-version: 18.3.6
+version: 18.3.8
