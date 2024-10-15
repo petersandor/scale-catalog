@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "5.2.33"
+appVersion: "5.14"
 dependencies:
   - name: common
     version: 24.1.10
@@ -17,19 +17,20 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Synclounge is a third party tool that allows you to watch Plex in sync with your friends/family, wherever you are.
-home: https://truecharts.org/charts/stable/synclounge
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/synclounge.webp
+description: Omada is a SDN tool for TP-Link Omada hardware
+home: https://truecharts.org/charts/stable/omada-controller
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/omada-controller.webp
 keywords:
-  - synclounge
+  - omada-controller
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: synclounge
+name: omada-controller
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/synclounge
-  - https://ghcr.io/linuxserver/synclounge
+  - https://github.com/truecharts/charts/tree/master/charts/stable/omada-controller
+  - https://github.com/mbentley/docker-omada-controller
+  - https://hub.docker.com/r/mbentley/omada-controller
 type: application
-version: 11.1.19
+version: 16.2.17
