@@ -4,11 +4,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/homarr/12.1.6",
-        "last_update": "2024-10-16 00:54:06",
+        "last_update": "2024-10-16 04:14:08",
         "required_features": [
-            "definitions/interface",
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
+            "definitions/interface",
             "definitions/timezone"
         ],
         "human_version": "0.15.4_12.1.6",
@@ -6490,11 +6490,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/homarr/12.1.5",
-        "last_update": "2024-10-16 00:54:06",
+        "last_update": "2024-10-16 04:14:08",
         "required_features": [
-            "definitions/interface",
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
+            "definitions/interface",
             "definitions/timezone"
         ],
         "human_version": "0.15.3_12.1.5",
@@ -12976,11 +12976,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/homarr/11.0.10",
-        "last_update": "2024-10-16 00:54:06",
+        "last_update": "2024-10-16 04:14:08",
         "required_features": [
-            "definitions/interface",
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
+            "definitions/interface",
             "definitions/timezone"
         ],
         "human_version": "0.15.3_11.0.10",
@@ -19459,11 +19459,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/homarr/11.0.9",
-        "last_update": "2024-10-16 00:54:06",
+        "last_update": "2024-10-16 04:14:08",
         "required_features": [
-            "definitions/interface",
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
+            "definitions/interface",
             "definitions/timezone"
         ],
         "human_version": "0.15.3_11.0.9",
@@ -25942,11 +25942,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/homarr/10.8.14",
-        "last_update": "2024-10-16 00:54:06",
+        "last_update": "2024-10-16 04:14:08",
         "required_features": [
-            "definitions/interface",
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
+            "definitions/interface",
             "definitions/timezone"
         ],
         "human_version": "0.15.2_10.8.14",
@@ -31894,11 +31894,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/homarr/10.8.13",
-        "last_update": "2024-10-16 00:54:06",
+        "last_update": "2024-10-16 04:14:08",
         "required_features": [
-            "definitions/interface",
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
+            "definitions/interface",
             "definitions/timezone"
         ],
         "human_version": "0.15.2_10.8.13",
@@ -37846,10 +37846,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/homarr/9.4.0",
-        "last_update": "2024-10-16 00:54:06",
+        "last_update": "2024-10-16 04:14:08",
         "required_features": [
-            "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration",
+            "definitions/gpuConfiguration",
             "definitions/certificate",
             "definitions/timezone",
             "definitions/interface"
@@ -43841,10 +43841,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/homarr/9.3.0",
-        "last_update": "2024-10-16 00:54:06",
+        "last_update": "2024-10-16 04:14:08",
         "required_features": [
-            "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration",
+            "definitions/gpuConfiguration",
             "definitions/certificate",
             "definitions/timezone",
             "definitions/interface"

@@ -4,11 +4,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/jenkins/9.9.6",
-        "last_update": "2024-10-16 00:54:06",
+        "last_update": "2024-10-16 04:14:08",
         "required_features": [
-            "definitions/interface",
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
+            "definitions/interface",
             "definitions/timezone"
         ],
         "human_version": "2.480_9.9.6",
@@ -5266,11 +5266,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/jenkins/9.9.5",
-        "last_update": "2024-10-16 00:54:06",
+        "last_update": "2024-10-16 04:14:08",
         "required_features": [
-            "definitions/interface",
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
+            "definitions/interface",
             "definitions/timezone"
         ],
         "human_version": "2.477_9.9.5",
@@ -10528,11 +10528,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/jenkins/8.5.0",
-        "last_update": "2024-10-16 00:54:06",
+        "last_update": "2024-10-16 04:14:08",
         "required_features": [
-            "definitions/interface",
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
+            "definitions/interface",
             "definitions/timezone"
         ],
         "human_version": "2.460.0_8.5.0",
@@ -15787,11 +15787,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/jenkins/8.4.2",
-        "last_update": "2024-10-16 00:54:06",
+        "last_update": "2024-10-16 04:14:08",
         "required_features": [
-            "definitions/interface",
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
+            "definitions/interface",
             "definitions/timezone"
         ],
         "human_version": "2.459.0_8.4.2",
@@ -21046,11 +21046,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/jenkins/7.18.1",
-        "last_update": "2024-10-16 00:54:06",
+        "last_update": "2024-10-16 04:14:08",
         "required_features": [
-            "definitions/interface",
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
+            "definitions/interface",
             "definitions/timezone"
         ],
         "human_version": "2.455.0_7.18.1",
@@ -25976,11 +25976,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/jenkins/7.18.0",
-        "last_update": "2024-10-16 00:54:06",
+        "last_update": "2024-10-16 04:14:08",
         "required_features": [
-            "definitions/interface",
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
+            "definitions/interface",
             "definitions/timezone"
         ],
         "human_version": "2.455.0_7.18.0",
@@ -30906,10 +30906,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/jenkins/6.10.0",
-        "last_update": "2024-10-16 00:54:06",
+        "last_update": "2024-10-16 04:14:08",
         "required_features": [
-            "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration",
+            "definitions/gpuConfiguration",
             "definitions/certificate",
             "definitions/timezone",
             "definitions/interface"
@@ -35879,10 +35879,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/jenkins/6.9.0",
-        "last_update": "2024-10-16 00:54:06",
+        "last_update": "2024-10-16 04:14:08",
         "required_features": [
-            "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration",
+            "definitions/gpuConfiguration",
             "definitions/certificate",
             "definitions/timezone",
             "definitions/interface"
