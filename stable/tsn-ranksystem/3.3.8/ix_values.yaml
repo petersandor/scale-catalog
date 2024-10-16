@@ -1,7 +1,7 @@
 image:
   repository: serverlein/tsn-ranksystem-webserver
   pullPolicy: IfNotPresent
-  tag: latest@sha256:f5e7c0babc9935baaa65b8e5ee45272981dbfdb280c5b6b34226e4b592965500
+  tag: latest@sha256:e570efbfb14ad911ed4c508925359cdaf4dee223fa86460407fb2e612606cbb9
 
 securityContext:
   container:
