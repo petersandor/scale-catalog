@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/xwiki/14.3.8",
-        "last_update": "2024-10-17 08:50:03",
+        "last_update": "2024-10-17 12:07:30",
         "required_features": [
             "definitions/timezone",
             "definitions/certificate",
@@ -5649,7 +5649,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/xwiki/14.3.7",
-        "last_update": "2024-10-17 08:50:03",
+        "last_update": "2024-10-17 12:07:30",
         "required_features": [
             "definitions/timezone",
             "definitions/certificate",
@@ -11294,7 +11294,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/xwiki/13.1.7",
-        "last_update": "2024-10-17 08:50:03",
+        "last_update": "2024-10-17 12:07:30",
         "required_features": [
             "definitions/timezone",
             "definitions/certificate",
@@ -16936,7 +16936,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/xwiki/13.1.6",
-        "last_update": "2024-10-17 08:50:03",
+        "last_update": "2024-10-17 12:07:30",
         "required_features": [
             "definitions/timezone",
             "definitions/certificate",
@@ -22578,7 +22578,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/xwiki/12.10.19",
-        "last_update": "2024-10-17 08:50:03",
+        "last_update": "2024-10-17 12:07:30",
         "required_features": [
             "definitions/timezone",
             "definitions/certificate",
@@ -28349,7 +28349,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/xwiki/12.10.18",
-        "last_update": "2024-10-17 08:50:03",
+        "last_update": "2024-10-17 12:07:30",
         "required_features": [
             "definitions/timezone",
             "definitions/certificate",
@@ -34120,11 +34120,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/xwiki/11.2.0",
-        "last_update": "2024-10-17 08:50:03",
+        "last_update": "2024-10-17 12:07:30",
         "required_features": [
             "definitions/timezone",
-            "normalize/interfaceConfiguration",
             "definitions/interface",
+            "normalize/interfaceConfiguration",
             "definitions/certificate",
             "definitions/gpuConfiguration"
         ],
@@ -39966,11 +39966,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/xwiki/11.1.0",
-        "last_update": "2024-10-17 08:50:03",
+        "last_update": "2024-10-17 12:07:30",
         "required_features": [
             "definitions/timezone",
-            "normalize/interfaceConfiguration",
             "definitions/interface",
+            "normalize/interfaceConfiguration",
             "definitions/certificate",
             "definitions/gpuConfiguration"
         ],

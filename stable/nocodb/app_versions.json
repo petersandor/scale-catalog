@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/nocodb/15.6.4",
-        "last_update": "2024-10-17 08:50:03",
+        "last_update": "2024-10-17 12:07:30",
         "required_features": [
             "definitions/timezone",
             "definitions/certificate",
@@ -5778,7 +5778,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/nocodb/15.6.3",
-        "last_update": "2024-10-17 08:50:03",
+        "last_update": "2024-10-17 12:07:30",
         "required_features": [
             "definitions/timezone",
             "definitions/certificate",
@@ -11552,7 +11552,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/nocodb/14.2.7",
-        "last_update": "2024-10-17 08:50:03",
+        "last_update": "2024-10-17 12:07:30",
         "required_features": [
             "definitions/timezone",
             "definitions/certificate",
@@ -17323,7 +17323,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/nocodb/14.2.6",
-        "last_update": "2024-10-17 08:50:03",
+        "last_update": "2024-10-17 12:07:30",
         "required_features": [
             "definitions/timezone",
             "definitions/certificate",
@@ -23094,7 +23094,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/nocodb/13.11.20",
-        "last_update": "2024-10-17 08:50:03",
+        "last_update": "2024-10-17 12:07:30",
         "required_features": [
             "definitions/timezone",
             "definitions/certificate",
@@ -28994,7 +28994,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/nocodb/13.11.19",
-        "last_update": "2024-10-17 08:50:03",
+        "last_update": "2024-10-17 12:07:30",
         "required_features": [
             "definitions/timezone",
             "definitions/certificate",
@@ -34894,11 +34894,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/nocodb/12.6.0",
-        "last_update": "2024-10-17 08:50:03",
+        "last_update": "2024-10-17 12:07:30",
         "required_features": [
             "definitions/timezone",
-            "normalize/interfaceConfiguration",
             "definitions/interface",
+            "normalize/interfaceConfiguration",
             "definitions/certificate",
             "definitions/gpuConfiguration"
         ],
@@ -40869,11 +40869,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/nocodb/12.5.0",
-        "last_update": "2024-10-17 08:50:03",
+        "last_update": "2024-10-17 12:07:30",
         "required_features": [
             "definitions/timezone",
-            "normalize/interfaceConfiguration",
             "definitions/interface",
+            "normalize/interfaceConfiguration",
             "definitions/certificate",
             "definitions/gpuConfiguration"
         ],
