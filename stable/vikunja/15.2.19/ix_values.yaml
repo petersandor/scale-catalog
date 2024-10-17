@@ -8,7 +8,7 @@ frontendImage:
   pullPolicy: IfNotPresent
 nginxImage:
   repository: nginx
-  tag: 1.27.2@sha256:c9a00813c6183f6572fbd29dc0b612a162d02dde3963e54dfeec10b35b65041e
+  tag: 1.27.2@sha256:28402db69fec7c17e179ea87882667f1e054391138f77ffaf0c3eb388efc3ffb
 workload:
   main:
     podSpec:
