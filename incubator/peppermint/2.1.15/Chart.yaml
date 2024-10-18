@@ -34,4 +34,4 @@ sources:
   - https://github.com/Peppermint-Lab/peppermint
   - https://hub.docker.com/r/pepperlabs/peppermint
 type: application
-version: 2.1.13
+version: 2.1.15
