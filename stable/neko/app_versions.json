@@ -4,11 +4,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/neko/8.1.6",
-        "last_update": "2024-10-19 10:47:00",
+        "last_update": "2024-10-19 14:04:21",
         "required_features": [
             "definitions/interface",
-            "definitions/timezone",
             "definitions/certificate",
+            "definitions/timezone",
             "normalize/interfaceConfiguration"
         ],
         "human_version": "2.8.12_8.1.6",
@@ -5364,11 +5364,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/neko/8.1.5",
-        "last_update": "2024-10-19 10:47:00",
+        "last_update": "2024-10-19 14:04:21",
         "required_features": [
             "definitions/interface",
-            "definitions/timezone",
             "definitions/certificate",
+            "definitions/timezone",
             "normalize/interfaceConfiguration"
         ],
         "human_version": "2.8.12_8.1.5",
@@ -10724,11 +10724,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/neko/7.0.8",
-        "last_update": "2024-10-19 10:47:00",
+        "last_update": "2024-10-19 14:04:21",
         "required_features": [
             "definitions/interface",
-            "definitions/timezone",
             "definitions/certificate",
+            "definitions/timezone",
             "normalize/interfaceConfiguration"
         ],
         "human_version": "2.8.11_7.0.8",
@@ -16081,11 +16081,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/neko/7.0.7",
-        "last_update": "2024-10-19 10:47:00",
+        "last_update": "2024-10-19 14:04:21",
         "required_features": [
             "definitions/interface",
-            "definitions/timezone",
             "definitions/certificate",
+            "definitions/timezone",
             "normalize/interfaceConfiguration"
         ],
         "human_version": "2.8.11_7.0.7",
@@ -21438,11 +21438,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/neko/6.1.14",
-        "last_update": "2024-10-19 10:47:00",
+        "last_update": "2024-10-19 14:04:21",
         "required_features": [
             "definitions/interface",
-            "definitions/timezone",
             "definitions/certificate",
+            "definitions/timezone",
             "normalize/interfaceConfiguration"
         ],
         "human_version": "2.8.11_6.1.14",
@@ -26466,11 +26466,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/neko/6.1.13",
-        "last_update": "2024-10-19 10:47:00",
+        "last_update": "2024-10-19 14:04:21",
         "required_features": [
             "definitions/interface",
-            "definitions/timezone",
             "definitions/certificate",
+            "definitions/timezone",
             "normalize/interfaceConfiguration"
         ],
         "human_version": "2.8.11_6.1.13",
@@ -31494,7 +31494,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/neko/5.7.12",
-        "last_update": "2024-10-19 10:47:00",
+        "last_update": "2024-10-19 14:04:21",
         "required_features": [
             "definitions/interface",
             "definitions/certificate",
@@ -35940,7 +35940,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/neko/5.7.11",
-        "last_update": "2024-10-19 10:47:00",
+        "last_update": "2024-10-19 14:04:21",
         "required_features": [
             "definitions/interface",
             "definitions/certificate",
@@ -40386,7 +40386,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/neko/4.3.0",
-        "last_update": "2024-10-19 10:47:00",
+        "last_update": "2024-10-19 14:04:21",
         "required_features": [
             "definitions/interface",
             "definitions/gpuConfiguration",
@@ -44875,7 +44875,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/neko/4.2.10",
-        "last_update": "2024-10-19 10:47:00",
+        "last_update": "2024-10-19 14:04:21",
         "required_features": [
             "definitions/interface",
             "definitions/gpuConfiguration",
