@@ -2,7 +2,7 @@ annotations:
   max_scale_version: 24.04.1
   min_scale_version: 24.04.0
   truecharts.org/SCALE-support: 'true'
-  truecharts.org/category: helpdesk
+  truecharts.org/category: MachineLearning
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: incubator
@@ -17,21 +17,22 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: An open source ticket management & help desk solution.
-home: https://truecharts.org/charts/incubator/peppermint
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/peppermint.webp
+description: sd-webui-docker Chart
+home: https://truecharts.org/charts/incubator/sd-webui
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/sd-webui.webp
 keywords:
-  - peppermint
-  - tickets
+  - Whisper
+  - AI
+  - ML
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: peppermint
+name: sd-webui-docker
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/incubator/peppermint
-  - https://github.com/Peppermint-Lab/peppermint
-  - https://hub.docker.com/r/pepperlabs/peppermint
+  - https://github.com/truecharts/charts/tree/master/charts/incubator/sd-webui
+  - https://ghcr.io/neggles/sd-webui-docker
+  - https://github.com/ahmetoner/sd-webui-docker/
 type: application
-version: 2.1.15
+version: 2.1.90
