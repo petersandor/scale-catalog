@@ -1,6 +1,6 @@
 image:
   repository: ghcr.io/linuxserver/filezilla
-  tag: 3.67.0@sha256:df6919fcc0444e8413e31ea1e73d97fb4a300c6d832152142fb91f3b9e13352b
+  tag: 3.67.0@sha256:dc61539d4fd17281d2a36378dc3af660fa2b39ffd6ecce47ead703c8d2829254
   pullPolicy: IfNotPresent
 
 securityContext:
