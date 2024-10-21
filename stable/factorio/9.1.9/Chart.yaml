@@ -10,7 +10,7 @@ apiVersion: v2
 appVersion: "stable"
 dependencies:
   - name: common
-    version: 24.1.8
+    version: 24.1.10
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
@@ -19,7 +19,7 @@ dependencies:
 deprecated: false
 description: A game in which you build and maintain factories.
 home: https://truecharts.org/charts/stable/factorio
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/factorio.png
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/factorio.webp
 keywords:
   - factorio
   - GameServers
@@ -34,4 +34,4 @@ sources:
   - https://github.com/factoriotools/factorio-docker
   - https://hub.docker.com/r/factoriotools/factorio
 type: application
-version: 9.1.7
+version: 9.1.9
