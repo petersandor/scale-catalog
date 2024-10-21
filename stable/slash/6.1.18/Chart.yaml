@@ -35,4 +35,4 @@ sources:
   - https://github.com/boojack/slash
   - https://hub.docker.com/r/yourselfhosted/slash
 type: application
-version: 6.1.16
+version: 6.1.18
