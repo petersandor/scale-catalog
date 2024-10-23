@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/mongodb/14.1.13",
-        "last_update": "2024-10-23 09:04:29",
+        "last_update": "2024-10-23 12:22:03",
         "required_features": [
             "definitions/timezone",
             "definitions/interface",
@@ -4340,7 +4340,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/mongodb/14.1.12",
-        "last_update": "2024-10-23 09:04:29",
+        "last_update": "2024-10-23 12:22:03",
         "required_features": [
             "definitions/timezone",
             "definitions/interface",
@@ -8676,7 +8676,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/mongodb/13.0.12",
-        "last_update": "2024-10-23 09:04:29",
+        "last_update": "2024-10-23 12:22:03",
         "required_features": [
             "definitions/timezone",
             "definitions/interface",
@@ -13009,7 +13009,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/mongodb/13.0.11",
-        "last_update": "2024-10-23 09:04:29",
+        "last_update": "2024-10-23 12:22:03",
         "required_features": [
             "definitions/timezone",
             "definitions/interface",
@@ -17342,7 +17342,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/mongodb/12.8.18",
-        "last_update": "2024-10-23 09:04:29",
+        "last_update": "2024-10-23 12:22:03",
         "required_features": [
             "definitions/timezone",
             "definitions/interface",
@@ -21346,7 +21346,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/mongodb/12.8.17",
-        "last_update": "2024-10-23 09:04:29",
+        "last_update": "2024-10-23 12:22:03",
         "required_features": [
             "definitions/timezone",
             "definitions/interface",
