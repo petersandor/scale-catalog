@@ -4,10 +4,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/archivebox/4.1.5",
-        "last_update": "2024-10-25 10:02:10",
+        "last_update": "2024-10-25 13:28:56",
         "required_features": [
-            "definitions/interface",
             "definitions/certificate",
+            "definitions/interface",
             "definitions/timezone",
             "normalize/interfaceConfiguration"
         ],
@@ -5312,10 +5312,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/archivebox/4.1.4",
-        "last_update": "2024-10-25 10:02:10",
+        "last_update": "2024-10-25 13:28:56",
         "required_features": [
-            "definitions/interface",
             "definitions/certificate",
+            "definitions/interface",
             "definitions/timezone",
             "normalize/interfaceConfiguration"
         ],
@@ -10620,10 +10620,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/archivebox/3.0.10",
-        "last_update": "2024-10-25 10:02:10",
+        "last_update": "2024-10-25 13:28:56",
         "required_features": [
-            "definitions/interface",
             "definitions/certificate",
+            "definitions/interface",
             "definitions/timezone",
             "normalize/interfaceConfiguration"
         ],
@@ -15925,10 +15925,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/archivebox/3.0.9",
-        "last_update": "2024-10-25 10:02:10",
+        "last_update": "2024-10-25 13:28:56",
         "required_features": [
-            "definitions/interface",
             "definitions/certificate",
+            "definitions/interface",
             "definitions/timezone",
             "normalize/interfaceConfiguration"
         ],
@@ -21230,10 +21230,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/archivebox/2.0.0",
-        "last_update": "2024-10-25 10:02:10",
+        "last_update": "2024-10-25 13:28:56",
         "required_features": [
-            "definitions/interface",
             "definitions/certificate",
+            "definitions/interface",
             "definitions/timezone",
             "normalize/interfaceConfiguration"
         ],
