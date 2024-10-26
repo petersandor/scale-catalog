@@ -16,31 +16,21 @@ dependencies:
     alias: ''
     tags: []
     import-values: []
-  - name: redis
-    version: 15.2.2
-    repository: https://petersandor.github.io/truecharts-common
-    condition: redis.enabled
-    alias: ''
-    tags: []
-    import-values: []
 deprecated: false
-description: A free & open source IMDb front-end.
-home: https://truecharts.org/charts/stable/libremdb
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/libremdb.webp
+description: Wallos - Self Hosted Subscription tracker
+home: https://truecharts.org/charts/stable/wallos
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/wallos.webp
 keywords:
-  - libremdb
-  - media
-  - imdb
+  - dashboard
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: libremdb
+name: wallos
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/libremdb
-  - https://github.com/PussTheCat-org/docker-libremdb-quay
-  - https://github.com/zyachel/libremdb
-  - https://quay.io/pussthecatorg/libremdb
+  - https://github.com/truecharts/charts/tree/master/charts/stable/wallos
+  - https://github.com/ellite/Wallos
+  - https://hub.docker.com/r/bellamy/wallos
 type: application
-version: 9.2.222
+version: 6.1.35
