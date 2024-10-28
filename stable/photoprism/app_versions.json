@@ -4,10 +4,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/photoprism/23.4.7",
-        "last_update": "2024-10-27 18:16:36",
+        "last_update": "2024-10-28 00:34:22",
         "required_features": [
-            "definitions/certificate",
             "definitions/timezone",
+            "definitions/certificate",
             "normalize/interfaceConfiguration",
             "definitions/interface"
         ],
@@ -7138,10 +7138,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/photoprism/23.4.6",
-        "last_update": "2024-10-27 18:16:36",
+        "last_update": "2024-10-28 00:34:22",
         "required_features": [
-            "definitions/certificate",
             "definitions/timezone",
+            "definitions/certificate",
             "normalize/interfaceConfiguration",
             "definitions/interface"
         ],
@@ -14272,10 +14272,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/photoprism/22.2.2",
-        "last_update": "2024-10-27 18:16:36",
+        "last_update": "2024-10-28 00:34:22",
         "required_features": [
-            "definitions/certificate",
             "definitions/timezone",
+            "definitions/certificate",
             "normalize/interfaceConfiguration",
             "definitions/interface"
         ],
@@ -21403,10 +21403,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/photoprism/22.2.1",
-        "last_update": "2024-10-27 18:16:36",
+        "last_update": "2024-10-28 00:34:22",
         "required_features": [
-            "definitions/certificate",
             "definitions/timezone",
+            "definitions/certificate",
             "normalize/interfaceConfiguration",
             "definitions/interface"
         ],
@@ -28534,10 +28534,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/photoprism/21.0.11",
-        "last_update": "2024-10-27 18:16:36",
+        "last_update": "2024-10-28 00:34:22",
         "required_features": [
-            "definitions/certificate",
             "definitions/timezone",
+            "definitions/certificate",
             "normalize/interfaceConfiguration",
             "definitions/interface"
         ],
@@ -35033,10 +35033,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/photoprism/21.0.10",
-        "last_update": "2024-10-27 18:16:36",
+        "last_update": "2024-10-28 00:34:22",
         "required_features": [
-            "definitions/certificate",
             "definitions/timezone",
+            "definitions/certificate",
             "normalize/interfaceConfiguration",
             "definitions/interface"
         ],
@@ -41532,10 +41532,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/photoprism/20.15.13",
-        "last_update": "2024-10-27 18:16:36",
+        "last_update": "2024-10-28 00:34:22",
         "required_features": [
-            "definitions/certificate",
             "definitions/timezone",
+            "definitions/certificate",
             "normalize/interfaceConfiguration",
             "definitions/interface"
         ],
@@ -48035,10 +48035,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/photoprism/20.15.12",
-        "last_update": "2024-10-27 18:16:36",
+        "last_update": "2024-10-28 00:34:22",
         "required_features": [
-            "definitions/certificate",
             "definitions/timezone",
+            "definitions/certificate",
             "normalize/interfaceConfiguration",
             "definitions/interface"
         ],
@@ -54538,12 +54538,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/photoprism/19.4.0",
-        "last_update": "2024-10-27 18:16:36",
+        "last_update": "2024-10-28 00:34:22",
         "required_features": [
-            "definitions/certificate",
-            "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration",
             "definitions/interface",
+            "definitions/gpuConfiguration",
+            "definitions/certificate",
             "definitions/timezone"
         ],
         "human_version": "231128.0.0_19.4.0",
@@ -61080,12 +61080,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/photoprism/19.3.0",
-        "last_update": "2024-10-27 18:16:36",
+        "last_update": "2024-10-28 00:34:22",
         "required_features": [
-            "definitions/certificate",
-            "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration",
             "definitions/interface",
+            "definitions/gpuConfiguration",
+            "definitions/certificate",
             "definitions/timezone"
         ],
         "human_version": "231128.0.0_19.3.0",
