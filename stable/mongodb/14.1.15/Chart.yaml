@@ -1,36 +1,39 @@
 annotations:
   max_scale_version: 24.04.1
   min_scale_version: 24.04.0
-  truecharts.org/category: network
+  truecharts.org/category: database
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "2024.9.1"
+appVersion: "7.0.15"
 dependencies:
   - name: common
     version: 24.1.10
     repository: https://petersandor.github.io/truecharts-common
-    condition: ''
+    condition: includeCommon
     alias: ''
     tags: []
     import-values: []
 deprecated: false
-description: Client for Cloudflare Tunnel, a daemon that exposes private services through the Cloudflare edge.
-home: https://truecharts.org/charts/stable/cloudflared
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/cloudflared.webp
+description: Fast, reliable, scalable, and easy to use open-source no-sql database system.
+home: https://truecharts.org/charts/stable/mongodb
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/mongodb.webp
 keywords:
-  - cloudflared
-  - networking
+  - mongodb
+  - database
+  - nosql
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: cloudflared
+name: mongodb
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/cloudflared
-  - https://hub.docker.com/r/cloudflare/cloudflared
+  - https://github.com/truecharts/charts/tree/master/charts/stable/mongodb
+  - https://github.com/bitnami/bitnami-docker-mongodb
+  - https://hub.docker.com/r/bitnami/mongodb
+  - https://www.mongodb.com
 type: application
-version: 12.3.5
+version: 14.1.15
