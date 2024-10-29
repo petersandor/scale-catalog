@@ -1,7 +1,7 @@
 image:
   repository: ghcr.io/linuxserver/projectsend
   pullPolicy: IfNotPresent
-  tag: latest@sha256:51c136138a2953fa872259be50dbef867775886d504030c00f7f6c37517d2b4d
+  tag: latest@sha256:62da2cb278636ea08ea2faedd94e80a4556a2cf46621a4b3fa3ebbf54381bb80
 securityContext:
   container:
     runAsNonRoot: false
