@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.1
   min_scale_version: 24.04.0
-  truecharts.org/category: productivity
+  truecharts.org/category: incubator
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "17.0"
+appVersion: "2.1.5"
 dependencies:
   - name: common
     version: 24.1.10
@@ -17,26 +17,19 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: All-in-one business software. Beautiful. Easy-to-use. CRM, Accounting, PM, HR, Procurement, Point of Sale, MRP, Marketing, etc.
-home: https://truecharts.org/charts/stable/odoo
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/odoo.webp
+description: Ubooquity is a free, lightweight and easy-to-use home server for your comics and ebooks.
+home: https://truecharts.org/charts/stable/ubooquity
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/ubooquity.webp
 keywords:
-  - odoo
-  - crm
-  - pm
-  - hr
-  - accounting
-  - mrp
-  - marketing
+  - ubooquity
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: odoo
+name: ubooquity
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/odoo
-  - https://github.com/odoo/docker
-  - https://hub.docker.com/_/odoo
+  - https://github.com/truecharts/charts/tree/master/charts/stable/ubooquity
+  - https://ghcr.io/linuxserver/ubooquity
 type: application
-version: 19.1.17
+version: 12.1.18
