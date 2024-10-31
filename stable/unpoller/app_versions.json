@@ -4,10 +4,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/unpoller/12.1.5",
-        "last_update": "2024-10-31 16:45:36",
+        "last_update": "2024-10-31 21:46:20",
         "required_features": [
-            "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
             "definitions/timezone",
             "definitions/certificate"
         ],
@@ -3681,10 +3681,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/unpoller/12.1.4",
-        "last_update": "2024-10-31 16:45:36",
+        "last_update": "2024-10-31 21:46:20",
         "required_features": [
-            "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
             "definitions/timezone",
             "definitions/certificate"
         ],
@@ -7358,10 +7358,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/unpoller/11.0.8",
-        "last_update": "2024-10-31 16:45:36",
+        "last_update": "2024-10-31 21:46:20",
         "required_features": [
-            "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
             "definitions/timezone",
             "definitions/certificate"
         ],
@@ -11032,10 +11032,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/unpoller/11.0.7",
-        "last_update": "2024-10-31 16:45:36",
+        "last_update": "2024-10-31 21:46:20",
         "required_features": [
-            "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
             "definitions/timezone",
             "definitions/certificate"
         ],
@@ -14706,10 +14706,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/unpoller/10.11.15",
-        "last_update": "2024-10-31 16:45:36",
+        "last_update": "2024-10-31 21:46:20",
         "required_features": [
-            "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
             "definitions/timezone",
             "definitions/certificate"
         ],
@@ -18152,10 +18152,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/unpoller/10.11.14",
-        "last_update": "2024-10-31 16:45:36",
+        "last_update": "2024-10-31 21:46:20",
         "required_features": [
-            "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
             "definitions/timezone",
             "definitions/certificate"
         ],
@@ -21598,10 +21598,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/unpoller/9.3.0",
-        "last_update": "2024-10-31 16:45:36",
+        "last_update": "2024-10-31 21:46:20",
         "required_features": [
-            "normalize/interfaceConfiguration",
             "definitions/interface",
+            "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration",
             "definitions/timezone",
             "definitions/certificate"
@@ -25087,10 +25087,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/unpoller/9.2.0",
-        "last_update": "2024-10-31 16:45:36",
+        "last_update": "2024-10-31 21:46:20",
         "required_features": [
-            "normalize/interfaceConfiguration",
             "definitions/interface",
+            "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration",
             "definitions/timezone",
             "definitions/certificate"

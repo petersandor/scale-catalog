@@ -4,10 +4,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/meshcentral/17.1.10",
-        "last_update": "2024-10-31 16:45:36",
+        "last_update": "2024-10-31 21:46:20",
         "required_features": [
-            "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
             "definitions/timezone",
             "definitions/certificate"
         ],
@@ -8376,10 +8376,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/meshcentral/17.1.9",
-        "last_update": "2024-10-31 16:45:36",
+        "last_update": "2024-10-31 21:46:20",
         "required_features": [
-            "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
             "definitions/timezone",
             "definitions/certificate"
         ],
@@ -16748,10 +16748,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/meshcentral/16.0.11",
-        "last_update": "2024-10-31 16:45:36",
+        "last_update": "2024-10-31 21:46:20",
         "required_features": [
-            "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
             "definitions/timezone",
             "definitions/certificate"
         ],
@@ -25117,10 +25117,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/meshcentral/16.0.10",
-        "last_update": "2024-10-31 16:45:36",
+        "last_update": "2024-10-31 21:46:20",
         "required_features": [
-            "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
             "definitions/timezone",
             "definitions/certificate"
         ],
@@ -33486,10 +33486,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/meshcentral/15.8.14",
-        "last_update": "2024-10-31 16:45:36",
+        "last_update": "2024-10-31 21:46:20",
         "required_features": [
-            "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
             "definitions/timezone",
             "definitions/certificate"
         ],
@@ -41681,10 +41681,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/meshcentral/15.8.13",
-        "last_update": "2024-10-31 16:45:36",
+        "last_update": "2024-10-31 21:46:20",
         "required_features": [
-            "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
             "definitions/timezone",
             "definitions/certificate"
         ],
@@ -49876,10 +49876,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/meshcentral/14.3.0",
-        "last_update": "2024-10-31 16:45:36",
+        "last_update": "2024-10-31 21:46:20",
         "required_features": [
-            "normalize/interfaceConfiguration",
             "definitions/interface",
+            "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration",
             "definitions/timezone",
             "definitions/certificate"
@@ -58146,10 +58146,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/meshcentral/14.2.1",
-        "last_update": "2024-10-31 16:45:36",
+        "last_update": "2024-10-31 21:46:20",
         "required_features": [
-            "normalize/interfaceConfiguration",
             "definitions/interface",
+            "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration",
             "definitions/timezone",
             "definitions/certificate"

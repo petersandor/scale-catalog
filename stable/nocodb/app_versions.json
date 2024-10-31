@@ -4,10 +4,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/nocodb/15.6.4",
-        "last_update": "2024-10-31 16:45:36",
+        "last_update": "2024-10-31 21:46:20",
         "required_features": [
-            "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
             "definitions/timezone",
             "definitions/certificate"
         ],
@@ -5778,10 +5778,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/nocodb/15.6.3",
-        "last_update": "2024-10-31 16:45:36",
+        "last_update": "2024-10-31 21:46:20",
         "required_features": [
-            "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
             "definitions/timezone",
             "definitions/certificate"
         ],
@@ -11552,10 +11552,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/nocodb/14.2.7",
-        "last_update": "2024-10-31 16:45:36",
+        "last_update": "2024-10-31 21:46:20",
         "required_features": [
-            "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
             "definitions/timezone",
             "definitions/certificate"
         ],
@@ -17323,10 +17323,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/nocodb/14.2.6",
-        "last_update": "2024-10-31 16:45:36",
+        "last_update": "2024-10-31 21:46:20",
         "required_features": [
-            "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
             "definitions/timezone",
             "definitions/certificate"
         ],
@@ -23094,10 +23094,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/nocodb/13.11.20",
-        "last_update": "2024-10-31 16:45:36",
+        "last_update": "2024-10-31 21:46:20",
         "required_features": [
-            "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
             "definitions/timezone",
             "definitions/certificate"
         ],
@@ -28994,10 +28994,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/nocodb/13.11.19",
-        "last_update": "2024-10-31 16:45:36",
+        "last_update": "2024-10-31 21:46:20",
         "required_features": [
-            "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
             "definitions/timezone",
             "definitions/certificate"
         ],
@@ -34894,10 +34894,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/nocodb/12.6.0",
-        "last_update": "2024-10-31 16:45:36",
+        "last_update": "2024-10-31 21:46:20",
         "required_features": [
-            "normalize/interfaceConfiguration",
             "definitions/interface",
+            "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration",
             "definitions/timezone",
             "definitions/certificate"
@@ -40869,10 +40869,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/nocodb/12.5.0",
-        "last_update": "2024-10-31 16:45:36",
+        "last_update": "2024-10-31 21:46:20",
         "required_features": [
-            "normalize/interfaceConfiguration",
             "definitions/interface",
+            "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration",
             "definitions/timezone",
             "definitions/certificate"

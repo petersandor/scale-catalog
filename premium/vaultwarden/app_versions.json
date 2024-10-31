@@ -4,10 +4,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/premium/vaultwarden/28.3.4",
-        "last_update": "2024-10-31 16:45:36",
+        "last_update": "2024-10-31 21:46:20",
         "required_features": [
-            "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
             "definitions/timezone",
             "definitions/certificate"
         ],
@@ -6176,10 +6176,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/premium/vaultwarden/28.3.3",
-        "last_update": "2024-10-31 16:45:36",
+        "last_update": "2024-10-31 21:46:20",
         "required_features": [
-            "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
             "definitions/timezone",
             "definitions/certificate"
         ],
@@ -12348,10 +12348,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/premium/vaultwarden/27.1.2",
-        "last_update": "2024-10-31 16:45:36",
+        "last_update": "2024-10-31 21:46:20",
         "required_features": [
-            "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
             "definitions/timezone",
             "definitions/certificate"
         ],
@@ -18517,10 +18517,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/premium/vaultwarden/27.1.1",
-        "last_update": "2024-10-31 16:45:36",
+        "last_update": "2024-10-31 21:46:20",
         "required_features": [
-            "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
             "definitions/timezone",
             "definitions/certificate"
         ],
@@ -24686,10 +24686,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/premium/vaultwarden/26.8.15",
-        "last_update": "2024-10-31 16:45:36",
+        "last_update": "2024-10-31 21:46:20",
         "required_features": [
-            "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
             "definitions/timezone",
             "definitions/certificate"
         ],
@@ -30965,10 +30965,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/premium/vaultwarden/26.8.14",
-        "last_update": "2024-10-31 16:45:36",
+        "last_update": "2024-10-31 21:46:20",
         "required_features": [
-            "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
             "definitions/timezone",
             "definitions/certificate"
         ],

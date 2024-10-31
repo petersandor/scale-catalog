@@ -4,10 +4,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/unifi/22.3.6",
-        "last_update": "2024-10-31 16:45:36",
+        "last_update": "2024-10-31 21:46:20",
         "required_features": [
-            "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
             "definitions/timezone",
             "definitions/certificate"
         ],
@@ -6248,10 +6248,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/unifi/22.3.5",
-        "last_update": "2024-10-31 16:45:36",
+        "last_update": "2024-10-31 21:46:20",
         "required_features": [
-            "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
             "definitions/timezone",
             "definitions/certificate"
         ],
@@ -12492,10 +12492,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/unifi/21.0.9",
-        "last_update": "2024-10-31 16:45:36",
+        "last_update": "2024-10-31 21:46:20",
         "required_features": [
-            "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
             "definitions/timezone",
             "definitions/certificate"
         ],
@@ -18733,10 +18733,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/unifi/21.0.8",
-        "last_update": "2024-10-31 16:45:36",
+        "last_update": "2024-10-31 21:46:20",
         "required_features": [
-            "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
             "definitions/timezone",
             "definitions/certificate"
         ],
@@ -24974,10 +24974,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/unifi/20.9.14",
-        "last_update": "2024-10-31 16:45:36",
+        "last_update": "2024-10-31 21:46:20",
         "required_features": [
-            "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
             "definitions/timezone",
             "definitions/certificate"
         ],
@@ -30785,10 +30785,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/unifi/20.9.13",
-        "last_update": "2024-10-31 16:45:36",
+        "last_update": "2024-10-31 21:46:20",
         "required_features": [
-            "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
             "definitions/timezone",
             "definitions/certificate"
         ],
@@ -36596,10 +36596,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/unifi/19.3.0",
-        "last_update": "2024-10-31 16:45:36",
+        "last_update": "2024-10-31 21:46:20",
         "required_features": [
-            "normalize/interfaceConfiguration",
             "definitions/interface",
+            "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration",
             "definitions/timezone",
             "definitions/certificate"
@@ -42450,10 +42450,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/unifi/19.2.0",
-        "last_update": "2024-10-31 16:45:36",
+        "last_update": "2024-10-31 21:46:20",
         "required_features": [
-            "normalize/interfaceConfiguration",
             "definitions/interface",
+            "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration",
             "definitions/timezone",
             "definitions/certificate"
