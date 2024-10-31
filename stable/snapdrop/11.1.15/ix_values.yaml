@@ -1,6 +1,6 @@
 image:
   repository: linuxserver/snapdrop
-  tag: latest@sha256:efcae86293f1e190e4b953814fd53cbb3173f174f15315c1d0b1258820e76904
+  tag: latest@sha256:1c5ba60e357dea352287f9768355fc23bd957e7e5cca8676266b3acf52a2e959
   pullPolicy: IfNotPresent
 service:
   main:
