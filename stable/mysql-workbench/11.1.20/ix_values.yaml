@@ -1,13 +1,14 @@
 image:
-  repository: ghcr.io/linuxserver/lazylibrarian
+  repository: ghcr.io/linuxserver/mysql-workbench
   pullPolicy: IfNotPresent
-  tag: latest@sha256:315ae1b8229505adaa5a2ac86ef0b859a3a045b7b4043873d71b90d1ff262c0d
+  tag: 8.0.40@sha256:5bcd4fdb6afb747a8e3055c245ba642d42f58cce96e485cb5b074d0bb50bbd30
 service:
   main:
     ports:
       main:
-        port: 5299
-        targetPort: 5299
+        targetPort: 3000
+        protocol: http
+        port: 10134
 persistence:
   config:
     enabled: true
@@ -21,5 +22,8 @@ securityContext:
   container:
     runAsNonRoot: false
     readOnlyRootFilesystem: false
+    capabilities:
+      add:
+        - IPC_LOCK
     runAsUser: 0
     runAsGroup: 0
