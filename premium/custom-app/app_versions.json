@@ -4,10 +4,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/premium/custom-app/14.1.7",
-        "last_update": "2024-11-02 19:24:20",
+        "last_update": "2024-11-02 22:45:22",
         "required_features": [
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
+            "definitions/timezone",
             "definitions/interface",
             "definitions/certificate"
         ],
@@ -5469,10 +5469,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/premium/custom-app/14.1.6",
-        "last_update": "2024-11-02 19:24:20",
+        "last_update": "2024-11-02 22:45:22",
         "required_features": [
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
+            "definitions/timezone",
             "definitions/interface",
             "definitions/certificate"
         ],
@@ -10934,10 +10934,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/premium/custom-app/13.0.8",
-        "last_update": "2024-11-02 19:24:20",
+        "last_update": "2024-11-02 22:45:22",
         "required_features": [
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
+            "definitions/timezone",
             "definitions/interface",
             "definitions/certificate"
         ],
@@ -16396,10 +16396,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/premium/custom-app/13.0.7",
-        "last_update": "2024-11-02 19:24:20",
+        "last_update": "2024-11-02 22:45:22",
         "required_features": [
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
+            "definitions/timezone",
             "definitions/interface",
             "definitions/certificate"
         ],
@@ -21858,10 +21858,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/premium/custom-app/12.8.14",
-        "last_update": "2024-11-02 19:24:20",
+        "last_update": "2024-11-02 22:45:22",
         "required_features": [
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
+            "definitions/timezone",
             "definitions/interface",
             "definitions/certificate"
         ],
@@ -27550,10 +27550,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/premium/custom-app/12.8.13",
-        "last_update": "2024-11-02 19:24:20",
+        "last_update": "2024-11-02 22:45:22",
         "required_features": [
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
+            "definitions/timezone",
             "definitions/interface",
             "definitions/certificate"
         ],
