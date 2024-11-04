@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.1
   min_scale_version: 24.04.0
-  truecharts.org/category: utilities
+  truecharts.org/category: Network-Web
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "1.4.1"
+appVersion: "latest"
 dependencies:
   - name: common
     version: 24.1.10
@@ -17,22 +17,20 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: ClamAV is an open source antivirus engine for detecting trojans, viruses, malware & other malicious threats.
-home: https://truecharts.org/charts/stable/clamav
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/clamav.webp
+description: Alternative Imgur front-end
+home: https://truecharts.org/charts/stable/rimgo
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/rimgo.webp
 keywords:
-  - clamav
-  - antivirus
+  - rimgo
+  - Network-Web
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: clamav
+name: rimgo
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/clamav
-  - https://docs.clamav.net/
-  - https://github.com/Cisco-Talos/clamav
-  - https://hub.docker.com/r/clamav/clamav
+  - https://github.com/truecharts/charts/tree/master/charts/stable/rimgo
+  - https://quay.io/pussthecatorg/rimgo
 type: application
-version: 12.1.13
+version: 8.1.239
