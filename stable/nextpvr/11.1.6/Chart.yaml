@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.1
   min_scale_version: 24.04.0
-  truecharts.org/category: MediaApp-Music
+  truecharts.org/category: media
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "latest"
+appVersion: "stable"
 dependencies:
   - name: common
     version: 24.1.10
@@ -17,20 +17,21 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Official SongKong Chart repository, Identify your songs and add metadata and artwork automatically
-home: https://truecharts.org/charts/stable/songkong
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/songkong.webp
+description: NextPVR is a personal video recorder application, with the goal making it easy to watch or record live TV.
+home: https://truecharts.org/charts/stable/nextpvr
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/nextpvr.webp
 keywords:
-  - songkong
-  - MediaApp-Music
+  - pvr
+  - recorder
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: songkong
+name: nextpvr
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/songkong
-  - https://hub.docker.com/r/songkong/songkong
+  - https://github.com/truecharts/charts/tree/master/charts/stable/nextpvr
+  - https://github.com/sub3/NextPVR/wiki/Install-Docker
+  - https://hub.docker.com/r/nextpvr/nextpvr_amd64
 type: application
-version: 7.1.10
+version: 11.1.6

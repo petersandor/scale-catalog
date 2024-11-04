@@ -1,8 +1,11 @@
 image:
   pullPolicy: IfNotPresent
-  repository: mikenye/tar1090
-  tag: latest@sha256:e21b24000f3d5cd3a27002ad5a351be53fcd97520ce03b8d78ce0790aac41456
-persistence: {}
+  repository: lscr.io/linuxserver/kdenlive
+  tag: latest@sha256:dd1d012849e938efd72bdf20335a84a2d6083e0adc0a8d24a8b34dec60113b60
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
 portal:
   open:
     enabled: true
@@ -15,16 +18,14 @@ service:
   main:
     ports:
       main:
-        port: 8078
+        port: 3000
         protocol: tcp
-        targetPort: 80
+        targetPort: 3000
 workload:
   main:
     podSpec:
       containers:
         main:
           env:
-            BEASTHOST: <BEASTHOST>
-            LAT: xx.xxxxx
-            LONG: xx.xxxxx
-            MLATHOST: <MLATHOST>
+            KEYBOARD: ""
+            SUBFOLDER: ""
