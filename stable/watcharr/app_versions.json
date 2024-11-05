@@ -4,11 +4,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/watcharr/6.3.6",
-        "last_update": "2024-11-04 21:17:10",
+        "last_update": "2024-11-05 00:41:36",
         "required_features": [
-            "definitions/timezone",
-            "definitions/certificate",
             "definitions/interface",
+            "definitions/certificate",
+            "definitions/timezone",
             "normalize/interfaceConfiguration"
         ],
         "human_version": "1.44.1_6.3.6",
@@ -5328,11 +5328,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/watcharr/6.3.5",
-        "last_update": "2024-11-04 21:17:10",
+        "last_update": "2024-11-05 00:41:36",
         "required_features": [
-            "definitions/timezone",
-            "definitions/certificate",
             "definitions/interface",
+            "definitions/certificate",
+            "definitions/timezone",
             "normalize/interfaceConfiguration"
         ],
         "human_version": "1.44.0_6.3.5",
@@ -10652,11 +10652,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/watcharr/5.0.8",
-        "last_update": "2024-11-04 21:17:10",
+        "last_update": "2024-11-05 00:41:36",
         "required_features": [
-            "definitions/timezone",
-            "definitions/certificate",
             "definitions/interface",
+            "definitions/certificate",
+            "definitions/timezone",
             "normalize/interfaceConfiguration"
         ],
         "human_version": "1.39.0_5.0.8",
@@ -15973,11 +15973,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/watcharr/5.0.7",
-        "last_update": "2024-11-04 21:17:10",
+        "last_update": "2024-11-05 00:41:36",
         "required_features": [
-            "definitions/timezone",
-            "definitions/certificate",
             "definitions/interface",
+            "definitions/certificate",
+            "definitions/timezone",
             "normalize/interfaceConfiguration"
         ],
         "human_version": "1.39.0_5.0.7",
@@ -21294,11 +21294,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/watcharr/4.13.1",
-        "last_update": "2024-11-04 21:17:10",
+        "last_update": "2024-11-05 00:41:36",
         "required_features": [
-            "definitions/timezone",
-            "definitions/certificate",
             "definitions/interface",
+            "definitions/certificate",
+            "definitions/timezone",
             "normalize/interfaceConfiguration"
         ],
         "human_version": "1.39.0_4.13.1",
@@ -26286,11 +26286,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/watcharr/4.13.0",
-        "last_update": "2024-11-04 21:17:10",
+        "last_update": "2024-11-05 00:41:36",
         "required_features": [
-            "definitions/timezone",
-            "definitions/certificate",
             "definitions/interface",
+            "definitions/certificate",
+            "definitions/timezone",
             "normalize/interfaceConfiguration"
         ],
         "human_version": "1.39.0_4.13.0",
@@ -31278,11 +31278,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/watcharr/3.8.0",
-        "last_update": "2024-11-04 21:17:10",
+        "last_update": "2024-11-05 00:41:36",
         "required_features": [
             "definitions/timezone",
-            "definitions/gpuConfiguration",
             "definitions/certificate",
+            "definitions/gpuConfiguration",
             "definitions/interface",
             "normalize/interfaceConfiguration"
         ],
@@ -36313,11 +36313,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/watcharr/3.7.0",
-        "last_update": "2024-11-04 21:17:10",
+        "last_update": "2024-11-05 00:41:36",
         "required_features": [
             "definitions/timezone",
-            "definitions/gpuConfiguration",
             "definitions/certificate",
+            "definitions/gpuConfiguration",
             "definitions/interface",
             "normalize/interfaceConfiguration"
         ],
