@@ -1,13 +1,13 @@
 annotations:
-  max_scale_version: 24.04.1
+  max_scale_version: 24.04.2.3
   min_scale_version: 24.04.0
-  truecharts.org/category: network
+  truecharts.org/category: utilities
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "1.14.1"
+appVersion: "1.30.6"
 dependencies:
   - name: common
     version: 24.1.10
@@ -17,20 +17,20 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: ZeroTier is a smart programmable Ethernet switch for planet Earth
-home: https://truecharts.org/charts/stable/zerotier
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/zerotier.webp
+description: Fluidd is a free and open-source Klipper web interface for managing your 3d printer.
+home: https://truecharts.org/charts/stable/fluidd
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/fluidd.webp
 keywords:
-  - zerotier
-  - network
+  - fluidd
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: zerotier
+name: fluidd
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/zerotier
-  - https://hub.docker.com/r/zerotier/zerotier
+  - https://github.com/truecharts/charts/tree/master/charts/stable/fluidd
+  - https://ghcr.io/fluidd-core/fluidd
+  - https://github.com/fluidd-core/fluidd
 type: application
-version: 11.1.7
+version: 11.1.12
