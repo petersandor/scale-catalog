@@ -1,5 +1,5 @@
 annotations:
-  max_scale_version: 24.04.1
+  max_scale_version: 24.04.2.3
   min_scale_version: 24.04.0
   truecharts.org/SCALE-support: 'true'
   truecharts.org/category: MachineLearning
@@ -35,4 +35,4 @@ sources:
   - https://ghcr.io/neggles/sd-webui-docker
   - https://github.com/ahmetoner/sd-webui-docker/
 type: application
-version: 2.1.108
+version: 2.1.110
