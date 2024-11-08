@@ -1,7 +1,7 @@
 image:
   repository: lmscommunity/lyrionmusicserver
   pullPolicy: IfNotPresent
-  tag: 9.0.0@sha256:1522d0123e84b277935eaaec3a05833a507cb69fc9e873c5884eded6b9d7e670
+  tag: 9.0.0@sha256:f720634411d403ac79438f899c5e1e2d9b67b2e4189a28bf6716176c610f7b32
 service:
   main:
     ports:
