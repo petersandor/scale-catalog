@@ -1,7 +1,7 @@
 annotations:
-  max_scale_version: 24.04.2.4
+  max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: utilities
+  truecharts.org/category: media
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
@@ -17,22 +17,23 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Control your Dell PowerEdge fans via IPMI
-home: https://truecharts.org/charts/stable/dell-idrac-fan-controller
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/dell-idrac-fan-controller.webp
+description: Open source alternative front-end to YouTube.
+home: https://truecharts.org/charts/stable/invidious
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/invidious.webp
 keywords:
-  - iDrac
-  - Dell
-  - fan-controller
+  - invidious
+  - youtube
+  - media
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: dell-idrac-fan-controller
+name: invidious
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/dell-idrac-fan-controller
-  - https://ghcr.io/tigerblue77/dell_idrac_fan_controller
-  - https://github.com/tigerblue77/Dell_iDRAC_fan_controller_Docker
+  - https://github.com/truecharts/charts/tree/master/charts/stable/invidious
+  - https://docs.invidious.io/installation/#docker
+  - https://github.com/iv-org/invidious
+  - https://quay.io/invidious/invidious
 type: application
-version: 7.1.7
+version: 11.1.10
