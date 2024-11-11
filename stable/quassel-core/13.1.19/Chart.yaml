@@ -1,5 +1,5 @@
 annotations:
-  max_scale_version: 24.04.2.4
+  max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
   truecharts.org/category: incubator
   truecharts.org/max_helm_version: '3.15'
@@ -32,4 +32,4 @@ sources:
   - https://github.com/truecharts/charts/tree/master/charts/stable/quassel-core
   - https://ghcr.io/linuxserver/quassel-core
 type: application
-version: 13.1.17
+version: 13.1.19
