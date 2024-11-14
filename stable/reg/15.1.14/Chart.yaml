@@ -1,5 +1,5 @@
 annotations:
-  max_scale_version: 24.04.2.3
+  max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
   truecharts.org/category: utilities
   truecharts.org/max_helm_version: '3.15'
@@ -34,4 +34,4 @@ sources:
   - https://github.com/k8s-at-home/container-images/
   - https://hub.docker.com/_/registry
 type: application
-version: 15.1.12
+version: 15.1.14
