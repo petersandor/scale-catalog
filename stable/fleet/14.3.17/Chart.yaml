@@ -1,5 +1,5 @@
 annotations:
-  max_scale_version: 24.04.2.4
+  max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
   truecharts.org/category: incubator
   truecharts.org/max_helm_version: '3.15'
@@ -39,4 +39,4 @@ sources:
   - https://github.com/truecharts/charts/tree/master/charts/stable/fleet
   - https://ghcr.io/linuxserver/fleet
 type: application
-version: 14.3.15
+version: 14.3.17
