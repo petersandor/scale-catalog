@@ -1,7 +1,7 @@
 image:
   repository: pepperlabs/peppermint
   pullPolicy: IfNotPresent
-  tag: latest@sha256:302e18b8a65251d22e789ef65b73f9cbeea49a0622c2fbff81a2ccd62fe8b887
+  tag: latest@sha256:d13932713561c8d69baea49820ba2d42ea145b28193b6a7e33950a05812406fd
 
 securityContext:
   container:
