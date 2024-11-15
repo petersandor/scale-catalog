@@ -1,7 +1,7 @@
 annotations:
-  max_scale_version: 24.04.2.4
+  max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: Tools-Utilities
+  truecharts.org/category: Other
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
@@ -17,22 +17,20 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Mobile friendly tool for downloading videos from social media.
-home: https://truecharts.org/charts/stable/media-roller
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/media-roller.webp
+description: Multi-arch tar1090 Chart for visualising ADSB data.
+home: https://truecharts.org/charts/stable/tar1090
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/tar1090.webp
 keywords:
-  - media-roller
-  - Tools-Utilities
-  - MediaApp-Video
+  - tar1090
+  - Other
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: media-roller
+name: tar1090
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/media-roller
-  - https://github.com/rroller/media-roller
-  - https://hub.docker.com/r/ronnieroller/media-roller
+  - https://github.com/truecharts/charts/tree/master/charts/stable/tar1090
+  - https://hub.docker.com/r/mikenye/tar1090
 type: application
-version: 7.1.14
+version: 7.1.66
