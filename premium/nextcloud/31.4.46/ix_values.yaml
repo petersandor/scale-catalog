@@ -5,7 +5,7 @@ image:
 nginxImage:
   repository: nginxinc/nginx-unprivileged
   pullPolicy: IfNotPresent
-  tag: 1.27.2@sha256:d2ce7dcc2bd61e54ea75e3f07dea8c15e8eb9a0416aecfb12d736fbed5669619
+  tag: 1.27.2@sha256:890b8283159ff3eec13ee426a2cd79d5a7d7a300457074970ea14c75865dc39c
 imaginaryImage:
   repository: tccr.io/tccr/nextcloud-imaginary
   pullPolicy: IfNotPresent
@@ -17,7 +17,7 @@ hpbImage:
 clamavImage:
   repository: clamav/clamav
   pullPolicy: IfNotPresent
-  tag: 1.4.1@sha256:053e55f5bf0121d6cba9c90794860bb08058a3f448b4165d96d3936c6f1e7095
+  tag: 1.4.1@sha256:bcc5595062f9cebcd526cd4be310656442d7da09d8c34502fac6492dd8d08869
 collaboraImage:
   repository: collabora/code
   pullPolicy: IfNotPresent
