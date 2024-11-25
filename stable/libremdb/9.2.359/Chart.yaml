@@ -43,4 +43,4 @@ sources:
   - https://github.com/zyachel/libremdb
   - https://quay.io/pussthecatorg/libremdb
 type: application
-version: 9.2.357
+version: 9.2.359
