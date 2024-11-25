@@ -1,7 +1,7 @@
 image:
   pullPolicy: IfNotPresent
   repository: tracksapp/tracks
-  tag: latest@sha256:7ff26668b8d243082c0a8931c6018e2fd444b188a61547b350b7ffec6285c505
+  tag: latest@sha256:9b6f6220debaa60480dc8a4ff66ea1fe76ce209ce129bed140fd5d870ce0d7fc
 persistence: {}
 portal:
   open:
