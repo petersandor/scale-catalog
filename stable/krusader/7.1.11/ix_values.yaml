@@ -1,7 +1,7 @@
 image:
   pullPolicy: IfNotPresent
   repository: ich777/krusader
-  tag: latest@sha256:0948b3aac126de4d7c7dae40680b7f4a8cf7bb3728bd27c0a0c41af4b5091cd6
+  tag: latest@sha256:18014f7e191e084960fc738d6b09d79238a54deeb44a0e72430622b33b10322a
 persistence:
   containerpath:
     enabled: true
