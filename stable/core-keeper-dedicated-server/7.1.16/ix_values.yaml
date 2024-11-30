@@ -1,7 +1,7 @@
 image:
   pullPolicy: IfNotPresent
   repository: escaping/core-keeper-dedicated
-  tag: latest@sha256:6f630e18889d2216e496ceafa6d04857738a236d041f6a1c390ce1756301b3cf
+  tag: latest@sha256:0d455d6988cee3ceff0de183b2fed0c26a7e0b27c1dc98a2c7005ec0c63727ca
 persistence:
   datafiles:
     enabled: true
