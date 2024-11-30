@@ -1,6 +1,6 @@
 image:
   repository: josh5/steam-headless
-  tag: latest@sha256:d4db805da050a95de7cc192f324cae9c4f6c4c810e3c6abd5a59c25dfbd7c29f
+  tag: latest@sha256:2186a39138a4a5a0d1b4674f69260177938eca726c0e65881c73301c52879ef9
   pullPolicy: IfNotPresent
 
 securityContext:
