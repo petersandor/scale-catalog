@@ -1,7 +1,7 @@
 image:
   repository: ghcr.io/linuxserver/booksonic-air
   pullPolicy: IfNotPresent
-  tag: 2201.1.0@sha256:a41e6c962eb909020983df568980919c7a9b5a80e1de39feb44d7955d93798be
+  tag: 2201.1.0@sha256:350e92c64631711b9f0dda9e88a2ddd5e3d4223d47b40e48a90dc2da4f0a30a5
 securityContext:
   container:
     readOnlyRootFilesystem: false
