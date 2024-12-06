@@ -1,19 +1,19 @@
 image:
-  repository: linuxserver/mylar3
-  tag: version-v0.8.0@sha256:67df9336432654345f9a077c2deb90040268ff02a0f1a80f715e684789e6da55
+  repository: ghcr.io/linuxserver/znc
   pullPolicy: IfNotPresent
+  tag: 1.9.1@sha256:afdac03cdf5017c9fe20270ec8c1450d98334a20f3c7c31f77f1d3ddda67ee1c
 service:
   main:
     ports:
       main:
-        port: 8090
-        targetPort: 8090
+        targetPort: 6501
+        port: 6501
 persistence:
+  varrun:
+    enabled: true
   config:
     enabled: true
     mountPath: "/config"
-  varrun:
-    enabled: true
 portal:
   open:
     enabled: true

@@ -1,19 +1,19 @@
 image:
-  repository: ghcr.io/linuxserver/znc
+  repository: linuxserver/mylar3
+  tag: version-v0.8.0@sha256:bb7c05f9f0fd9519374670df12a146541b2342c419ddfae485a2f2c61238905f
   pullPolicy: IfNotPresent
-  tag: 1.9.1@sha256:5f8d11cb9d26942ee428331137a0e0ff596d68154d589e25ea3c37c35e192022
 service:
   main:
     ports:
       main:
-        targetPort: 6501
-        port: 6501
+        port: 8090
+        targetPort: 8090
 persistence:
-  varrun:
-    enabled: true
   config:
     enabled: true
     mountPath: "/config"
+  varrun:
+    enabled: true
 portal:
   open:
     enabled: true
