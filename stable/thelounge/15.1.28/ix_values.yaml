@@ -1,7 +1,7 @@
 image:
   repository: thelounge/thelounge
   pullPolicy: IfNotPresent
-  tag: 4.4.3@sha256:8e0a075f7461aaa566cf552eef1d1586b29be9ca1e377ef61cb77461b2d16c6c
+  tag: 4.4.3@sha256:f409770a884c6f34c15162e0e3e1c9e2b550b3114e2479d6774b10c43635c72d
 service:
   main:
     ports:
