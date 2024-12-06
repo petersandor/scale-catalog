@@ -1,7 +1,7 @@
 image:
   repository: quay.io/pussthecatorg/libremdb
   pullPolicy: IfNotPresent
-  tag: latest@sha256:0426104a065dc07d8b8a4ead44dda6247123ce74c09275ebe4f4983633b4e2d8
+  tag: latest@sha256:354596e0d82fb3d378cd3b54f9b171cb4e57fa97fe2b9348da2004a2ee8b41b8
 service:
   main:
     ports:
