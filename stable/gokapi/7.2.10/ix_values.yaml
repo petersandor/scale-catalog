@@ -1,7 +1,7 @@
 image:
   pullPolicy: IfNotPresent
   repository: f0rc3/gokapi
-  tag: v1.9.3@sha256:84f851a14f9b1d0a3ed5d195c6de84cca3d1d161537c425a4e35de3395997bc7
+  tag: v1.9.5@sha256:7e215cdd3ab6ea511b95e94c3b2ea6df2dcb0396d350816d7c1250b139211cd2
 persistence:
   config:
     enabled: true
