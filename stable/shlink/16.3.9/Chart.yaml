@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: media
+  truecharts.org/category: utilities
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "latest"
+appVersion: "4.2.5"
 dependencies:
   - name: common
     version: 24.1.10
@@ -24,23 +24,21 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: A free & open source IMDb front-end.
-home: https://truecharts.org/charts/stable/libremdb
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/libremdb.webp
+description: A PHP-based self-hosted URL shortener that can be used to serve shortened URLs under your own custom domain.
+home: https://truecharts.org/charts/stable/shlink
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/shlink.webp
 keywords:
-  - libremdb
-  - media
-  - imdb
+  - url
+  - shortener
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: libremdb
+name: shlink
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/libremdb
-  - https://github.com/PussTheCat-org/docker-libremdb-quay
-  - https://github.com/zyachel/libremdb
-  - https://quay.io/pussthecatorg/libremdb
+  - https://github.com/truecharts/charts/tree/master/charts/stable/shlink
+  - https://github.com/shlinkio/shlink
+  - https://hub.docker.com/r/shlinkio/shlink
 type: application
-version: 9.2.433
+version: 16.3.9
