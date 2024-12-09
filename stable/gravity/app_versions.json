@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/gravity/5.1.10",
-        "last_update": "2024-12-09 08:26:52",
+        "last_update": "2024-12-09 11:47:23",
         "required_features": [
             "definitions/interface",
             "definitions/certificate",
@@ -5448,7 +5448,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/gravity/5.1.9",
-        "last_update": "2024-12-09 08:26:52",
+        "last_update": "2024-12-09 11:47:23",
         "required_features": [
             "definitions/interface",
             "definitions/certificate",
@@ -10892,7 +10892,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/gravity/4.1.2",
-        "last_update": "2024-12-09 08:26:52",
+        "last_update": "2024-12-09 11:47:23",
         "required_features": [
             "definitions/interface",
             "definitions/certificate",
@@ -16333,7 +16333,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/gravity/4.1.1",
-        "last_update": "2024-12-09 08:26:52",
+        "last_update": "2024-12-09 11:47:23",
         "required_features": [
             "definitions/interface",
             "definitions/certificate",
@@ -21774,7 +21774,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/gravity/3.8.14",
-        "last_update": "2024-12-09 08:26:52",
+        "last_update": "2024-12-09 11:47:23",
         "required_features": [
             "definitions/interface",
             "definitions/certificate",
@@ -26886,7 +26886,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/gravity/3.8.13",
-        "last_update": "2024-12-09 08:26:52",
+        "last_update": "2024-12-09 11:47:23",
         "required_features": [
             "definitions/interface",
             "definitions/certificate",
@@ -31998,12 +31998,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/gravity/2.4.0",
-        "last_update": "2024-12-09 08:26:52",
+        "last_update": "2024-12-09 11:47:23",
         "required_features": [
-            "definitions/gpuConfiguration",
             "definitions/interface",
             "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/gpuConfiguration",
             "definitions/timezone",
             "definitions/nodeIP"
         ],
@@ -37153,12 +37153,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/gravity/2.3.0",
-        "last_update": "2024-12-09 08:26:52",
+        "last_update": "2024-12-09 11:47:23",
         "required_features": [
-            "definitions/gpuConfiguration",
             "definitions/interface",
             "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/gpuConfiguration",
             "definitions/timezone",
             "definitions/nodeIP"
         ],
