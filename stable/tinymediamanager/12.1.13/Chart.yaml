@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "0.15.7"
+appVersion: "5.0.13"
 dependencies:
   - name: common
     version: 24.1.10
@@ -17,20 +17,22 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Homarr is a simple and lightweight homepage for your server, that helps you easily access all of your services in one place.
-home: https://truecharts.org/charts/stable/homarr
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/homarr.webp
+description: TinyMediaManager is a full featured media manager to organize and clean up your media library.
+home: https://truecharts.org/charts/stable/tinymediamanager
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/tinymediamanager.webp
 keywords:
-  - dashboard
+  - tiny
+  - media
+  - manager
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: homarr
+name: tinymediamanager
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/homarr
-  - https://ghcr.io/ajnart/homarr
-  - https://github.com/ajnart/homarr
+  - https://github.com/truecharts/charts/tree/master/charts/stable/tinymediamanager
+  - https://gitlab.com/tinyMediaManager/tinyMediaManager
+  - https://hub.docker.com/r/tinymediamanager/tinymediamanager
 type: application
 version: 12.1.13
