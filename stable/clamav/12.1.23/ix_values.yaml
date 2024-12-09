@@ -1,7 +1,7 @@
 image:
   repository: clamav/clamav
   pullPolicy: IfNotPresent
-  tag: 1.4.1@sha256:bcc5595062f9cebcd526cd4be310656442d7da09d8c34502fac6492dd8d08869
+  tag: 1.4.1@sha256:9c0cd132ecf3719a4e6d11ec91347e872eb3519cf8b99b9fa74d51dae7d572de
 securityContext:
   container:
     readOnlyRootFilesystem: false
