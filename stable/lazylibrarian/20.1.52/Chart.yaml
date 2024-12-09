@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: incubator
+  truecharts.org/category: media
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "1.0.1"
+appVersion: "latest"
 dependencies:
   - name: common
     version: 24.1.10
@@ -17,19 +17,22 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Pwndrop is a self-deployable file hosting service for sending out red teaming payloads or securely sharing your private files over HTTP and WebDAV.
-home: https://truecharts.org/charts/stable/pwndrop
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/pwndrop.webp
+description: Get all your books, like series with Sonarr...
+home: https://truecharts.org/charts/stable/lazylibrarian
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/lazylibrarian.webp
 keywords:
-  - pwndrop
+  - lazylibrarian
+  - ebooks
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: pwndrop
+name: lazylibrarian
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/pwndrop
-  - https://ghcr.io/linuxserver/pwndrop
+  - https://github.com/truecharts/charts/tree/master/charts/stable/lazylibrarian
+  - https://ghcr.io/linuxserver/lazylibrarian
+  - https://gitlab.com/LazyLibrarian/LazyLibrarian.git
+  - https://lazylibrarian.gitlab.io
 type: application
-version: 11.1.21
+version: 20.1.52
