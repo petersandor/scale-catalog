@@ -4,11 +4,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/tachidesk-docker/8.1.25",
-        "last_update": "2024-12-13 08:44:04",
+        "last_update": "2024-12-13 12:10:01",
         "required_features": [
+            "normalize/interfaceConfiguration",
             "definitions/interface",
             "definitions/certificate",
-            "normalize/interfaceConfiguration",
             "definitions/timezone"
         ],
         "human_version": "iew_8.1.25",
@@ -6765,11 +6765,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/tachidesk-docker/8.1.24",
-        "last_update": "2024-12-13 08:44:04",
+        "last_update": "2024-12-13 12:10:01",
         "required_features": [
+            "normalize/interfaceConfiguration",
             "definitions/interface",
             "definitions/certificate",
-            "normalize/interfaceConfiguration",
             "definitions/timezone"
         ],
         "human_version": "iew_8.1.24",
@@ -13526,11 +13526,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/tachidesk-docker/7.0.12",
-        "last_update": "2024-12-13 08:44:04",
+        "last_update": "2024-12-13 12:10:01",
         "required_features": [
+            "normalize/interfaceConfiguration",
             "definitions/interface",
             "definitions/certificate",
-            "normalize/interfaceConfiguration",
             "definitions/timezone"
         ],
         "human_version": "preiew_7.0.12",
@@ -20284,11 +20284,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/tachidesk-docker/7.0.11",
-        "last_update": "2024-12-13 08:44:04",
+        "last_update": "2024-12-13 12:10:01",
         "required_features": [
+            "normalize/interfaceConfiguration",
             "definitions/interface",
             "definitions/certificate",
-            "normalize/interfaceConfiguration",
             "definitions/timezone"
         ],
         "human_version": "preiew_7.0.11",
@@ -27042,11 +27042,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/tachidesk-docker/6.8.15",
-        "last_update": "2024-12-13 08:44:04",
+        "last_update": "2024-12-13 12:10:01",
         "required_features": [
+            "normalize/interfaceConfiguration",
             "definitions/interface",
             "definitions/certificate",
-            "normalize/interfaceConfiguration",
             "definitions/timezone"
         ],
         "human_version": "preiew_6.8.15",
@@ -33269,11 +33269,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/tachidesk-docker/6.8.14",
-        "last_update": "2024-12-13 08:44:04",
+        "last_update": "2024-12-13 12:10:01",
         "required_features": [
+            "normalize/interfaceConfiguration",
             "definitions/interface",
             "definitions/certificate",
-            "normalize/interfaceConfiguration",
             "definitions/timezone"
         ],
         "human_version": "preiew_6.8.14",
@@ -39496,11 +39496,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/tachidesk-docker/5.2.0",
-        "last_update": "2024-12-13 08:44:04",
+        "last_update": "2024-12-13 12:10:01",
         "required_features": [
+            "definitions/certificate",
             "definitions/gpuConfiguration",
             "definitions/interface",
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
             "definitions/timezone"
         ],
@@ -45775,11 +45775,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/tachidesk-docker/5.1.1",
-        "last_update": "2024-12-13 08:44:04",
+        "last_update": "2024-12-13 12:10:01",
         "required_features": [
+            "definitions/certificate",
             "definitions/gpuConfiguration",
             "definitions/interface",
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
             "definitions/timezone"
         ],
