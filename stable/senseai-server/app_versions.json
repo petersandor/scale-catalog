@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/senseai-server/4.1.11",
-        "last_update": "2024-12-13 12:10:01",
+        "last_update": "2024-12-13 16:55:54",
         "required_features": [
             "definitions/certificate",
             "definitions/gpuConfiguration",
