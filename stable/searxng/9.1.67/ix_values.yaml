@@ -1,7 +1,7 @@
 image:
   pullPolicy: IfNotPresent
   repository: searxng/searxng
-  tag: latest@sha256:dacc93763984cc18ed0e8fbd58a7a8f2ae8417da11dac9ddb43a0cb6d85e06dd
+  tag: latest@sha256:2565eaaa759ea24c798ce2f9299ffb3dea5662438c0c4b37f3b8fc8a1fb6dc5d
 workload:
   main:
     podSpec:

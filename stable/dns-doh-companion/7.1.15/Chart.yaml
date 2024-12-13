@@ -1,7 +1,7 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: Tools-Utilities
+  truecharts.org/category: Network-DNS
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
@@ -17,20 +17,21 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: '[b]CloudCommander[/b] is a simple web file browser with a built in text editor and archive compress/extract abilities.[br/]'
-home: https://truecharts.org/charts/stable/cloudcommander
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/cloudcommander.webp
+description: A very simple DNS server to connect to DNS-over-HTTPS service. This is similar to my other Pihole-with-DoH Chart, without Pihole.
+home: https://truecharts.org/charts/stable/dns-doh-companion
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/dns-doh-companion.webp
 keywords:
-  - cloudcommander
-  - Tools-Utilities
+  - dns-doh-companion
+  - Network-DNS
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: cloudcommander
+name: dns-doh-companion
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/cloudcommander
-  - https://hub.docker.com/r/coderaiser/cloudcmd
+  - https://github.com/truecharts/charts/tree/master/charts/stable/dns-doh-companion
+  - https://developers.cloudflare.com/1.1.1.1/dns-over-https/cloudflared-proxy/
+  - https://hub.docker.com/r/testdasi/simple-dns-doh
 type: application
-version: 7.1.14
+version: 7.1.15
