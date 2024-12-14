@@ -17,22 +17,19 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Get all your books, like series with Sonarr...
-home: https://truecharts.org/charts/stable/lazylibrarian
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/lazylibrarian.webp
+description: Channels DVR Server
+home: https://truecharts.org/charts/stable/channels-dvr
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/channels-dvr.webp
 keywords:
-  - lazylibrarian
-  - ebooks
+  - channels-dvr
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: lazylibrarian
+name: channels-dvr
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/lazylibrarian
-  - https://ghcr.io/linuxserver/lazylibrarian
-  - https://gitlab.com/LazyLibrarian/LazyLibrarian.git
-  - https://lazylibrarian.gitlab.io
+  - https://github.com/truecharts/charts/tree/master/charts/stable/channels-dvr
+  - https://hub.docker.com/r/fancybits/channels-dvr
 type: application
-version: 20.1.55
+version: 8.1.9
