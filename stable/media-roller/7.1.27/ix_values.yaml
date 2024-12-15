@@ -1,7 +1,7 @@
 image:
   pullPolicy: IfNotPresent
   repository: ronnieroller/media-roller
-  tag: latest@sha256:feb46d05426203e09217fc9090af9ad17013286fd1130a6d9834d451ef66e63a
+  tag: latest@sha256:00e68b2210ec751efdd1d051461c9ca719a1449bb18415c65d8f8cc01ec1ca90
 persistence:
   download:
     enabled: true
