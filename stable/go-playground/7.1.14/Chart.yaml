@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: media
+  truecharts.org/category: Tools-Utilities
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "2.0.89"
+appVersion: "latest"
 dependencies:
   - name: common
     version: 24.1.10
@@ -17,22 +17,20 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: This is a web interface to manage your torrents on Real-Debrid, AllDebrid or Premiumize.
-home: https://truecharts.org/charts/stable/rdtclient
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/rdtclient.webp
+description: mproved Go Playground powered by Monaco Editor and React
+home: https://truecharts.org/charts/stable/go-playground
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/go-playground.webp
 keywords:
-  - rdtclient
-  - torrent
+  - go-playground
+  - Tools-Utilities
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: rdtclient
+name: go-playground
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/rdtclient
-  - https://ghcr.io/rogerfar/rdtclient
-  - https://github.com/rogerfar/rdt-client
-  - https://hub.docker.com/r/p3terx/aria2-pro
+  - https://github.com/truecharts/charts/tree/master/charts/stable/go-playground
+  - https://hub.docker.com/r/x1unix/go-playground
 type: application
-version: 6.1.15
+version: 7.1.14

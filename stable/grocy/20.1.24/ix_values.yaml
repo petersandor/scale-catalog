@@ -1,19 +1,17 @@
 image:
-  repository: ghcr.io/linuxserver/medusa
+  repository: ghcr.io/linuxserver/grocy
+  tag: 4.2.0@sha256:0f134677ca34e086200c587553c8b98802eecbb0d7365d70883aef037672586a
   pullPolicy: IfNotPresent
-  tag: 1.0.21@sha256:66599f935c033e374688c956f7bfef04325d28d06d42afe9da1cf198ba008da3
 service:
   main:
     ports:
       main:
-        port: 10068
-        targetPort: 8081
+        port: 10013
+        targetPort: 80
 persistence:
   config:
     enabled: true
     mountPath: "/config"
-  varrun:
-    enabled: true
 portal:
   open:
     enabled: true
