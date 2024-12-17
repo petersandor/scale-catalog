@@ -7,29 +7,29 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "3.11.2"
+appVersion: "2.10.0"
 dependencies:
   - name: common
-    version: 24.1.10
+    version: 24.1.11
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
     tags: []
     import-values: []
 deprecated: false
-description: Ddclient is a Perl client used to update dynamic DNS entries for accounts on Dynamic DNS Network Service Provider.
-home: https://truecharts.org/charts/stable/ddclient
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/ddclient.webp
+description: Pylon is a web based integrated development environment.
+home: https://truecharts.org/charts/stable/pylon
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/pylon.webp
 keywords:
-  - ddclient
+  - pylon
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: ddclient
+name: pylon
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/ddclient
-  - https://ghcr.io/linuxserver/ddclient
+  - https://github.com/truecharts/charts/tree/master/charts/stable/pylon
+  - https://ghcr.io/linuxserver/pylon
 type: application
-version: 11.1.20
+version: 11.1.24

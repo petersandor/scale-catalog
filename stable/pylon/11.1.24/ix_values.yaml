@@ -1,14 +1,17 @@
 image:
-  repository: ghcr.io/linuxserver/synclounge
+  repository: ghcr.io/linuxserver/pylon
   pullPolicy: IfNotPresent
-  tag: 5.2.34@sha256:c8909022f2b566508c20521cc68449d90971498e3cb983c3242cbdf2623509e2
+  tag: 2.10.0@sha256:d2f73ad96a066731d216b6f930513d96c5238ef287733739e543de1a2ced79d4
 service:
   main:
     ports:
       main:
-        targetPort: 8088
-        port: 8088
+        targetPort: 3131
+        port: 3131
 persistence:
+  code:
+    enabled: true
+    mountPath: "/code"
   varrun:
     enabled: true
 portal:
@@ -26,4 +29,6 @@ workload:
       containers:
         main:
           env:
-            AUTH_LIST: ""
+            GITURL: ""
+            PYUSER: ""
+            PYPASS: ""
