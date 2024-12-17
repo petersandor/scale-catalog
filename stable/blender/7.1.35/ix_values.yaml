@@ -1,8 +1,11 @@
 image:
   pullPolicy: IfNotPresent
-  repository: mikenye/tar1090
-  tag: latest@sha256:b2416728371aa7a8254c3ef999f85eadfa51ce86f1817e0dfa245d147c492248
-persistence: {}
+  repository: lscr.io/linuxserver/blender
+  tag: latest@sha256:75b85a707998d3d368a847c32370d38d252a1d78211dd0ce970466f41df31351
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
 portal:
   open:
     enabled: true
@@ -15,16 +18,14 @@ service:
   main:
     ports:
       main:
-        port: 8078
+        port: 3000
         protocol: tcp
-        targetPort: 80
+        targetPort: 3000
 workload:
   main:
     podSpec:
       containers:
         main:
           env:
-            BEASTHOST: <BEASTHOST>
-            LAT: xx.xxxxx
-            LONG: xx.xxxxx
-            MLATHOST: <MLATHOST>
+            KEYBOARD: ""
+            SUBFOLDER: ""
