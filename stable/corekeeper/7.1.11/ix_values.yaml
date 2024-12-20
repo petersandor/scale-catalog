@@ -1,7 +1,7 @@
 image:
   pullPolicy: IfNotPresent
   repository: ich777/steamcmd
-  tag: craftopia@sha256:453c814fa896af1d29cc0e54e7b1ef8ebb4614ba14c2cbda54713e6f77ff0e5f
+  tag: corekeeper@sha256:c920b302175249f03889e859e56f04b4f2e4322148ec695516b1267660c338a2
 persistence:
   serverfiles:
     enabled: true
@@ -11,7 +11,7 @@ persistence:
     mountPath: /serverdata/steamcmd
 portal:
   open:
-    enabled: true
+    enabled: false
 securityContext:
   container:
     readOnlyRootFilesystem: false
@@ -19,27 +19,27 @@ securityContext:
     runAsUser: 0
 service:
   main:
+    enabled: false
     ports:
       main:
-        port: 8787
-        protocol: tcp
-        targetPort: 8787
-  udpgameport:
-    enabled: true
-    ports:
-      udpgameport:
-        enabled: true
-        port: 8787
-        protocol: udp
-        targetPort: 8787
+        enabled: false
 workload:
   main:
     podSpec:
       containers:
         main:
           env:
-            GAME_ID: "1670340"
+            GAME_ID: "1963720"
             GAME_PARAMS: ""
             PASSWRD: ""
             USERNAME: ""
             VALIDATE: "false"
+            WORLD_INDEX: "0"
+            WORLD_NAME: Core Keeper Docker
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false
