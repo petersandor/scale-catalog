@@ -7,31 +7,31 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "necesse"
+appVersion: "stable"
 dependencies:
   - name: common
-    version: 24.1.10
+    version: 24.1.11
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
     tags: []
     import-values: []
 deprecated: false
-description: This Chart will download and install SteamCMD. It will also install Necesse and run it.
-home: https://truecharts.org/charts/stable/necesse
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/necesse.webp
+description: A game in which you build and maintain factories.
+home: https://truecharts.org/charts/stable/factorio
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/factorio.webp
 keywords:
-  - necesse
+  - factorio
   - GameServers
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: necesse
+name: factorio
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/necesse
-  - https://hub.docker.com/r/ich777/steamcmd
-  - https://www.steampowered.com/
+  - https://github.com/truecharts/charts/tree/master/charts/stable/factorio
+  - https://github.com/factoriotools/factorio-docker
+  - https://hub.docker.com/r/factoriotools/factorio
 type: application
-version: 7.1.9
+version: 9.1.48
