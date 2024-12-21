@@ -1,37 +1,39 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: GameServers
+  truecharts.org/category: media
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "sonsofthef"
+appVersion: "latest"
 dependencies:
   - name: common
-    version: 24.1.10
+    version: 24.1.11
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
     tags: []
     import-values: []
 deprecated: false
-description: A custom SteamCMD chart that runs Sons Of The Forest Server.
-home: https://truecharts.org/charts/stable/sonsoftheforest
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/sonsoftheforest.webp
+description: TVheadend - a TV streaming server and digital video recorder
+home: https://truecharts.org/charts/stable/tvheadend
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/tvheadend.webp
 keywords:
-  - sonsoftheforest
-  - GameServers
+  - tvheadend
+  - tv
+  - streaming
+  - dvb
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: sonsoftheforest
+name: tvheadend
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/sonsoftheforest
-  - https://github.com/ich777/docker-steamcmd-server/tree/sonsoftheforest
-  - https://hub.docker.com/r/ich777/steamcmd
+  - https://github.com/truecharts/charts/tree/master/charts/stable/tvheadend
+  - https://ghcr.io/linuxserver/tvheadend
+  - https://github.com/tvheadend/tvheadend
 type: application
-version: 5.1.9
+version: 21.1.27
