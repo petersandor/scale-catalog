@@ -1,7 +1,7 @@
 image:
   pullPolicy: IfNotPresent
   repository: ich777/steamcmd
-  tag: daysofwar@sha256:fadb1daeffc058d1fb0883661aa55adef7941282f89be8969cb49c7722c405b4
+  tag: hurtworld@sha256:0a1aa1f829b7da6ac94437357a5196b3c58f31086b5932d3198f72d07d644838
 persistence:
   serverfiles:
     enabled: true
@@ -21,28 +21,30 @@ service:
   main:
     ports:
       main:
-        port: 7777
+        port: 12871
         protocol: udp
-        targetPort: 7777
-  steamport:
+        targetPort: 12871
+  queryport:
     enabled: true
     ports:
-      steamport:
+      queryport:
         enabled: true
-        port: 27015
+        port: 12881
         protocol: udp
-        targetPort: 27015
+        targetPort: 12881
 workload:
   main:
     podSpec:
       containers:
         main:
           env:
-            GAME_ID: "541790"
-            GAME_PARAMS: dow_cathedral
-            GAME_PORT: "7777"
+            GAME_ID: "405100"
+            GAME_PARAMS: ;autosaveenabled 1;addadmin 76561197963117432
+            GAME_PORT: "12871"
             PASSWRD: ""
-            QUERY_PORT: "27015"
+            QUERY_PORT: "12881"
+            SRV_MAXPLAYERS: "50"
+            SRV_NAME: Hurtworld Docker
             USERNAME: ""
             VALIDATE: "false"
           probes:

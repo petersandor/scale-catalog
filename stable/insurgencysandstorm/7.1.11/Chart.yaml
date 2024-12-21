@@ -7,31 +7,31 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "daysofwar"
+appVersion: "insurgency"
 dependencies:
   - name: common
-    version: 24.1.10
+    version: 24.1.11
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
     tags: []
     import-values: []
 deprecated: false
-description: This Chart will download and install SteamCMD. It will also install Days of War and run it.
-home: https://truecharts.org/charts/stable/daysofwar
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/daysofwar.webp
+description: This Chart will download and install SteamCMD. It will also install Insurgency Sandstorm and run it.
+home: https://truecharts.org/charts/stable/insurgencysandstorm
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/insurgencysandstorm.webp
 keywords:
-  - daysofwar
+  - insurgencysandstorm
   - GameServers
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: daysofwar
+name: insurgencysandstorm
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/daysofwar
+  - https://github.com/truecharts/charts/tree/master/charts/stable/insurgencysandstorm
   - https://hub.docker.com/r/ich777/steamcmd
   - https://www.steampowered.com/
 type: application
-version: 7.1.9
+version: 7.1.11
