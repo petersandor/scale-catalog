@@ -1,11 +1,11 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/SCALE-support: 'true'
-  truecharts.org/category: MachineLearning
+  truecharts.org/category: Network
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
-  truecharts.org/train: incubator
+  truecharts.org/train: stable
+  truecharts.org/SCALE-support: 'true'
 apiVersion: v2
 appVersion: "latest"
 dependencies:
@@ -17,22 +17,20 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: sd-webui-docker Chart
-home: https://truecharts.org/charts/incubator/sd-webui
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/sd-webui.webp
+description: This is a Basic STUN & TURN server that was mainly created for Nextcloud Talk.
+home: https://truecharts.org/charts/stable/stun-turn-server
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/stun-turn-server.webp
 keywords:
-  - Whisper
-  - AI
-  - ML
+  - stun-turn-server
+  - Network
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: sd-webui-docker
+name: stun-turn-server
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/incubator/sd-webui
-  - https://ghcr.io/neggles/sd-webui-docker
-  - https://github.com/ahmetoner/sd-webui-docker/
+  - https://github.com/truecharts/charts/tree/master/charts/stable/stun-turn-server
+  - https://hub.docker.com/r/ich777/stun-turn-server
 type: application
-version: 2.1.153
+version: 8.1.11
