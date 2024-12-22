@@ -1,12 +1,12 @@
 image:
-  repository: linuxserver/snapdrop
-  tag: latest@sha256:bad7e8f9653e9ec4434a1933ea3986b48c92362f8bdc2492ac297bd5d56b4e8f
+  repository: linuxserver/heimdall
+  tag: 2.6.3@sha256:0f43852c03a4402742405ac39b132ed251e342f825e18d33dd69841be5d824f0
   pullPolicy: IfNotPresent
 service:
   main:
     ports:
       main:
-        port: 10215
+        port: 10014
         targetPort: 80
 persistence:
   config:
@@ -21,3 +21,11 @@ securityContext:
     runAsNonRoot: false
     runAsUser: 0
     runAsGroup: 0
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            startup:
+              enabled: true
