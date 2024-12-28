@@ -7,10 +7,10 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "2024.10.5"
+appVersion: "2024.12.1"
 dependencies:
   - name: common
-    version: 24.1.10
+    version: 24.1.11
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
@@ -45,4 +45,4 @@ sources:
   - https://github.com/goauthentik/authentik
   - https://goauthentik.io/docs/
 type: application
-version: 27.3.17
+version: 27.3.19
