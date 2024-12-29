@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/lidarr/23.2.7",
-        "last_update": "2024-12-29 09:40:46",
+        "last_update": "2024-12-29 12:55:13",
         "required_features": [
             "definitions/interface",
             "definitions/certificate",
@@ -5374,7 +5374,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/lidarr/23.2.6",
-        "last_update": "2024-12-29 09:40:46",
+        "last_update": "2024-12-29 12:55:13",
         "required_features": [
             "definitions/interface",
             "definitions/certificate",
@@ -10744,7 +10744,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/lidarr/22.1.6",
-        "last_update": "2024-12-29 09:40:46",
+        "last_update": "2024-12-29 12:55:13",
         "required_features": [
             "definitions/interface",
             "definitions/certificate",
@@ -16111,7 +16111,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/lidarr/22.1.5",
-        "last_update": "2024-12-29 09:40:46",
+        "last_update": "2024-12-29 12:55:13",
         "required_features": [
             "definitions/interface",
             "definitions/certificate",
@@ -21478,7 +21478,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/lidarr/21.6.17",
-        "last_update": "2024-12-29 09:40:46",
+        "last_update": "2024-12-29 12:55:13",
         "required_features": [
             "definitions/interface",
             "definitions/certificate",
@@ -26516,7 +26516,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/lidarr/21.6.16",
-        "last_update": "2024-12-29 09:40:46",
+        "last_update": "2024-12-29 12:55:13",
         "required_features": [
             "definitions/interface",
             "definitions/certificate",
@@ -31554,7 +31554,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/lidarr/20.3.1",
-        "last_update": "2024-12-29 09:40:46",
+        "last_update": "2024-12-29 12:55:13",
         "required_features": [
             "definitions/interface",
             "definitions/certificate",
@@ -36592,7 +36592,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/lidarr/20.3.0",
-        "last_update": "2024-12-29 09:40:46",
+        "last_update": "2024-12-29 12:55:13",
         "required_features": [
             "definitions/interface",
             "definitions/certificate",
@@ -41630,13 +41630,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/lidarr/19.3.0",
-        "last_update": "2024-12-29 09:40:46",
+        "last_update": "2024-12-29 12:55:13",
         "required_features": [
-            "normalize/interfaceConfiguration",
-            "definitions/gpuConfiguration",
             "definitions/certificate",
+            "normalize/interfaceConfiguration",
             "definitions/timezone",
-            "definitions/interface"
+            "definitions/interface",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "2.1.7.4030_19.3.0",
         "version": "19.3.0",
@@ -46711,13 +46711,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/lidarr/19.2.0",
-        "last_update": "2024-12-29 09:40:46",
+        "last_update": "2024-12-29 12:55:13",
         "required_features": [
-            "normalize/interfaceConfiguration",
-            "definitions/gpuConfiguration",
             "definitions/certificate",
+            "normalize/interfaceConfiguration",
             "definitions/timezone",
-            "definitions/interface"
+            "definitions/interface",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "2.1.7.4030_19.2.0",
         "version": "19.2.0",
