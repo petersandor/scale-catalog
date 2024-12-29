@@ -7,10 +7,10 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "1.4.4"
+appVersion: "1.4.5"
 dependencies:
   - name: common
-    version: 24.1.10
+    version: 24.1.11
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
@@ -33,4 +33,4 @@ sources:
   - https://github.com/mtlynch/picoshare
   - https://hub.docker.com/r/mtlynch/picoshare
 type: application
-version: 11.1.8
+version: 11.1.10
