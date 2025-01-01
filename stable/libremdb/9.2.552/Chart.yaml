@@ -1,16 +1,16 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: security
+  truecharts.org/category: media
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
-  truecharts.org/train: premium
+  truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "4.38.17"
+appVersion: "latest"
 dependencies:
   - name: common
-    version: 24.1.10
+    version: 24.1.11
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
@@ -24,31 +24,23 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Authelia is a Single Sign-On Multi-Factor portal for web apps
-home: https://truecharts.org/charts/premium/authelia
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/authelia.webp
+description: A free & open source IMDb front-end.
+home: https://truecharts.org/charts/stable/libremdb
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/libremdb.webp
 keywords:
-  - authelia
-  - authentication
-  - login
-  - SSO
-  - Authentication
-  - Security
-  - Two-Factor
-  - U2F
-  - YubiKey
-  - Push Notifications
-  - LDAP
+  - libremdb
+  - media
+  - imdb
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: authelia
+name: libremdb
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/premium/authelia
-  - https://ghcr.io/authelia/authelia
-  - https://github.com/authelia/authelia
-  - https://github.com/authelia/chartrepo
+  - https://github.com/truecharts/charts/tree/master/charts/stable/libremdb
+  - https://github.com/PussTheCat-org/docker-libremdb-quay
+  - https://github.com/zyachel/libremdb
+  - https://quay.io/pussthecatorg/libremdb
 type: application
-version: 25.2.17
+version: 9.2.552
