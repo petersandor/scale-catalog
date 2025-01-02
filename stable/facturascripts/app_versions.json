@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/facturascripts/4.1.11",
-        "last_update": "2025-01-02 15:47:12",
+        "last_update": "2025-01-02 20:47:22",
         "required_features": [
             "definitions/certificate",
             "definitions/timezone",
