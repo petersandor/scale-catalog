@@ -1,13 +1,13 @@
 image:
-  repository: ghcr.io/linuxserver/lazylibrarian
+  repository: ghcr.io/linuxserver/medusa
   pullPolicy: IfNotPresent
-  tag: latest@sha256:a85133e87d78b3c4c8847366786b1ee213510e252c8149aedc852186d0b5e6c3
+  tag: 1.0.22@sha256:905cb336b37364fe099a316a9bfeaeafdd15b782ccc8480c72f162d6f9d14246
 service:
   main:
     ports:
       main:
-        port: 5299
-        targetPort: 5299
+        port: 10068
+        targetPort: 8081
 persistence:
   config:
     enabled: true
@@ -19,7 +19,7 @@ portal:
     enabled: true
 securityContext:
   container:
-    runAsNonRoot: false
     readOnlyRootFilesystem: false
+    runAsNonRoot: false
     runAsUser: 0
     runAsGroup: 0
