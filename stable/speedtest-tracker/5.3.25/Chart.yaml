@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: media
+  truecharts.org/category: metrics
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "latest"
+appVersion: "0.26.0"
 dependencies:
   - name: common
     version: 24.1.11
@@ -24,23 +24,22 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: A free & open source IMDb front-end.
-home: https://truecharts.org/charts/stable/libremdb
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/libremdb.webp
+description: Speedtest Tracker is a self-hosted internet performance tracking application that runs speedtest checks against Ookla"s Speedtest service.
+home: https://truecharts.org/charts/stable/speedtest-tracker
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/speedtest-tracker.webp
 keywords:
-  - libremdb
-  - media
-  - imdb
+  - speedtest
+  - speedtest-tracker
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: libremdb
+name: speedtest-tracker
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/libremdb
-  - https://github.com/PussTheCat-org/docker-libremdb-quay
-  - https://github.com/zyachel/libremdb
-  - https://quay.io/pussthecatorg/libremdb
+  - https://github.com/truecharts/charts/tree/master/charts/stable/speedtest-tracker
+  - https://ghcr.io/linuxserver/speedtest-tracker
+  - https://github.com/alexjustesen/speedtest-tracker
+  - https://github.com/linuxserver/docker-speedtest-tracker
 type: application
-version: 9.2.565
+version: 5.3.25
