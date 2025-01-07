@@ -1,11 +1,11 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/SCALE-support: 'true'
-  truecharts.org/category: MachineLearning
+  truecharts.org/category: Other
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
-  truecharts.org/train: incubator
+  truecharts.org/train: stable
+  truecharts.org/SCALE-support: 'true'
 apiVersion: v2
 appVersion: "latest"
 dependencies:
@@ -17,22 +17,20 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: sd-webui-docker Chart
-home: https://truecharts.org/charts/incubator/sd-webui
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/sd-webui.webp
+description: Multi-arch tar1090 Chart for visualising ADSB data.
+home: https://truecharts.org/charts/stable/tar1090
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/tar1090.webp
 keywords:
-  - Whisper
-  - AI
-  - ML
+  - tar1090
+  - Other
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: sd-webui-docker
+name: tar1090
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/incubator/sd-webui
-  - https://ghcr.io/neggles/sd-webui-docker
-  - https://github.com/ahmetoner/sd-webui-docker/
+  - https://github.com/truecharts/charts/tree/master/charts/stable/tar1090
+  - https://hub.docker.com/r/mikenye/tar1090
 type: application
-version: 2.1.169
+version: 7.1.89
