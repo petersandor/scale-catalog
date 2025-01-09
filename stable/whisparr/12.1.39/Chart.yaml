@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: docker
+  truecharts.org/category: Downloaders
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "27.4.1"
+appVersion: "3"
 dependencies:
   - name: common
     version: 24.1.11
@@ -17,19 +17,22 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Dedicated App for using Docker-in-Docker
-home: https://truecharts.org/charts/stable/docker
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/docker.webp
+description: An adult media thingy.
+home: https://truecharts.org/charts/stable/whisparr
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/whisparr.webp
 keywords:
-  - docker
+  - whisparr
+  - Downloaders
+  - MediaApp-Other
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: docker
+name: whisparr
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/docker
-  - https://hub.docker.com/_/docker
+  - https://github.com/truecharts/charts/tree/master/charts/stable/whisparr
+  - https://ghcr.io/hotio/whisparr
+  - https://github.com/onedr0p/containers/tree/main/apps/whisparr
 type: application
-version: 9.1.43
+version: 12.1.39
