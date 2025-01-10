@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: AI
+  truecharts.org/category: incubator
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "latest"
+appVersion: "2.1.5"
 dependencies:
   - name: common
     version: 24.1.11
@@ -17,21 +17,19 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Open-source ChatGPT experience for LLMs, embedders, and vector databases.
-home: https://truecharts.org/charts/stable/anything-llm
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/anything-llm.webp
+description: Ubooquity is a free, lightweight and easy-to-use home server for your comics and ebooks.
+home: https://truecharts.org/charts/stable/ubooquity
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/ubooquity.webp
 keywords:
-  - anything-llm
-  - ai
+  - ubooquity
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: anything-llm
+name: ubooquity
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/anything-llm
-  - https://ghcr.io/mintplex-labs/anything-llm
-  - https://github.com/Mintplex-Labs/anything-llm
+  - https://github.com/truecharts/charts/tree/master/charts/stable/ubooquity
+  - https://ghcr.io/linuxserver/ubooquity
 type: application
-version: 3.1.132
+version: 12.1.27
