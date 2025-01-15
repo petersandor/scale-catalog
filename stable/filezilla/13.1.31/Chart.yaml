@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: incubator
+  truecharts.org/category: media
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "3.11.2"
+appVersion: "3.68.1"
 dependencies:
   - name: common
     version: 24.1.11
@@ -17,19 +17,25 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Ddclient is a Perl client used to update dynamic DNS entries for accounts on Dynamic DNS Network Service Provider.
-home: https://truecharts.org/charts/stable/ddclient
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/ddclient.webp
+description: A Helm chart for Kubernetes
+home: https://truecharts.org/charts/stable/filezilla
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/filezilla.webp
 keywords:
-  - ddclient
+  - filezilla
+  - ftp
+  - sftp
+  - ftps
+  - client
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: ddclient
+name: filezilla
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/ddclient
-  - https://ghcr.io/linuxserver/ddclient
+  - https://github.com/truecharts/charts/tree/master/charts/stable/filezilla
+  - https://filezilla-project.org/
+  - https://ghcr.io/linuxserver/filezilla
+  - https://github.com/linuxserver/docker-filezilla
 type: application
-version: 11.1.24
+version: 13.1.31
