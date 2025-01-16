@@ -1,6 +1,6 @@
 image:
   repository: quay.io/pussthecatorg/rimgo
-  tag: latest@sha256:ea2174b887d54998dbabd9031de3128f073b229c185f5bc0176f99bea0939025
+  tag: latest@sha256:615956a0a099b1fb06f3e538f1fef2d5afa84cbf7fe7760bc02a80354bf6da97
   pullPolicy: IfNotPresent
 persistence: {}
 
