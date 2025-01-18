@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: AI
+  truecharts.org/category: incubator
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "latest"
+appVersion: "8.0.40"
 dependencies:
   - name: common
     version: 24.1.11
@@ -17,21 +17,19 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Open-source ChatGPT experience for LLMs, embedders, and vector databases.
-home: https://truecharts.org/charts/stable/anything-llm
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/anything-llm.webp
+description: MySQL Workbench is a unified visual tool for database architects, developers and DBAs.
+home: https://truecharts.org/charts/stable/mysql-workbench
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/mysql-workbench.webp
 keywords:
-  - anything-llm
-  - ai
+  - mysql-workbench
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: anything-llm
+name: mysql-workbench
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/anything-llm
-  - https://ghcr.io/mintplex-labs/anything-llm
-  - https://github.com/Mintplex-Labs/anything-llm
+  - https://github.com/truecharts/charts/tree/master/charts/stable/mysql-workbench
+  - https://ghcr.io/linuxserver/mysql-workbench
 type: application
-version: 3.1.137
+version: 11.1.34
