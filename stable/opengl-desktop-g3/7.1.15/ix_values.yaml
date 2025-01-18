@@ -1,7 +1,7 @@
 image:
   pullPolicy: IfNotPresent
-  repository: accetto/ubuntu-vnc-xfce-firefox-g3
-  tag: latest@sha256:4996dac7bcaa2e1c9f5fad75f61df84356086e87de8ca6104dcac9cdddb4d108
+  repository: accetto/ubuntu-vnc-xfce-opengl-g3
+  tag: latest@sha256:841bab01bd471f25f557e27bb6007bbd15c5f9242985f9972f1a570f24f23bc0
 persistence:
   internalshare:
     enabled: true
