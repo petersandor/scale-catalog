@@ -1,7 +1,7 @@
 image:
   repository: ghcr.io/linuxserver/davos
   pullPolicy: IfNotPresent
-  tag: 2.2.2@sha256:134bf27232d1e6be10b0b53863ede62e95d7ce478fcd3abbc7e868eb755f38c8
+  tag: 2.2.2@sha256:25a30e7aa45fd1c709e9ce46f852da3ce802bfffeb6c5319f8501e0474f1907f
 securityContext:
   container:
     readOnlyRootFilesystem: false
