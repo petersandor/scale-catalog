@@ -1,6 +1,6 @@
 image:
   repository: ghcr.io/linuxserver/budge
-  tag: 0.0.9@sha256:9cb7020bbc0a7b64178245898b4deb72e7b17ff3eb30de339826750bce9e5ac4
+  tag: 0.0.9@sha256:7a9296205849ce7b5185119011be36130b4a0e4dbf2ccec0ad6684c7f1504edb
   pullPolicy: IfNotPresent
 securityContext:
   container:
