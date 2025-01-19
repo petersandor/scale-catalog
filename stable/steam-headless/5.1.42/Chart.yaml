@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: media
+  truecharts.org/category: games
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "1.4.1"
+appVersion: "latest"
 dependencies:
   - name: common
     version: 24.1.11
@@ -17,22 +17,21 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Plex to AniList Sync.
-home: https://truecharts.org/charts/stable/plexanisync
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/plexanisync.webp
+description: A Headless Steam chart.
+home: https://truecharts.org/charts/stable/steam-headless
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/steam-headless.webp
 keywords:
-  - plexanisync
-  - media
+  - steam-headless
+  - games
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: plexanisync
+name: steam-headless
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/plexanisync
-  - https://ghcr.io/rickdb/plexanisync
-  - https://github.com/RickDB/PlexAniSync
-  - https://github.com/RickDB/PlexAniSync/pkgs/container/plexanisync
+  - https://github.com/truecharts/charts/tree/master/charts/stable/steam-headless
+  - https://github.com/Steam-Headless/docker-steam-headless
+  - https://hub.docker.com/r/josh5/steam-headless
 type: application
-version: 8.1.9
+version: 5.1.42
