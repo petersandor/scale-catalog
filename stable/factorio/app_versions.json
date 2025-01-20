@@ -4,10 +4,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/factorio/9.1.51",
-        "last_update": "2025-01-20 11:00:05",
+        "last_update": "2025-01-20 13:34:24",
         "required_features": [
-            "normalize/interfaceConfiguration",
             "definitions/timezone",
+            "normalize/interfaceConfiguration",
             "definitions/certificate",
             "definitions/interface"
         ],
@@ -5419,10 +5419,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/factorio/9.1.50",
-        "last_update": "2025-01-20 11:00:05",
+        "last_update": "2025-01-20 13:34:24",
         "required_features": [
-            "normalize/interfaceConfiguration",
             "definitions/timezone",
+            "normalize/interfaceConfiguration",
             "definitions/certificate",
             "definitions/interface"
         ],
@@ -10834,10 +10834,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/factorio/8.0.9",
-        "last_update": "2025-01-20 11:00:05",
+        "last_update": "2025-01-20 13:34:24",
         "required_features": [
-            "normalize/interfaceConfiguration",
             "definitions/timezone",
+            "normalize/interfaceConfiguration",
             "definitions/certificate",
             "definitions/interface"
         ],
@@ -16246,10 +16246,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/factorio/8.0.8",
-        "last_update": "2025-01-20 11:00:05",
+        "last_update": "2025-01-20 13:34:24",
         "required_features": [
-            "normalize/interfaceConfiguration",
             "definitions/timezone",
+            "normalize/interfaceConfiguration",
             "definitions/certificate",
             "definitions/interface"
         ],
@@ -21658,10 +21658,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/factorio/7.8.16",
-        "last_update": "2025-01-20 11:00:05",
+        "last_update": "2025-01-20 13:34:24",
         "required_features": [
-            "normalize/interfaceConfiguration",
             "definitions/timezone",
+            "normalize/interfaceConfiguration",
             "definitions/certificate",
             "definitions/interface"
         ],
@@ -26741,10 +26741,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/factorio/7.8.15",
-        "last_update": "2025-01-20 11:00:05",
+        "last_update": "2025-01-20 13:34:24",
         "required_features": [
-            "normalize/interfaceConfiguration",
             "definitions/timezone",
+            "normalize/interfaceConfiguration",
             "definitions/certificate",
             "definitions/interface"
         ],
@@ -31824,12 +31824,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/factorio/6.3.0",
-        "last_update": "2025-01-20 11:00:05",
+        "last_update": "2025-01-20 13:34:24",
         "required_features": [
-            "normalize/interfaceConfiguration",
             "definitions/timezone",
-            "definitions/certificate",
             "definitions/gpuConfiguration",
+            "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/interface"
         ],
         "human_version": "stable_6.3.0",
@@ -36950,12 +36950,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/factorio/6.2.1",
-        "last_update": "2025-01-20 11:00:05",
+        "last_update": "2025-01-20 13:34:24",
         "required_features": [
-            "normalize/interfaceConfiguration",
             "definitions/timezone",
-            "definitions/certificate",
             "definitions/gpuConfiguration",
+            "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/interface"
         ],
         "human_version": "stable_6.2.1",
