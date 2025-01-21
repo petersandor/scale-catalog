@@ -1,7 +1,7 @@
 image:
   repository: ghcr.io/paperless-ngx/paperless-ngx
   pullPolicy: IfNotPresent
-  tag: 2.12.1@sha256:217cec76128c2545872cf356694f2ffd4524cb84892d0333e654795dec255633
+  tag: 2.14.4@sha256:e806e507bce660602ce3e477d8a895c4f303b8564b51530e94ffe9fc7e946f51
 service:
   main:
     ports:
