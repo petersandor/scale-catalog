@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: media
+  truecharts.org/category: docker
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "10.10.3"
+appVersion: "27.5.0"
 dependencies:
   - name: common
     version: 24.1.11
@@ -17,23 +17,19 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Jellyfin is a Free Software Media System
-home: https://truecharts.org/charts/stable/jellyfin
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/jellyfin.webp
+description: Dedicated App for using Docker-in-Docker
+home: https://truecharts.org/charts/stable/docker
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/docker.webp
 keywords:
-  - jellyfin
-  - plex
-  - emby
+  - docker
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: jellyfin
+name: docker
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/jellyfin
-  - https://ghcr.io/jellyfin/jellyfin
-  - https://github.com/jellyfin/jellyfin
-  - https://hub.docker.com/r/alpine/socat
+  - https://github.com/truecharts/charts/tree/master/charts/stable/docker
+  - https://hub.docker.com/_/docker
 type: application
-version: 20.1.32
+version: 9.1.51
