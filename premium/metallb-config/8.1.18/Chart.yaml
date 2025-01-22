@@ -1,10 +1,10 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: Network-Other
+  truecharts.org/category: core
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
-  truecharts.org/train: stable
+  truecharts.org/train: premium
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
 appVersion: "latest"
@@ -17,24 +17,22 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: MEGAsync can synchronize all of your devices with your MEGA account.
-home: https://truecharts.org/charts/stable/megasync
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/megasync.webp
+description: A network load-balancer implementation for Kubernetes using standard routing protocols
+home: https://truecharts.org/charts/premium/metallb-config
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/metallb-config.webp
 keywords:
-  - megasync
-  - Network-Other
-  - Productivity
-  - Tools-Utilities
-  - Backup
+  - metallb
+  - loadbalancer
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: megasync
+name: metallb-config
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/megasync
-  - https://github.com/ich777/docker-megasync
-  - https://hub.docker.com/r/ich777/megasync
+  - https://github.com/truecharts/charts/tree/master/charts/premium/metallb-config
+  - https://github.com/metallb/metallb
+  - https://hub.docker.com/_/hello-world
+  - https://metallb.universe.tf
 type: application
-version: 8.1.14
+version: 8.1.18

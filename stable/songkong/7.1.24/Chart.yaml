@@ -1,10 +1,10 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: core
+  truecharts.org/category: MediaApp-Music
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
-  truecharts.org/train: premium
+  truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
 appVersion: "latest"
@@ -17,21 +17,20 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Certificate management for Kubernetes
-home: https://truecharts.org/charts/premium/clusterissuer
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/clusterissuer.webp
+description: Official SongKong Chart repository, Identify your songs and add metadata and artwork automatically
+home: https://truecharts.org/charts/stable/songkong
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/songkong.webp
 keywords:
-  - cert-manager
-  - certificates
+  - songkong
+  - MediaApp-Music
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: clusterissuer
+name: songkong
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/premium/clusterissuer
-  - https://cert-manager.io/
-  - https://hub.docker.com/_/hello-world
+  - https://github.com/truecharts/charts/tree/master/charts/stable/songkong
+  - https://hub.docker.com/r/songkong/songkong
 type: application
-version: 9.1.16
+version: 7.1.24

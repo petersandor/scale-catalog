@@ -1,6 +1,6 @@
 image:
   repository: ich777/megasync
-  tag: latest@sha256:859ce292b7ac4d96426bb229c6ab246d785818bdaad13421e26cd5b549442fdb
+  tag: latest@sha256:eeffa10fd175c64d36f6401768fd108cd662c1462700b6121ab74fd58fa0ecea
   pullPolicy: IfNotPresent
 
 securityContext:
