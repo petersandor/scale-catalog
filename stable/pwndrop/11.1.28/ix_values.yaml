@@ -1,17 +1,13 @@
 image:
-  repository: ghcr.io/linuxserver/openvscode-server
+  repository: ghcr.io/linuxserver/pwndrop
   pullPolicy: IfNotPresent
-  tag: 1.96.0@sha256:5abc07d5f2489e46af388ba67f6467a1847cad7a21baceeb129de977f4e210c2
-# secretEnv:
-#   CONNECTION_TOKEN: "somerandomstring"
-#   CONNECTION_SECRET: ""
-#   SUDO_PASSWORD: ""
+  tag: 1.0.1@sha256:f71f758145650d2c9387ed23f2a4e06b6b50cdcd5954ab07750536205095ecbf
 service:
   main:
     ports:
       main:
-        targetPort: 3000
-        port: 10135
+        targetPort: 8080
+        port: 10149
 persistence:
   config:
     enabled: true
