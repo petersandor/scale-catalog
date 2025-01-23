@@ -1,7 +1,7 @@
 image:
   repository: ghcr.io/linuxserver/znc
   pullPolicy: IfNotPresent
-  tag: 1.9.1@sha256:8653ec792b94e400e394b40772d203ca6e577c677bf84eaef2d95119327fdc6c
+  tag: 1.9.1@sha256:9dcdf846b68fe98dc6b623774c6e1e06241df24047c929e9ae50d0ed42d9ae66
 service:
   main:
     ports:
