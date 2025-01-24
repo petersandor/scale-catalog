@@ -6,7 +6,7 @@ thanosImage:
   tag: v0.36.1@sha256:e542959e1b36d5046083d1b64a7049c356b68a44a173c58b3ae7c0c9ada932d5
 alertmanagerImage:
   repository: bitnami/alertmanager
-  tag: 0.27.0@sha256:0062fb9fb12c88ea0f2be2fc9a2ab70019a983738238d9160bbf8db7d96bc4e9
+  tag: 0.28.0@sha256:48b628143248ecb846468dc74761ba814c49ac90ae3d8925b27d1687b5090a1f
 global:
   labels: {}
 workload:
