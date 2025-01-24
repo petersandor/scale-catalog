@@ -7,33 +7,34 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "4.8.5"
+appVersion: "1.30.2.493"
 dependencies:
   - name: common
-    version: 24.1.10
+    version: 24.1.11
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
     tags: []
     import-values: []
 deprecated: false
-description: Flood is a monitoring service for various torrent clients
-home: https://truecharts.org/charts/stable/flood
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/flood.webp
+description: Indexer manager/proxy built on the popular arr net base stack to integrate with your various PVR apps.
+home: https://truecharts.org/charts/stable/prowlarr
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/prowlarr.webp
 keywords:
-  - flood
-  - rtorrent
-  - qbittorrent
-  - transmission
+  - prowlarr
+  - torrent
+  - usenet
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: flood
+name: prowlarr
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/flood
-  - https://github.com/jesec/flood
-  - https://hub.docker.com/r/jesec/flood
+  - https://github.com/truecharts/charts/tree/master/charts/stable/prowlarr
+  - https://ghcr.io/onedr0p/exportarr
+  - https://ghcr.io/onedr0p/prowlarr-develop
+  - https://github.com/Prowlarr/Prowlarr
+  - https://github.com/k8s-at-home/container-images
 type: application
-version: 15.1.11
+version: 18.3.19
