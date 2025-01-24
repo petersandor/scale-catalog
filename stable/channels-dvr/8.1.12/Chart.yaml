@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: organizers
+  truecharts.org/category: media
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "2.6.3"
+appVersion: "latest"
 dependencies:
   - name: common
     version: 24.1.11
@@ -17,20 +17,19 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: An Application dashboard and launcher
-home: https://truecharts.org/charts/stable/heimdall
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/heimdall.webp
+description: Channels DVR Server
+home: https://truecharts.org/charts/stable/channels-dvr
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/channels-dvr.webp
 keywords:
-  - heimdall
+  - channels-dvr
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: heimdall
+name: channels-dvr
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/heimdall
-  - https://github.com/linuxserver/Heimdall/
-  - https://hub.docker.com/r/linuxserver/heimdall
+  - https://github.com/truecharts/charts/tree/master/charts/stable/channels-dvr
+  - https://hub.docker.com/r/fancybits/channels-dvr
 type: application
-version: 23.0.29
+version: 8.1.12
