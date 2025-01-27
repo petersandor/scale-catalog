@@ -4,11 +4,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/soft-serve/8.1.12",
-        "last_update": "2025-01-27 04:52:03",
+        "last_update": "2025-01-27 07:25:12",
         "required_features": [
+            "normalize/interfaceConfiguration",
             "definitions/timezone",
             "definitions/nodeIP",
-            "normalize/interfaceConfiguration",
             "definitions/certificate",
             "definitions/interface"
         ],
@@ -6524,11 +6524,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/soft-serve/8.1.11",
-        "last_update": "2025-01-27 04:52:03",
+        "last_update": "2025-01-27 07:25:12",
         "required_features": [
+            "normalize/interfaceConfiguration",
             "definitions/timezone",
             "definitions/nodeIP",
-            "normalize/interfaceConfiguration",
             "definitions/certificate",
             "definitions/interface"
         ],
@@ -13044,11 +13044,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/soft-serve/7.0.9",
-        "last_update": "2025-01-27 04:52:03",
+        "last_update": "2025-01-27 07:25:12",
         "required_features": [
+            "normalize/interfaceConfiguration",
             "definitions/timezone",
             "definitions/nodeIP",
-            "normalize/interfaceConfiguration",
             "definitions/certificate",
             "definitions/interface"
         ],
@@ -19561,11 +19561,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/soft-serve/7.0.8",
-        "last_update": "2025-01-27 04:52:03",
+        "last_update": "2025-01-27 07:25:12",
         "required_features": [
+            "normalize/interfaceConfiguration",
             "definitions/timezone",
             "definitions/nodeIP",
-            "normalize/interfaceConfiguration",
             "definitions/certificate",
             "definitions/interface"
         ],
@@ -26078,11 +26078,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/soft-serve/6.8.14",
-        "last_update": "2025-01-27 04:52:03",
+        "last_update": "2025-01-27 07:25:12",
         "required_features": [
+            "normalize/interfaceConfiguration",
             "definitions/timezone",
             "definitions/nodeIP",
-            "normalize/interfaceConfiguration",
             "definitions/certificate",
             "definitions/interface"
         ],
@@ -32064,11 +32064,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/soft-serve/6.8.13",
-        "last_update": "2025-01-27 04:52:03",
+        "last_update": "2025-01-27 07:25:12",
         "required_features": [
+            "normalize/interfaceConfiguration",
             "definitions/timezone",
             "definitions/nodeIP",
-            "normalize/interfaceConfiguration",
             "definitions/certificate",
             "definitions/interface"
         ],
@@ -38050,13 +38050,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/soft-serve/5.3.0",
-        "last_update": "2025-01-27 04:52:03",
+        "last_update": "2025-01-27 07:25:12",
         "required_features": [
-            "definitions/timezone",
-            "definitions/gpuConfiguration",
-            "definitions/nodeIP",
             "normalize/interfaceConfiguration",
+            "definitions/timezone",
+            "definitions/nodeIP",
             "definitions/certificate",
+            "definitions/gpuConfiguration",
             "definitions/interface"
         ],
         "human_version": "0.7.4_5.3.0",
@@ -44079,13 +44079,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/soft-serve/5.2.0",
-        "last_update": "2025-01-27 04:52:03",
+        "last_update": "2025-01-27 07:25:12",
         "required_features": [
-            "definitions/timezone",
-            "definitions/gpuConfiguration",
-            "definitions/nodeIP",
             "normalize/interfaceConfiguration",
+            "definitions/timezone",
+            "definitions/nodeIP",
             "definitions/certificate",
+            "definitions/gpuConfiguration",
             "definitions/interface"
         ],
         "human_version": "0.7.4_5.2.0",
