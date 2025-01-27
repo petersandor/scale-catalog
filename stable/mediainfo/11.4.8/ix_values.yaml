@@ -1,40 +1,35 @@
 image:
-  repository: jlesage/mkvtoolnix
-  tag: v24.09.2@sha256:15142c14ee57dbf99496054ae5457bc32c3de1ffd93e7d99ca46d5363532491a
+  repository: jlesage/mediainfo
+  tag: v24.12.1@sha256:b6d1716271f767cf2a1e332d7bdec62a9bdc511658d56a1dec9a0a321a542560
   pullPolicy: IfNotPresent
 service:
   main:
     ports:
       main:
-        port: 10236
+        port: 10264
         targetPort: 5800
   vnc:
     enabled: true
     ports:
       vnc:
         enabled: true
-        port: 10237
+        port: 10265
         targetPort: 5900
-mkvtoolnix:
-  # General Settings
+mediainfo:
   KEEP_APP_RUNNING: false
-  # GUI Settings
   DISPLAY_WIDTH: 1280
   DISPLAY_HEIGHT: 768
-  DARK_MODE: false
-  # App Settings
   SECURE_CONNECTION: false
   ENABLE_CJK_FONT: false
 configmap:
-  mkvtoolnix:
+  mediainfo:
     enabled: true
     data:
-      ENABLE_CJK_FONT: '{{ ternary "1" "0" .Values.mkvtoolnix.ENABLE_CJK_FONT }}'
-      KEEP_APP_RUNNING: '{{ ternary "1" "0" .Values.mkvtoolnix.KEEP_APP_RUNNING }}'
-      SECURE_CONNECTION: '{{ ternary "1" "0" .Values.mkvtoolnix.SECURE_CONNECTION }}'
-      DISPLAY_WIDTH: "{{ .Values.mkvtoolnix.DISPLAY_WIDTH }}"
-      DISPLAY_HEIGHT: "{{ .Values.mkvtoolnix.DISPLAY_HEIGHT }}"
-      DARK_MODE: '{{ ternary "1" "0" .Values.mkvtoolnix.DARK_MODE }}'
+      ENABLE_CJK_FONT: '{{ ternary "1" "0" .Values.mediainfo.ENABLE_CJK_FONT }}'
+      KEEP_APP_RUNNING: '{{ ternary "1" "0" .Values.mediainfo.KEEP_APP_RUNNING }}'
+      SECURE_CONNECTION: '{{ ternary "1" "0" .Values.mediainfo.SECURE_CONNECTION }}'
+      DISPLAY_WIDTH: "{{ .Values.mediainfo.DISPLAY_WIDTH }}"
+      DISPLAY_HEIGHT: "{{ .Values.mediainfo.DISPLAY_HEIGHT }}"
 persistence:
   config:
     enabled: true
@@ -72,4 +67,4 @@ workload:
             VNC_PASSWORD: ""
           envFrom:
             - configMapRef:
-                name: "mkvtoolnix"
+                name: "mediainfo"

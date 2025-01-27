@@ -7,33 +7,31 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "24.09.2"
+appVersion: "24.12.1"
 dependencies:
   - name: common
-    version: 24.1.10
+    version: 24.1.11
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
     tags: []
     import-values: []
 deprecated: false
-description: MKVToolNix is a set of tools to create, alter and inspect Matroska files.
-home: https://truecharts.org/charts/stable/mkvtoolnix
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/mkvtoolnix.webp
+description: MKVCleaver is a tool for batch extraction of data from MKV files
+home: https://truecharts.org/charts/stable/mkvcleaver
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/mkvcleaver.webp
 keywords:
   - media
-  - mkvtoolnix
-  - mkv
+  - mkvcleaver
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: mkvtoolnix
+name: mkvcleaver
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/mkvtoolnix
-  - https://github.com/jlesage/docker-mkvtoolnix
-  - https://hub.docker.com/r/jlesage/mkvtoolnix
-  - https://mkvtoolnix.download/
+  - https://github.com/truecharts/charts/tree/master/charts/stable/mkvcleaver
+  - https://github.com/jlesage/docker-mkvcleaver
+  - https://hub.docker.com/r/jlesage/mkvcleaver
 type: application
-version: 12.3.7
+version: 11.2.8
