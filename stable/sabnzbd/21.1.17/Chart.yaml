@@ -35,4 +35,4 @@ sources:
   - https://ghcr.io/onedr0p/sabnzbd
   - https://sabnzbd.org/
 type: application
-version: 21.1.15
+version: 21.1.17
