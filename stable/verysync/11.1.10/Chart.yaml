@@ -7,32 +7,32 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "1.40.2"
+appVersion: "2.20.1"
 dependencies:
   - name: common
-    version: 24.1.10
+    version: 24.1.11
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
     tags: []
     import-values: []
 deprecated: false
-description: Bridges events and allows you to control your Zigbee devices via MQTT
-home: https://truecharts.org/charts/stable/zigbee2mqtt
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/zigbee2mqtt.webp
+description: very sync is an easy-to-use multi-platform file synchronization software
+home: https://truecharts.org/charts/stable/verysync
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/verysync.webp
 keywords:
-  - zigbee
-  - mqtt
-  - home-assistant
+  - verysync
+  - sync
+  - btsync
+  - bittorrent
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: zigbee2mqtt
+name: verysync
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/zigbee2mqtt
-  - https://github.com/Koenkk/zigbee2mqtt
-  - https://hub.docker.com/r/koenkk/zigbee2mqtt
+  - https://github.com/truecharts/charts/tree/master/charts/stable/verysync
+  - https://hub.docker.com/r/jonnyan404/verysync
 type: application
-version: 13.2.8
+version: 11.1.10
