@@ -7,30 +7,32 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "24.09"
+appVersion: "2.10.1"
 dependencies:
   - name: common
-    version: 24.1.10
+    version: 24.1.11
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
     tags: []
     import-values: []
 deprecated: false
-description: An application that lets you automatically process files through a simple rule flow.
-home: https://truecharts.org/charts/stable/fileflows
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/fileflows.webp
+description: A self-hosted midwestern Discord music bot that doesn"t suck.
+home: https://truecharts.org/charts/stable/muse
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/muse.webp
 keywords:
-  - fileflows
+  - muse
+  - media
+  - discord-bot
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: fileflows
+name: muse
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/fileflows
-  - https://github.com/revenz/FileFlows
-  - https://hub.docker.com/r/revenz/fileflows
+  - https://github.com/truecharts/charts/tree/master/charts/stable/muse
+  - https://github.com/codetheweb/muse
+  - https://hub.docker.com/r/codetheweb/muse
 type: application
-version: 12.4.9
+version: 7.2.11
