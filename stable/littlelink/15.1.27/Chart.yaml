@@ -34,4 +34,4 @@ sources:
   - https://github.com/sethcottle/littlelink
   - https://github.com/techno-tim/littlelink-server
 type: application
-version: 15.1.25
+version: 15.1.27
