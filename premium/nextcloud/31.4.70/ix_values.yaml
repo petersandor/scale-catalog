@@ -17,11 +17,11 @@ hpbImage:
 clamavImage:
   repository: clamav/clamav
   pullPolicy: IfNotPresent
-  tag: 1.4.2@sha256:52cdfe3a7028880d4516f5820ea0f673f343d3bb05e0c0492e99dfaeb8ae325a
+  tag: 1.4.2@sha256:e23d053a4b4a8643bca838a47c7eeb072b88d720315a44c311be3cb707602115
 collaboraImage:
   repository: collabora/code
   pullPolicy: IfNotPresent
-  tag: 24.04.11.3.1@sha256:f6d2da45ef1b8db44b0d6a11fe8c0bb98022c0f2befb859b8565962ec58b2afd
+  tag: 24.04.12.2.1@sha256:46f799f6f5d4b985dbfdaacabbdcb6ecb90c4e3659d28a4b66757f6946c07829
 
 nextcloud:
   # Initial Credentials
