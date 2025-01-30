@@ -1,35 +1,38 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: games
+  truecharts.org/category: database
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "5.10.0"
+appVersion: "7.4.2"
 dependencies:
   - name: common
     version: 24.1.11
     repository: https://petersandor.github.io/truecharts-common
-    condition: ''
+    condition: includeCommon
     alias: ''
     tags: []
     import-values: []
 deprecated: false
-description: Minetest (server) is a near-infinite-world block sandbox game and a game engine.
-home: https://truecharts.org/charts/stable/minetest
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/minetest.webp
+description: Open source, advanced key-value store.
+home: https://truecharts.org/charts/stable/redis
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/redis.webp
 keywords:
-  - minetest
+  - redis
+  - keyvalue
+  - database
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: minetest
+name: redis
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/minetest
-  - https://ghcr.io/linuxserver/minetest
+  - https://github.com/truecharts/charts/tree/master/charts/stable/redis
+  - https://github.com/bitnami/bitnami-docker-redis
+  - https://hub.docker.com/r/bitnami/redis
 type: application
-version: 10.2.16
+version: 15.2.15
