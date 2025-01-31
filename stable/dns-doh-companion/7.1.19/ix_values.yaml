@@ -1,7 +1,7 @@
 image:
   pullPolicy: IfNotPresent
   repository: testdasi/simple-dns-doh
-  tag: latest@sha256:f5a80e602dbd8aa52a0b1f42a4d1a5e000ee71685f1e20d635e27cf2332b8d94
+  tag: latest@sha256:c76c3c6e0fabc0edd9e1672b8fcbd036951efc9f8f5ad39028b2e0e370a7cca2
 persistence: {}
 portal:
   open:
