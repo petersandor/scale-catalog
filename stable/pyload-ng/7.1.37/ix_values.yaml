@@ -1,7 +1,7 @@
 image:
   pullPolicy: IfNotPresent
   repository: lscr.io/linuxserver/pyload-ng
-  tag: latest@sha256:80f7a6cf4d38604135607931f740d25a8424313807cc6277d274e6ccbdf9f04e
+  tag: latest@sha256:a210a312b27c0731183b329db4542ef185b8379a52802c68ae86fcfb972b0cdd
 persistence:
   config:
     enabled: true
