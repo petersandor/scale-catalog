@@ -4,12 +4,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/babybuddy/18.2.33",
-        "last_update": "2025-01-30 21:54:23",
+        "last_update": "2025-01-31 03:47:47",
         "required_features": [
-            "definitions/interface",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
-            "definitions/certificate"
+            "definitions/certificate",
+            "definitions/interface",
+            "definitions/timezone"
         ],
         "human_version": "2.7.0_18.2.33",
         "version": "18.2.33",
@@ -5653,12 +5653,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/babybuddy/18.2.32",
-        "last_update": "2025-01-30 21:54:23",
+        "last_update": "2025-01-31 03:47:47",
         "required_features": [
-            "definitions/interface",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
-            "definitions/certificate"
+            "definitions/certificate",
+            "definitions/interface",
+            "definitions/timezone"
         ],
         "human_version": "2.7.0_18.2.32",
         "version": "18.2.32",
@@ -11302,12 +11302,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/babybuddy/17.1.6",
-        "last_update": "2025-01-30 21:54:23",
+        "last_update": "2025-01-31 03:47:47",
         "required_features": [
-            "definitions/interface",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
-            "definitions/certificate"
+            "definitions/certificate",
+            "definitions/interface",
+            "definitions/timezone"
         ],
         "human_version": "2.4.0_17.1.6",
         "version": "17.1.6",
@@ -16948,12 +16948,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/babybuddy/17.1.5",
-        "last_update": "2025-01-30 21:54:23",
+        "last_update": "2025-01-31 03:47:47",
         "required_features": [
-            "definitions/interface",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
-            "definitions/certificate"
+            "definitions/certificate",
+            "definitions/interface",
+            "definitions/timezone"
         ],
         "human_version": "2.4.0_17.1.5",
         "version": "17.1.5",
@@ -22594,12 +22594,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/babybuddy/16.9.13",
-        "last_update": "2025-01-30 21:54:23",
+        "last_update": "2025-01-31 03:47:47",
         "required_features": [
-            "definitions/interface",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
-            "definitions/certificate"
+            "definitions/certificate",
+            "definitions/interface",
+            "definitions/timezone"
         ],
         "human_version": "2.3.1_16.9.13",
         "version": "16.9.13",
@@ -28369,12 +28369,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/babybuddy/16.9.12",
-        "last_update": "2025-01-30 21:54:23",
+        "last_update": "2025-01-31 03:47:47",
         "required_features": [
-            "definitions/interface",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
-            "definitions/certificate"
+            "definitions/certificate",
+            "definitions/interface",
+            "definitions/timezone"
         ],
         "human_version": "2.3.1_16.9.12",
         "version": "16.9.12",
@@ -34144,13 +34144,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/babybuddy/15.4.0",
-        "last_update": "2025-01-30 21:54:23",
+        "last_update": "2025-01-31 03:47:47",
         "required_features": [
+            "definitions/gpuConfiguration",
             "definitions/timezone",
             "normalize/interfaceConfiguration",
-            "definitions/certificate",
             "definitions/interface",
-            "definitions/gpuConfiguration"
+            "definitions/certificate"
         ],
         "human_version": "2.2.1_15.4.0",
         "version": "15.4.0",
@@ -39994,13 +39994,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/babybuddy/15.3.1",
-        "last_update": "2025-01-30 21:54:23",
+        "last_update": "2025-01-31 03:47:47",
         "required_features": [
+            "definitions/gpuConfiguration",
             "definitions/timezone",
             "normalize/interfaceConfiguration",
-            "definitions/certificate",
             "definitions/interface",
-            "definitions/gpuConfiguration"
+            "definitions/certificate"
         ],
         "human_version": "2.2.1_15.3.1",
         "version": "15.3.1",
