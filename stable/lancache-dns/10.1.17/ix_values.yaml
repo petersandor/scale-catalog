@@ -1,7 +1,7 @@
 image:
   repository: lancachenet/lancache-dns
   pullPolicy: IfNotPresent
-  tag: latest@sha256:06f3a1e70a92529b2c5805913ef8da0f269adc1d9ad66c90fa2d7828b9d45785
+  tag: latest@sha256:6ecb9bd017e6b17be227c05aafc01fb09990f85470116de162fd7720d205b97a
 securityContext:
   container:
     readOnlyRootFilesystem: false

@@ -28,7 +28,7 @@ fedoraKDEImage:
   pullPolicy: Always
 archKDEImage:
   repository: lscr.io/linuxserver/webtop
-  tag: arch-kde@sha256:53c9faa8c8562a40b7600358a3d1aa7a3b7737734f6021c6e47d256509d83d96
+  tag: arch-kde@sha256:74283f4102e49d08a64ed1dd837ec1d3f4bbd3d3e2b9a7ef682e95238457cc8b
   pullPolicy: Always
 alpineMATEImage:
   repository: lscr.io/linuxserver/webtop
@@ -44,7 +44,7 @@ fedoraMATEImage:
   pullPolicy: Always
 archMATEImage:
   repository: lscr.io/linuxserver/webtop
-  tag: arch-mate@sha256:a6276a87474cee8f6aab557f06479685369039324a42ba0a9e6460cc0c832f95
+  tag: arch-mate@sha256:f27cb8b5def4a1e4a26cd17202331b7ba03f0fed66e2f4cf49aedde38521903f
   pullPolicy: Always
 alpineI3Image:
   repository: lscr.io/linuxserver/webtop
