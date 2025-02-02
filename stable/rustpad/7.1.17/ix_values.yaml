@@ -1,7 +1,7 @@
 image:
   pullPolicy: IfNotPresent
   repository: ekzhang/rustpad
-  tag: latest@sha256:d8f45a7ab87c8e539b68ecc478e7319b001d7a7dfe7916d7a0f3928b7eb51cf6
+  tag: latest@sha256:536b63883b2661f31de580df438427f2b799f9284bf9f908708ea3b5d231b585
 persistence:
   storagedatabase:
     enabled: true
