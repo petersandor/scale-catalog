@@ -1,11 +1,11 @@
 image:
   pullPolicy: IfNotPresent
-  repository: ronnieroller/media-roller
-  tag: latest@sha256:2b620e00c04abe7ad27c49078c8c0adfe7ac655104ed72234bcffe56e58c5346
+  repository: lscr.io/linuxserver/kdenlive
+  tag: latest@sha256:a50ff0d31f10937f2fb13a91687989468185d0ed1ac3ad6c65f0bdf6a8745769
 persistence:
-  download:
+  config:
     enabled: true
-    mountPath: /download
+    mountPath: /config
 portal:
   open:
     enabled: true
@@ -21,3 +21,11 @@ service:
         port: 3000
         protocol: tcp
         targetPort: 3000
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            KEYBOARD: ""
+            SUBFOLDER: ""
