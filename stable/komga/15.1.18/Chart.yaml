@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: Downloaders
+  truecharts.org/category: media
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "4.9.20"
+appVersion: "1.19.1"
 dependencies:
   - name: common
     version: 24.1.11
@@ -17,22 +17,24 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: A simple script to monitor qBit and communicate with Radarr and Sonarr.
-home: https://truecharts.org/charts/stable/qbitrr
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/qbitrr.webp
+description: A comics/mangas server to serve/stream pages via API
+home: https://truecharts.org/charts/stable/komga
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/komga.webp
 keywords:
-  - qbitrr
-  - Downloaders
-  - MediaApp-Other
+  - komga
+  - comics
+  - mangas
+  - server
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: qbitrr
+name: komga
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/qbitrr
-  - https://github.com/Feramance/Qbitrr
-  - https://hub.docker.com/r/feramance/qbitrr
+  - https://github.com/truecharts/charts/tree/master/charts/stable/komga
+  - https://github.com/gotson/komga
+  - https://hub.docker.com/r/gotson/komga
+  - https://komga.org/
 type: application
-version: 6.2.17
+version: 15.1.18
