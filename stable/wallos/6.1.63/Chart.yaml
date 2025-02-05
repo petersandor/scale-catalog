@@ -17,22 +17,20 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Get all your books, like series with Sonarr...
-home: https://truecharts.org/charts/stable/lazylibrarian
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/lazylibrarian.webp
+description: Wallos - Self Hosted Subscription tracker
+home: https://truecharts.org/charts/stable/wallos
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/wallos.webp
 keywords:
-  - lazylibrarian
-  - ebooks
+  - dashboard
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: lazylibrarian
+name: wallos
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/lazylibrarian
-  - https://ghcr.io/linuxserver/lazylibrarian
-  - https://gitlab.com/LazyLibrarian/LazyLibrarian.git
-  - https://lazylibrarian.gitlab.io
+  - https://github.com/truecharts/charts/tree/master/charts/stable/wallos
+  - https://github.com/ellite/Wallos
+  - https://hub.docker.com/r/bellamy/wallos
 type: application
-version: 20.1.92
+version: 6.1.63
