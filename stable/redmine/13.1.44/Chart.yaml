@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: storage
+  truecharts.org/category: productivity
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "0.32.1"
+appVersion: "5.1.6"
 dependencies:
   - name: common
     version: 24.1.11
@@ -17,21 +17,24 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: IPFS is a global, versioned, peer-to-peer Interplanetary Filesystem.
-home: https://truecharts.org/charts/stable/ipfs
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/ipfs.webp
+description: Redmine is a flexible project management web application written using Ruby on Rails framework.
+home: https://truecharts.org/charts/stable/redmine
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/redmine.webp
 keywords:
-  - ipfs
-  - kubo
+  - project
+  - management
+  - time
+  - tracking
+  - ticket
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: ipfs
+name: redmine
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/ipfs
-  - https://github.com/ipfs/kubo
-  - https://hub.docker.com/r/ipfs/kubo
+  - https://github.com/truecharts/charts/tree/master/charts/stable/redmine
+  - https://github.com/redmine/redmine
+  - https://hub.docker.com/_/redmine
 type: application
-version: 12.2.11
+version: 13.1.44
