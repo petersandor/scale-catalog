@@ -4,11 +4,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/incubator/docuseal/2.2.29",
-        "last_update": "2025-02-06 12:18:50",
+        "last_update": "2025-02-06 14:45:53",
         "required_features": [
             "definitions/certificate",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
+            "definitions/timezone",
             "definitions/interface"
         ],
         "human_version": "1.9.0_2.2.29",
@@ -5281,11 +5281,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/incubator/docuseal/2.2.28",
-        "last_update": "2025-02-06 12:18:50",
+        "last_update": "2025-02-06 14:45:53",
         "required_features": [
             "definitions/certificate",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
+            "definitions/timezone",
             "definitions/interface"
         ],
         "human_version": "1.8.9_2.2.28",
@@ -10558,11 +10558,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/incubator/docuseal/1.0.0",
-        "last_update": "2025-02-06 12:18:50",
+        "last_update": "2025-02-06 14:45:53",
         "required_features": [
             "definitions/certificate",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
+            "definitions/timezone",
             "definitions/interface"
         ],
         "human_version": "1.5.6_1.0.0",
