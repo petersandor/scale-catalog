@@ -4,11 +4,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/emulatorjs/11.1.42",
-        "last_update": "2025-02-07 19:14:52",
+        "last_update": "2025-02-07 21:52:08",
         "required_features": [
-            "definitions/certificate",
-            "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
+            "definitions/certificate",
             "definitions/timezone"
         ],
         "human_version": "1.9.2_11.1.42",
@@ -6572,11 +6572,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/emulatorjs/11.1.41",
-        "last_update": "2025-02-07 19:14:52",
+        "last_update": "2025-02-07 21:52:08",
         "required_features": [
-            "definitions/certificate",
-            "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
+            "definitions/certificate",
             "definitions/timezone"
         ],
         "human_version": "1.9.2_11.1.41",
@@ -13140,11 +13140,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/emulatorjs/10.1.7",
-        "last_update": "2025-02-07 19:14:52",
+        "last_update": "2025-02-07 21:52:08",
         "required_features": [
-            "definitions/certificate",
-            "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
+            "definitions/certificate",
             "definitions/timezone"
         ],
         "human_version": "1.9.0_10.1.7",
@@ -19705,11 +19705,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/emulatorjs/10.1.6",
-        "last_update": "2025-02-07 19:14:52",
+        "last_update": "2025-02-07 21:52:08",
         "required_features": [
-            "definitions/certificate",
-            "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
+            "definitions/certificate",
             "definitions/timezone"
         ],
         "human_version": "1.9.0_10.1.6",
@@ -26270,11 +26270,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/emulatorjs/9.8.14",
-        "last_update": "2025-02-07 19:14:52",
+        "last_update": "2025-02-07 21:52:08",
         "required_features": [
-            "definitions/certificate",
-            "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
+            "definitions/certificate",
             "definitions/timezone"
         ],
         "human_version": "1.8.8_9.8.14",
@@ -32405,11 +32405,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/emulatorjs/9.8.13",
-        "last_update": "2025-02-07 19:14:52",
+        "last_update": "2025-02-07 21:52:08",
         "required_features": [
-            "definitions/certificate",
-            "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
+            "definitions/certificate",
             "definitions/timezone"
         ],
         "human_version": "1.8.8_9.8.13",
@@ -38540,11 +38540,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/emulatorjs/8.4.0",
-        "last_update": "2025-02-07 19:14:52",
+        "last_update": "2025-02-07 21:52:08",
         "required_features": [
-            "definitions/gpuConfiguration",
             "definitions/interface",
             "definitions/certificate",
+            "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration",
             "definitions/timezone"
         ],
@@ -44718,11 +44718,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/emulatorjs/8.3.1",
-        "last_update": "2025-02-07 19:14:52",
+        "last_update": "2025-02-07 21:52:08",
         "required_features": [
-            "definitions/gpuConfiguration",
             "definitions/interface",
             "definitions/certificate",
+            "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration",
             "definitions/timezone"
         ],
