@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/incubator/lyrion-music-server/3.1.109",
-        "last_update": "2025-02-08 03:03:06",
+        "last_update": "2025-02-08 07:32:44",
         "required_features": [
             "definitions/timezone",
             "normalize/interfaceConfiguration",
@@ -5539,7 +5539,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/incubator/lyrion-music-server/3.1.108",
-        "last_update": "2025-02-08 03:03:06",
+        "last_update": "2025-02-08 07:32:44",
         "required_features": [
             "definitions/timezone",
             "normalize/interfaceConfiguration",
@@ -11074,7 +11074,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/incubator/lyrion-music-server/2.0.4",
-        "last_update": "2025-02-08 03:03:06",
+        "last_update": "2025-02-08 07:32:44",
         "required_features": [
             "definitions/timezone",
             "normalize/interfaceConfiguration",
@@ -16606,7 +16606,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/incubator/lyrion-music-server/2.0.3",
-        "last_update": "2025-02-08 03:03:06",
+        "last_update": "2025-02-08 07:32:44",
         "required_features": [
             "definitions/timezone",
             "normalize/interfaceConfiguration",
@@ -22154,7 +22154,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/incubator/lyrion-music-server/1.0.15",
-        "last_update": "2025-02-08 03:03:06",
+        "last_update": "2025-02-08 07:32:44",
         "required_features": [
             "definitions/timezone",
             "normalize/interfaceConfiguration",
@@ -27357,7 +27357,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/incubator/lyrion-music-server/1.0.14",
-        "last_update": "2025-02-08 03:03:06",
+        "last_update": "2025-02-08 07:32:44",
         "required_features": [
             "definitions/timezone",
             "normalize/interfaceConfiguration",
