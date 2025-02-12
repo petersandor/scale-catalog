@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: office
+  truecharts.org/category: smtp
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "24.04.11.3"
+appVersion: "0.7.2"
 dependencies:
   - name: common
     version: 24.1.11
@@ -17,21 +17,21 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: An awesome, Online Office suite image suitable for home use.
-home: https://truecharts.org/charts/stable/collabora
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/collabora.webp
+description: A SMTP service for relaying emails.
+home: https://truecharts.org/charts/stable/smtp-relay
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/smtp-relay.webp
 keywords:
-  - office
-  - document
+  - smtp-relay
+  - smtp
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: collabora
+name: smtp-relay
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/collabora
-  - https://github.com/CollaboraOnline/online
-  - https://hub.docker.com/r/collabora/code
+  - https://github.com/truecharts/charts/tree/master/charts/stable/smtp-relay
+  - https://ghcr.io/ix-ai/smtp
+  - https://github.com/ix-ai/smtp
 type: application
-version: 7.1.23
+version: 5.1.20
