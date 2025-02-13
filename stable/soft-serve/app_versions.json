@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/soft-serve/8.1.12",
-        "last_update": "2025-02-13 05:38:10",
+        "last_update": "2025-02-13 08:18:57",
         "required_features": [
             "definitions/timezone",
             "definitions/interface",
@@ -6524,7 +6524,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/soft-serve/8.1.11",
-        "last_update": "2025-02-13 05:38:10",
+        "last_update": "2025-02-13 08:18:57",
         "required_features": [
             "definitions/timezone",
             "definitions/interface",
@@ -13044,7 +13044,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/soft-serve/7.0.9",
-        "last_update": "2025-02-13 05:38:10",
+        "last_update": "2025-02-13 08:18:57",
         "required_features": [
             "definitions/timezone",
             "definitions/interface",
@@ -19561,7 +19561,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/soft-serve/7.0.8",
-        "last_update": "2025-02-13 05:38:10",
+        "last_update": "2025-02-13 08:18:57",
         "required_features": [
             "definitions/timezone",
             "definitions/interface",
@@ -26078,7 +26078,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/soft-serve/6.8.14",
-        "last_update": "2025-02-13 05:38:10",
+        "last_update": "2025-02-13 08:18:57",
         "required_features": [
             "definitions/timezone",
             "definitions/interface",
@@ -32064,7 +32064,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/soft-serve/6.8.13",
-        "last_update": "2025-02-13 05:38:10",
+        "last_update": "2025-02-13 08:18:57",
         "required_features": [
             "definitions/timezone",
             "definitions/interface",
@@ -38050,7 +38050,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/soft-serve/5.3.0",
-        "last_update": "2025-02-13 05:38:10",
+        "last_update": "2025-02-13 08:18:57",
         "required_features": [
             "definitions/timezone",
             "definitions/gpuConfiguration",
@@ -44079,7 +44079,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/soft-serve/5.2.0",
-        "last_update": "2025-02-13 05:38:10",
+        "last_update": "2025-02-13 08:18:57",
         "required_features": [
             "definitions/timezone",
             "definitions/gpuConfiguration",

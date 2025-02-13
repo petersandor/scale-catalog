@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/watchyourlan/11.0.7",
-        "last_update": "2025-02-13 05:38:10",
+        "last_update": "2025-02-13 08:18:57",
         "required_features": [
             "definitions/timezone",
             "definitions/interface",
@@ -5353,7 +5353,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/watchyourlan/11.0.6",
-        "last_update": "2025-02-13 05:38:10",
+        "last_update": "2025-02-13 08:18:57",
         "required_features": [
             "definitions/timezone",
             "definitions/interface",
@@ -10702,7 +10702,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/watchyourlan/10.1.5",
-        "last_update": "2025-02-13 05:38:10",
+        "last_update": "2025-02-13 08:18:57",
         "required_features": [
             "definitions/timezone",
             "definitions/interface",
@@ -16051,7 +16051,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/watchyourlan/10.1.4",
-        "last_update": "2025-02-13 05:38:10",
+        "last_update": "2025-02-13 08:18:57",
         "required_features": [
             "definitions/timezone",
             "definitions/interface",
@@ -21400,7 +21400,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/watchyourlan/9.0.8",
-        "last_update": "2025-02-13 05:38:10",
+        "last_update": "2025-02-13 08:18:57",
         "required_features": [
             "definitions/timezone",
             "definitions/interface",
@@ -26746,7 +26746,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/watchyourlan/9.0.7",
-        "last_update": "2025-02-13 05:38:10",
+        "last_update": "2025-02-13 08:18:57",
         "required_features": [
             "definitions/timezone",
             "definitions/interface",
@@ -32092,7 +32092,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/watchyourlan/8.8.14",
-        "last_update": "2025-02-13 05:38:10",
+        "last_update": "2025-02-13 08:18:57",
         "required_features": [
             "definitions/timezone",
             "definitions/interface",
@@ -37109,7 +37109,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/watchyourlan/8.8.13",
-        "last_update": "2025-02-13 05:38:10",
+        "last_update": "2025-02-13 08:18:57",
         "required_features": [
             "definitions/timezone",
             "definitions/interface",
@@ -42126,7 +42126,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/watchyourlan/7.3.0",
-        "last_update": "2025-02-13 05:38:10",
+        "last_update": "2025-02-13 08:18:57",
         "required_features": [
             "definitions/timezone",
             "definitions/gpuConfiguration",
@@ -47186,7 +47186,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/watchyourlan/7.2.0",
-        "last_update": "2025-02-13 05:38:10",
+        "last_update": "2025-02-13 08:18:57",
         "required_features": [
             "definitions/timezone",
             "definitions/gpuConfiguration",
