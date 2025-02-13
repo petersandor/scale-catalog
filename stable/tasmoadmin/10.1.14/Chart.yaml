@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: AI
+  truecharts.org/category: home-automation
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "0.5.7"
+appVersion: "4.2.3"
 dependencies:
   - name: common
     version: 24.1.11
@@ -17,23 +17,22 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Get up and running with large language models locally.
-home: https://truecharts.org/charts/stable/ollama
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/ollama.webp
+description: A administrative platform for devices flashed with Tasmota.
+home: https://truecharts.org/charts/stable/tasmoadmin
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/tasmoadmin.webp
 keywords:
-  - ollama
-  - language-models
+  - tasmoadmin
+  - home-automation
+  - Network-Management
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: ollama
+name: tasmoadmin
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/ollama
-  - https://ghcr.io/open-webui/open-webui
-  - https://github.com/ollama/ollama
-  - https://github.com/open-webui/open-webui
-  - https://hub.docker.com/r/ollama/ollama
+  - https://github.com/truecharts/charts/tree/master/charts/stable/tasmoadmin
+  - https://ghcr.io/tasmoadmin/tasmoadmin
+  - https://github.com/TasmoAdmin/TasmoAdmin
 type: application
-version: 7.3.75
+version: 10.1.14
