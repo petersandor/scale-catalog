@@ -1,7 +1,7 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: Cloud
+  truecharts.org/category: Tools-Utilities
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
@@ -17,23 +17,22 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: YOURLS is a set of PHP scripts that will allow you to run Your Own URL Shortener.
-home: https://truecharts.org/charts/stable/yourls
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/yourls.webp
+description: Self Hosted, self contained New Year Countdown clock
+home: https://truecharts.org/charts/stable/newyearcountdownclock
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/newyearcountdownclock.webp
 keywords:
-  - yourls
-  - Cloud
+  - newyearcountdownclock
   - Tools-Utilities
-  - Network-Web
-  - Network-Other
+  - Other
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: yourls
+name: newyearcountdownclock
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/yourls
-  - https://hub.docker.com/_/yourls
+  - https://github.com/truecharts/charts/tree/master/charts/stable/newyearcountdownclock
+  - https://github.com/modem7/Docker-NewYearCountdown
+  - https://hub.docker.com/r/modem7/newyearcountdown
 type: application
-version: 7.1.30
+version: 7.1.13
