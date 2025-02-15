@@ -1,37 +1,39 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: utilities
+  truecharts.org/category: voice
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "2"
+appVersion: "3.13.7"
 dependencies:
   - name: common
-    version: 24.1.10
+    version: 24.1.11
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
     tags: []
     import-values: []
 deprecated: false
-description: Docker registry v2 command line client and repo listing generator with security checks.
-home: https://truecharts.org/charts/stable/reg
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/reg.webp
+description: TeamSpeak is software for quality voice communication via the Internet.
+home: https://truecharts.org/charts/stable/teamspeak3
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/teamspeak3.webp
 keywords:
-  - reg
+  - voice server
+  - teamspeak
+  - teamspeak3
+  - teamspeak server
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: reg
+name: teamspeak3
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/reg
-  - https://github.com/genuinetools/reg
-  - https://github.com/k8s-at-home/container-images/
-  - https://hub.docker.com/_/registry
+  - https://github.com/truecharts/charts/tree/master/charts/stable/teamspeak3
+  - https://hub.docker.com/_/teamspeak
+  - https://www.teamspeak.com/en/
 type: application
-version: 15.1.14
+version: 12.1.13

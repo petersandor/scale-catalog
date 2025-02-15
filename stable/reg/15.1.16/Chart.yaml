@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: home-automation
+  truecharts.org/category: utilities
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "2.0.20"
+appVersion: "2"
 dependencies:
   - name: common
     version: 24.1.11
@@ -17,23 +17,21 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Eclipse Mosquitto - An open source MQTT broker
-home: https://truecharts.org/charts/stable/mosquitto
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/mosquitto.webp
+description: Docker registry v2 command line client and repo listing generator with security checks.
+home: https://truecharts.org/charts/stable/reg
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/reg.webp
 keywords:
-  - mosquitto
-  - home-automation
-  - MQTT
-  - eclipse-iot
+  - reg
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: mosquitto
+name: reg
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/mosquitto
-  - https://github.com/eclipse/mosquitto
-  - https://hub.docker.com/_/eclipse-mosquitto
+  - https://github.com/truecharts/charts/tree/master/charts/stable/reg
+  - https://github.com/genuinetools/reg
+  - https://github.com/k8s-at-home/container-images/
+  - https://hub.docker.com/_/registry
 type: application
-version: 16.1.19
+version: 15.1.16
