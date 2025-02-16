@@ -1,7 +1,7 @@
 image:
   repository: quay.io/hedgedoc/hedgedoc
   pullPolicy: IfNotPresent
-  tag: 1.10.0@sha256:fa293beaef35e7160713a41d719c73af973d3beacc913e18c07c44d534d3f74c
+  tag: 1.10.2@sha256:bd148542ea60a502fd2c87e6644a021923798fe1a135569d037b0f2116048db7
 service:
   main:
     ports:
