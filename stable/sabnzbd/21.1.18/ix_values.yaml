@@ -1,19 +1,16 @@
 image:
-  repository: ghcr.io/onedr0p/radarr
+  repository: ghcr.io/onedr0p/sabnzbd
   pullPolicy: IfNotPresent
-  tag: 5.17.2.9580@sha256:32d0e8d46f5619069d88445936670ffbca5a3aab7ed2e94e77a834ed85df81bb
+  tag: 4.4.1@sha256:78368fe35996a3f08f98fadaf8d336a133fe77faa191c873fda0e7494d0ac7cb
 exportarrImage:
   repository: ghcr.io/onedr0p/exportarr
   pullPolicy: IfNotPresent
   tag: v2.0.1@sha256:727e7bc8f2f0934a2117978c59f4476b954018b849a010ea6cfb380bd6539644
-securityContext:
-  container:
-    readOnlyRootFilesystem: false
 service:
   main:
     ports:
       main:
-        port: 7878
+        port: 10097
   metrics:
     enabled: true
     type: ClusterIP
@@ -21,30 +18,18 @@ service:
     ports:
       metrics:
         enabled: true
-        port: 7879
+        port: 8990
         targetSelector: exportarr
 workload:
   main:
     podSpec:
       containers:
         main:
-          probes:
-            readiness:
-              enabled: true
-              type: http
-              path: /ping
-            liveness:
-              enabled: true
-              type: http
-              path: /ping
-            startup:
-              enabled: true
-              type: http
-              path: /ping
           env:
-            RADARR__PORT: "{{ .Values.service.main.ports.main.port }}"
+            SABNZBD__HOST_WHITELIST_ENTRIES: ""
+            SABNZBD__PORT: "{{ .Values.service.main.ports.main.port }}"
   exportarr:
-    enabled: true
+    enabled: "{{ .Values.metrics.main.enabled }}"
     type: Deployment
     strategy: RollingUpdate
     replicas: 1
@@ -55,7 +40,7 @@ workload:
           enabled: true
           imageSelector: exportarrImage
           args:
-            - radarr
+            - sabnzbd
           probes:
             liveness:
               enabled: true
@@ -76,11 +61,7 @@ workload:
             INTERFACE: 0.0.0.0
             PORT: "{{ .Values.service.metrics.ports.metrics.port }}"
             URL: '{{ printf "http://%v:%v" (include "tc.v1.common.lib.chart.names.fullname" $) .Values.service.main.ports.main.port }}'
-            # additional metrics (slow)
-            # ENABLE_ADDITIONAL_METRICS: false
-            # enable gathering unknown queue items
-            # ENABLE_UNKNOWN_QUEUE_ITEMS: false
-            CONFIG: "/config/config.xml"
+            APIKEY: "{{ .Values.metrics.main.apiKey }}"
 persistence:
   config:
     enabled: true
@@ -94,15 +75,15 @@ persistence:
           readOnly: true
 metrics:
   main:
-    enabled: true
+    enabled: false
     type: "servicemonitor"
     endpoints:
       - port: metrics
         path: /metrics
     targetSelector: metrics
-    prometheusRule:
-      enabled: false
+    # Required for exportarr
+    apiKey: ""
+
 portal:
   open:
     enabled: true
-updated: true
