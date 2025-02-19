@@ -1,7 +1,7 @@
 image:
   pullPolicy: IfNotPresent
   repository: farmos/farmos
-  tag: latest@sha256:be6ede347d532d13da6b74b3690560474af4b896dcf34699514d913ad5943657
+  tag: latest@sha256:03b6be020f28c76f5c530619c4f37256698f8115a5ba07cb88d99c9251054c59
 persistence:
   sitesdirectory:
     enabled: true
