@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: business
+  truecharts.org/category: productivity
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
-  truecharts.org/train: incubator
+  truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "1.9.0"
+appVersion: "17.0.0-pos"
 dependencies:
   - name: common
     version: 24.1.11
@@ -17,21 +17,21 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Open source DocuSign alternative. Create, fill, and sign digital documents.
-home: https://truecharts.org/charts/incubator/docuseal
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/docuseal.webp
+description: XWiki is a free wiki software platform written in Java with a design emphasis on extensibility
+home: https://truecharts.org/charts/stable/xwiki
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/xwiki.webp
 keywords:
-  - docuseal
-  - business
+  - xwiki
+  - wiki
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: docuseal
+name: xwiki
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/incubator/docuseal
-  - https://github.com/docusealco/docuseal
-  - https://hub.docker.com/r/docuseal/docuseal
+  - https://github.com/truecharts/charts/tree/master/charts/stable/xwiki
+  - https://github.com/xwiki/xwiki-docker
+  - https://hub.docker.com/_/xwiki
 type: application
-version: 2.2.29
+version: 14.3.21
