@@ -1,38 +1,35 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: database
+  truecharts.org/category: incubator
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "7.4.2"
+appVersion: "1.4.5"
 dependencies:
   - name: common
     version: 24.1.11
     repository: https://petersandor.github.io/truecharts-common
-    condition: includeCommon
+    condition: ''
     alias: ''
     tags: []
     import-values: []
 deprecated: false
-description: Open source, advanced key-value store.
-home: https://truecharts.org/charts/stable/redis
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/redis.webp
+description: Rsnapshot is a filesystem snapshot utility based on rsync.
+home: https://truecharts.org/charts/stable/rsnapshot
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/rsnapshot.webp
 keywords:
-  - redis
-  - keyvalue
-  - database
+  - rsnapshot
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: redis
+name: rsnapshot
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/redis
-  - https://github.com/bitnami/bitnami-docker-redis
-  - https://hub.docker.com/r/bitnami/redis
+  - https://github.com/truecharts/charts/tree/master/charts/stable/rsnapshot
+  - https://ghcr.io/linuxserver/rsnapshot
 type: application
-version: 15.2.16
+version: 11.1.28
