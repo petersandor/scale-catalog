@@ -1,6 +1,6 @@
 image:
   repository: shenxn/protonmail-bridge
-  tag: 3.16.0-1@sha256:40fdfffb8bb07e74144f9e9b43ab9e7de4a71aecf4328a1412d2631109039bce
+  tag: 3.17.0-1@sha256:e96a7d1e9c96b111e89f3a6c1e8e155dcf413e3d7bb63211478fdd290aeed76c
   pullPolicy: IfNotPresent
 securityContext:
   container:
