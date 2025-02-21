@@ -1,7 +1,7 @@
 image:
   repository: openhab/openhab
   pullPolicy: IfNotPresent
-  tag: 4.2.3@sha256:e16fbee7127b080c4ac8d8645f6d95398a2d14a5ca2e00467c7c51a88630c4c0
+  tag: 4.3.3@sha256:c097fead7958ee94a693f7f8123df8f50df5a8eb15d531994ea7da3cf905279a
 service:
   main:
     ports:
