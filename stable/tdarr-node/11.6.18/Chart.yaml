@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: incubator
+  truecharts.org/category: media
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "8.0.41"
+appVersion: "2.33.01"
 dependencies:
   - name: common
     version: 24.1.11
@@ -17,19 +17,22 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: MySQL Workbench is a unified visual tool for database architects, developers and DBAs.
-home: https://truecharts.org/charts/stable/mysql-workbench
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/mysql-workbench.webp
+description: Audio/Video library transcoding automation
+home: https://truecharts.org/charts/stable/tdarr-node
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/tdarr-node.webp
 keywords:
-  - mysql-workbench
+  - encode
+  - media
+  - tdarr
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: mysql-workbench
+name: tdarr-node
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/mysql-workbench
-  - https://ghcr.io/linuxserver/mysql-workbench
+  - https://github.com/truecharts/charts/tree/master/charts/stable/tdarr-node
+  - https://github.com/HaveAGitGat/Tdarr
+  - https://hub.docker.com/r/haveagitgat/tdarr_node
 type: application
-version: 11.1.38
+version: 11.6.18

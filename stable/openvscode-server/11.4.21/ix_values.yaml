@@ -1,13 +1,17 @@
 image:
-  repository: ghcr.io/linuxserver/lazylibrarian
+  repository: ghcr.io/linuxserver/openvscode-server
   pullPolicy: IfNotPresent
-  tag: latest@sha256:62fd8365e82433f49209e64d261ff5d97732bfd4a0b473b67ba99b6445d93257
+  tag: 1.96.4@sha256:8e755e9b80cc2a8922348a958da0343ccddaaa96526a273eb2c432130f5dca70
+# secretEnv:
+#   CONNECTION_TOKEN: "somerandomstring"
+#   CONNECTION_SECRET: ""
+#   SUDO_PASSWORD: ""
 service:
   main:
     ports:
       main:
-        port: 5299
-        targetPort: 5299
+        targetPort: 3000
+        port: 10135
 persistence:
   config:
     enabled: true
