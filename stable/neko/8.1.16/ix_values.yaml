@@ -1,19 +1,19 @@
 image:
   pullPolicy: IfNotPresent
   repository: ghcr.io/m1k1o/neko/firefox
-  tag: 2.8.13@sha256:cf95cc75064e9f4b30d1c7d39188c5045e326e246f3c51e04041b87d3b555462
+  tag: 2.9.0@sha256:ef73f05b7d3452fe3c8c7e865595360bd63c0af908e73743ebe74b072b14a65c
 braveImage:
   pullPolicy: IfNotPresent
   repository: ghcr.io/m1k1o/neko/brave
-  tag: 2.8.13@sha256:7d56afaf96219be5662bb5fb15835713826aae671e88854daf991a43e539fc23
+  tag: 2.9.0@sha256:d113770cab86f0458059b4de6db081bae0e6936011aa86c09e61dc6d050c505f
 chromeImage:
   pullPolicy: IfNotPresent
   repository: ghcr.io/m1k1o/neko/google-chrome
-  tag: 2.8.13@sha256:5aa2a2f773dc03f92d352767b5b4d460c70bd7f623c219e366d2a71946697d77
+  tag: 2.9.0@sha256:09ff3462f5df02d7fcb678478ba4afbcf80d1b0189f74e5c640c8b43629358ab
 chromiumImage:
   pullPolicy: IfNotPresent
   repository: ghcr.io/m1k1o/neko/chromium
-  tag: 2.8.13@sha256:e6be2e5ca5a28d31983a36920b2539f7fb88bfba0b048df7c8eaf315331a6688
+  tag: 2.9.0@sha256:ddf5e45420ee38f5e5be7931d48abd003a2eb96a343a62923ed7abd8107ff2d8
 edgeImage:
   pullPolicy: IfNotPresent
   repository: ghcr.io/m1k1o/neko/microsoft-edge
