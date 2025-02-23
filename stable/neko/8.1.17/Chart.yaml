@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "2.8.13"
+appVersion: "2.9.0"
 dependencies:
   - name: common
     version: 24.1.11
@@ -43,4 +43,4 @@ sources:
   - https://ghcr.io/m1k1o/neko/xfce
   - https://github.com/m1k1o/neko
 type: application
-version: 8.1.15
+version: 8.1.17
