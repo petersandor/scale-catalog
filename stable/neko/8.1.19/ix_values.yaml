@@ -29,15 +29,15 @@ torImage:
 vivaldiImage:
   pullPolicy: IfNotPresent
   repository: ghcr.io/m1k1o/neko/vivaldi
-  tag: 2.8.13@sha256:591c9152f265a65ce3c5f9922fc75c2d7462776bb1fdff189ff3fe9b1b5cbdfe
+  tag: 2.9.0@sha256:9be91b147fa940a73001308eb4ae668edc7e3d0363ced513ab55041b3244276a
 vlcImage:
   pullPolicy: IfNotPresent
   repository: ghcr.io/m1k1o/neko/vlc
-  tag: 2.8.13@sha256:4b9fb576e25e22c31f840433da9fc90cec622c23f1bb5a8653d3f6563f994d93
+  tag: 2.9.0@sha256:402affce87b105aef08f816da5fcb9c73858001b21fcbf04c82835ea4dea74a8
 xfceImage:
   pullPolicy: IfNotPresent
   repository: ghcr.io/m1k1o/neko/xfce
-  tag: 2.8.12@sha256:9e22037ffa469cbc04f3b0438473fc314b9d3b3460af329154f735554dece20c
+  tag: 2.9.0@sha256:cce8ee6d981ba705184bbe985c5ab5ca081841491a290efec16785f0697b288a
 
 securityContext:
   container:
