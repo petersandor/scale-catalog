@@ -1,7 +1,7 @@
 image:
   repository: bobokun/qbit_manage
   pullPolicy: IfNotPresent
-  tag: v4.1.16@sha256:3d456960c8d97c7c20efa13e3e999840c21433ba04678ee0d806c5a08425dc9b
+  tag: v4.1.18@sha256:ee612701600a18d01bbd71627338e55596334e6ce8be3c6ae908680c53055f01
 service:
   main:
     enabled: false
