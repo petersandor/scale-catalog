@@ -1,7 +1,7 @@
 image:
-  repository: ghcr.io/onedr0p/sonarr
+  repository: ghcr.io/onedr0p/sabnzbd
   pullPolicy: IfNotPresent
-  tag: 4.0.13.2932@sha256:004aa9dc8e670e28b3ee2dc65b3b850ea3bd5a45d3c5ce5068bc4d45583c1770
+  tag: 4.4.1@sha256:b7380cd5a93a0a232c5ce25803531b1575453953e99de4e6b8a1398e73442e5b
 exportarrImage:
   repository: ghcr.io/onedr0p/exportarr
   pullPolicy: IfNotPresent
@@ -10,7 +10,7 @@ service:
   main:
     ports:
       main:
-        port: 8989
+        port: 10097
   metrics:
     enabled: true
     type: ClusterIP
@@ -25,24 +25,11 @@ workload:
     podSpec:
       containers:
         main:
-          probes:
-            liveness:
-              enabled: true
-              type: http
-              path: /ping
-            readiness:
-              enabled: true
-              type: http
-              path: /ping
-            startup:
-              enabled: true
-              type: http
-              path: /ping
           env:
-            SONARR__PORT: "{{ .Values.service.main.ports.main.port }}"
-            SONARR__AUTHENTICATION_METHOD: ""
+            SABNZBD__HOST_WHITELIST_ENTRIES: ""
+            SABNZBD__PORT: "{{ .Values.service.main.ports.main.port }}"
   exportarr:
-    enabled: true
+    enabled: "{{ .Values.metrics.main.enabled }}"
     type: Deployment
     strategy: RollingUpdate
     replicas: 1
@@ -53,7 +40,7 @@ workload:
           enabled: true
           imageSelector: exportarrImage
           args:
-            - sonarr
+            - sabnzbd
           probes:
             liveness:
               enabled: true
@@ -74,11 +61,7 @@ workload:
             INTERFACE: 0.0.0.0
             PORT: "{{ .Values.service.metrics.ports.metrics.port }}"
             URL: '{{ printf "http://%v:%v" (include "tc.v1.common.lib.chart.names.fullname" $) .Values.service.main.ports.main.port }}'
-            # additional metrics (slow)
-            # ENABLE_ADDITIONAL_METRICS: false
-            # enable gathering unknown queue items
-            # ENABLE_UNKNOWN_QUEUE_ITEMS: false
-            CONFIG: "/config/config.xml"
+            APIKEY: "{{ .Values.metrics.main.apiKey }}"
 persistence:
   config:
     enabled: true
@@ -92,15 +75,15 @@ persistence:
           readOnly: true
 metrics:
   main:
-    enabled: true
+    enabled: false
     type: "servicemonitor"
     endpoints:
       - port: metrics
         path: /metrics
     targetSelector: metrics
-    prometheusRule:
-      enabled: false
+    # Required for exportarr
+    apiKey: ""
+
 portal:
   open:
     enabled: true
-updated: true
