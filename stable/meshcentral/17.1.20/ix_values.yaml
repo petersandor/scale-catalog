@@ -1,7 +1,7 @@
 image:
   repository: ghcr.io/ylianst/meshcentral
   pullPolicy: IfNotPresent
-  tag: 1.1.36@sha256:646802bc819b3d12fb38818acfe078148bf013b25a9302fc727262c0ebc2b59a
+  tag: 1.1.39@sha256:3d3ff01bb78e3c955e68a254dbdbe665c9b21ed96ed6fe063656b2a054110c19
 workload:
   main:
     podSpec:
