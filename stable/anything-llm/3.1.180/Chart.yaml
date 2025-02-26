@@ -1,7 +1,7 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: Tools-Utilities
+  truecharts.org/category: AI
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
@@ -10,28 +10,28 @@ apiVersion: v2
 appVersion: "latest"
 dependencies:
   - name: common
-    version: 24.1.10
+    version: 24.1.11
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
     tags: []
     import-values: []
 deprecated: false
-description: Adminer (formerly phpMinAdmin) is a full-featured database management tool written in PHP.
-home: https://truecharts.org/charts/stable/adminer
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/adminer.webp
+description: Open-source ChatGPT experience for LLMs, embedders, and vector databases.
+home: https://truecharts.org/charts/stable/anything-llm
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/anything-llm.webp
 keywords:
-  - adminer
-  - Tools-Utilities
+  - anything-llm
+  - ai
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: adminer
+name: anything-llm
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/adminer
-  - https://github.com/vrana/adminer
-  - https://hub.docker.com/_/adminer
+  - https://github.com/truecharts/charts/tree/master/charts/stable/anything-llm
+  - https://ghcr.io/mintplex-labs/anything-llm
+  - https://github.com/Mintplex-Labs/anything-llm
 type: application
-version: 10.1.9
+version: 3.1.180
