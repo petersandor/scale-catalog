@@ -1,6 +1,6 @@
 image:
   repository: n8nio/n8n
-  tag: 1.80.2@sha256:665a4ca8d624770dc1b0567d99bb55e3f3d6d4f5c638355518058f2d0e7ef97a
+  tag: 1.81.0@sha256:b1e7ce157f8cde0f08a4bce4684f2814449e456a69d5395075172177f79bb07b
   pullPolicy: IfNotPresent
 timezoneandlocale: {}
 # N8N_DEFAULT_LOCALE: "en"
