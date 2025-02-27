@@ -1,7 +1,7 @@
 image:
   repository: diygod/rsshub
   pullPolicy: IfNotPresent
-  tag: latest@sha256:e55614c67fcec1e546315344c5079c60d7744e5cb66c983d6e6d94454955c292
+  tag: latest@sha256:2480e57dfa502653c3deefe133713f4d21a37cba688e1af3f46ab9c180faace1
 browserlessImage:
   repository: browserless/chrome
   tag: 1.61.1-chrome-stable@sha256:efac47cfff3830d9a50b27d29f8bbb61949058ae336c823fbe9bd3c0d1debcc8
