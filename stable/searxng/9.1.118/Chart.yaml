@@ -17,23 +17,22 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Headless Ubuntu/Xfce Charts with VNC/noVNC for diagramming, image editing and 2D/3D drawing
-home: https://truecharts.org/charts/stable/firefox-desktop-g3
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/firefox-desktop-g3.webp
+description: Meta search engine which aggregates results from more than 70 search services.
+home: https://truecharts.org/charts/stable/searxng
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/searxng.webp
 keywords:
-  - firefox-desktop-g3
+  - searxng
   - Productivity
-  - Tools-Utilities
-  - Network-Web
+  - Other
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: firefox-desktop-g3
+name: searxng
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/firefox-desktop-g3
-  - https://github.com/accetto/headless-drawing-g3/
-  - https://hub.docker.com/r/accetto/ubuntu-vnc-xfce-firefox-g3
+  - https://github.com/truecharts/charts/tree/master/charts/stable/searxng
+  - https://github.com/searxng/searxng
+  - https://hub.docker.com/r/searxng/searxng
 type: application
-version: 7.1.21
+version: 9.1.118
