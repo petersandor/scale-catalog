@@ -7,32 +7,31 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "0.9.5"
+appVersion: "1.26.0"
 dependencies:
   - name: common
-    version: 24.1.10
+    version: 24.1.11
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
     tags: []
     import-values: []
 deprecated: false
-description: A self-hosted BitTorrent indexer, DHT crawler, content classifier and torrent search engine with web UI, GraphQL API and Servarr stack integration.
-home: https://truecharts.org/charts/stable/bitmagnet
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/bitmagnet.webp
+description: FreshRSS is a self-hosted RSS feed aggregator
+home: https://truecharts.org/charts/stable/freshrss
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/freshrss.webp
 keywords:
-  - torrent
-  - bitmagnet
+  - freshrss
+  - rss
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: bitmagnet
+name: freshrss
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/bitmagnet
-  - https://bitmagnet.io
-  - https://ghcr.io/bitmagnet-io/bitmagnet
-  - https://github.com/bitmagnet-io/bitmagnet
+  - https://github.com/truecharts/charts/tree/master/charts/stable/freshrss
+  - https://ghcr.io/linuxserver/freshrss
+  - https://github.com/FreshRSS/FreshRSS
 type: application
-version: 3.2.10
+version: 20.1.39
