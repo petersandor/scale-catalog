@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/quassel-web/11.1.9",
-        "last_update": "2025-03-04 10:33:57",
+        "last_update": "2025-03-04 13:08:48",
         "required_features": [
             "definitions/timezone",
             "definitions/interface",
@@ -5317,7 +5317,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/quassel-web/11.1.8",
-        "last_update": "2025-03-04 10:33:57",
+        "last_update": "2025-03-04 13:08:48",
         "required_features": [
             "definitions/timezone",
             "definitions/interface",
@@ -10630,7 +10630,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/quassel-web/10.0.8",
-        "last_update": "2025-03-04 10:33:57",
+        "last_update": "2025-03-04 13:08:48",
         "required_features": [
             "definitions/timezone",
             "definitions/interface",
@@ -15940,7 +15940,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/quassel-web/10.0.7",
-        "last_update": "2025-03-04 10:33:57",
+        "last_update": "2025-03-04 13:08:48",
         "required_features": [
             "definitions/timezone",
             "definitions/interface",
@@ -21250,7 +21250,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/quassel-web/9.8.14",
-        "last_update": "2025-03-04 10:33:57",
+        "last_update": "2025-03-04 13:08:48",
         "required_features": [
             "definitions/timezone",
             "definitions/interface",
@@ -26231,7 +26231,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/quassel-web/9.8.13",
-        "last_update": "2025-03-04 10:33:57",
+        "last_update": "2025-03-04 13:08:48",
         "required_features": [
             "definitions/timezone",
             "definitions/interface",
@@ -31212,12 +31212,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/quassel-web/8.3.0",
-        "last_update": "2025-03-04 10:33:57",
+        "last_update": "2025-03-04 13:08:48",
         "required_features": [
-            "definitions/interface",
+            "definitions/timezone",
             "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration",
-            "definitions/timezone",
+            "definitions/interface",
             "definitions/certificate"
         ],
         "human_version": "2021.12.16_8.3.0",
@@ -36236,12 +36236,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/quassel-web/8.2.0",
-        "last_update": "2025-03-04 10:33:57",
+        "last_update": "2025-03-04 13:08:48",
         "required_features": [
-            "definitions/interface",
+            "definitions/timezone",
             "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration",
-            "definitions/timezone",
+            "definitions/interface",
             "definitions/certificate"
         ],
         "human_version": "2021.12.16_8.2.0",
