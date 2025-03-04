@@ -1,6 +1,6 @@
 image:
   repository: joplin/server
-  tag: 3.3.2-beta@sha256:024c3448c959ffb63bde68b1d22bf7023a57b2e7af11da4462b5864fa90644ec
+  tag: 3.3.4-beta@sha256:2eee59e3e08dfd72f755109165b7c094d4e9811411665f8668fbe5de03899b1d
   pullPolicy: IfNotPresent
 securityContext:
   container:
