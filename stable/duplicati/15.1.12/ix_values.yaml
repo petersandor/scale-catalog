@@ -1,6 +1,6 @@
 image:
   repository: duplicati/duplicati
-  tag: latest@sha256:b463d8a8f2ee2e1e79d04d7365d0e0ca07fcf20094dc9745c19a8e70d2bf1160
+  tag: latest@sha256:3dbb83aba8e714ff2d3c44fef564e55c73f4d67ff689e28a957e7b8f60925ca1
   pullPolicy: IfNotPresent
 service:
   main:
