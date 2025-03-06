@@ -4,11 +4,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/fogproject/4.1.10",
-        "last_update": "2025-03-05 16:39:38",
+        "last_update": "2025-03-06 00:44:43",
         "required_features": [
-            "normalize/interfaceConfiguration",
-            "definitions/gpuConfiguration",
             "definitions/interface",
+            "definitions/gpuConfiguration",
+            "normalize/interfaceConfiguration",
             "definitions/certificate"
         ],
         "human_version": "latest_4.1.10",
