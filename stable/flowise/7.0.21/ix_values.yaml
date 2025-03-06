@@ -1,7 +1,7 @@
 image:
   repository: flowiseai/flowise
   pullPolicy: IfNotPresent
-  tag: 2.2.5@sha256:0786b82aff990dc3cbb2d88733574bd3dfc424a1cfc4a4e2e47bdc643fd8c5bd
+  tag: 2.2.7@sha256:4d288a474c274149c543f180c6cab7046a5ec51d2228dd651f2a91d30753e67c
 securityContext:
   container:
     runAsNonRoot: false
