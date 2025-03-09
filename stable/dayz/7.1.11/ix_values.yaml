@@ -1,7 +1,7 @@
 image:
   pullPolicy: IfNotPresent
   repository: ich777/steamcmd
-  tag: avorion@sha256:7e93b177a96b72ea87be36c543343bd6137f1e6103b3bbd164ea52808577eace
+  tag: dayz@sha256:2cba3b58ba04b2cf2a1dd887e0261f95af4ec72d0b23b52c8a8cf82c1cee0378
 persistence:
   serverfiles:
     enabled: true
@@ -18,55 +18,29 @@ securityContext:
     runAsGroup: 0
     runAsUser: 0
 service:
-  hostport2:
-    enabled: true
-    ports:
-      hostport2:
-        enabled: true
-        port: 27000
-        protocol: udp
-        targetPort: 27000
-  hostport3:
-    enabled: true
-    ports:
-      hostport3:
-        enabled: true
-        port: 27003
-        protocol: udp
-        targetPort: 27003
-  hostport4:
-    enabled: true
-    ports:
-      hostport4:
-        enabled: true
-        port: 27020
-        protocol: udp
-        targetPort: 27020
-  hostport5:
-    enabled: true
-    ports:
-      hostport5:
-        enabled: true
-        port: 27021
-        protocol: udp
-        targetPort: 27021
   main:
     ports:
       main:
-        port: 27000
-        protocol: tcp
-        targetPort: 27000
-stdin: true
-tty: true
+        port: 2302
+        protocol: udp
+        targetPort: 2302
+  steamqueryport:
+    enabled: true
+    ports:
+      steamqueryport:
+        enabled: true
+        port: 27016
+        protocol: udp
+        targetPort: 27016
 workload:
   main:
     podSpec:
       containers:
         main:
           env:
-            GALAXY_NAME: AvorionDocker
-            GAME_ID: "565060"
+            GAME_ID: "1042420"
             GAME_PARAMS: ""
+            GAME_PORT: "2302"
             PASSWRD: ""
             USERNAME: ""
             VALIDATE: "false"
