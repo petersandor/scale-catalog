@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "3.68.1"
+appVersion: "4.98.0"
 dependencies:
   - name: common
     version: 24.1.11
@@ -17,25 +17,23 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: A Helm chart for Kubernetes
-home: https://truecharts.org/charts/stable/filezilla
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/filezilla.webp
+description: Run VS Code on any machine anywhere and access it in the browser.
+home: https://truecharts.org/charts/stable/code-server
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/code-server.webp
 keywords:
-  - filezilla
-  - ftp
-  - sftp
-  - ftps
-  - client
+  - code
+  - vs
+  - visual studio
+  - vscode
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: filezilla
+name: code-server
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/filezilla
-  - https://filezilla-project.org/
-  - https://ghcr.io/linuxserver/filezilla
-  - https://github.com/linuxserver/docker-filezilla
+  - https://github.com/truecharts/charts/tree/master/charts/stable/code-server
+  - https://github.com/cdr/code-server
+  - https://hub.docker.com/r/codercom/code-server
 type: application
-version: 13.1.38
+version: 13.3.12
