@@ -1,35 +1,38 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: media
+  truecharts.org/category: database
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "5.2.35"
+appVersion: "24.12.6.70"
 dependencies:
   - name: common
     version: 24.1.11
     repository: https://petersandor.github.io/truecharts-common
-    condition: ''
+    condition: includeCommon
     alias: ''
     tags: []
     import-values: []
 deprecated: false
-description: Synclounge is a third party tool that allows you to watch Plex in sync with your friends/family, wherever you are.
-home: https://truecharts.org/charts/stable/synclounge
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/synclounge.webp
+description: ClickHouse is a column-oriented database management system (DBMS) for online analytical processing of queries (OLAP).
+home: https://truecharts.org/charts/stable/clickhouse
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/clickhouse.webp
 keywords:
-  - synclounge
+  - database
+  - clickhouse
+  - sql
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: synclounge
+name: clickhouse
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/synclounge
-  - https://ghcr.io/linuxserver/synclounge
+  - https://github.com/truecharts/charts/tree/master/charts/stable/clickhouse
+  - https://clickhouse.com/
+  - https://hub.docker.com/r/clickhouse/clickhouse-server
 type: application
-version: 11.1.47
+version: 14.3.19
