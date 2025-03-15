@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: media
+  truecharts.org/category: cloud
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "3.15.17"
+appVersion: "2.18.3"
 dependencies:
   - name: common
     version: 24.1.11
@@ -17,21 +17,20 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: FlexGet is a multipurpose automation tool for all of your media
-home: https://truecharts.org/charts/stable/flexget
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/flexget.webp
+description: A timed task management panel that supports typescript, javaScript, python3, and shell
+home: https://truecharts.org/charts/stable/qinglong
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/qinglong.webp
 keywords:
-  - flexget
-  - automation
+  - qinglong
+  - task
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: flexget
+name: qinglong
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/flexget
-  - https://github.com/wiserain/docker-flexget
-  - https://hub.docker.com/r/wiserain/flexget
+  - https://github.com/truecharts/charts/tree/master/charts/stable/qinglong
+  - https://hub.docker.com/r/whyour/qinglong
 type: application
-version: 11.1.29
+version: 11.1.24

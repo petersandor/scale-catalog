@@ -1,7 +1,7 @@
 image:
   repository: wiserain/flexget
   pullPolicy: IfNotPresent
-  tag: 3.15.17@sha256:863dc10630d90861e1b7e6548da84b1228955a6d149605c08e1fe2ec70d9d763
+  tag: 3.15.26@sha256:57d31417695ddea7a03a6b67d5dd08b297c03bd5093a8e4e773a6bc3457b0395
 securityContext:
   container:
     runAsNonRoot: false
