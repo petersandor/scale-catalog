@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: cloud
+  truecharts.org/category: backup
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "2.18.2"
+appVersion: "2.6.8"
 dependencies:
   - name: common
     version: 24.1.11
@@ -17,20 +17,21 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: A timed task management panel that supports typescript, javaScript, python3, and shell
-home: https://truecharts.org/charts/stable/qinglong
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/qinglong.webp
+description: A borg Backup server
+home: https://truecharts.org/charts/stable/borg-server
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/borg-server.webp
 keywords:
-  - qinglong
-  - task
+  - borg-server
+  - backup
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: qinglong
+name: borg-server
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/qinglong
-  - https://hub.docker.com/r/whyour/qinglong
+  - https://github.com/truecharts/charts/tree/master/charts/stable/borg-server
+  - https://ghcr.io/anotherstranger/borg-server
+  - https://github.com/AnotherStranger/docker-borg-backup
 type: application
-version: 11.1.23
+version: 6.3.13
