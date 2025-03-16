@@ -1,7 +1,7 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: GameServers
+  truecharts.org/category: Productivity
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
@@ -17,21 +17,22 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: 'This Chart will download and install SteamCMD. It will also install   Counter-Strike: GO and run it.'
-home: https://truecharts.org/charts/stable/csgo
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/csgo.webp
+description: Meta search engine which aggregates results from more than 70 search services.
+home: https://truecharts.org/charts/stable/searxng
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/searxng.webp
 keywords:
-  - csgo
-  - GameServers
+  - searxng
+  - Productivity
+  - Other
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: csgo
+name: searxng
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/csgo
-  - https://hub.docker.com/r/ich777/steamcmd
-  - https://www.steampowered.com/
+  - https://github.com/truecharts/charts/tree/master/charts/stable/searxng
+  - https://github.com/searxng/searxng
+  - https://hub.docker.com/r/searxng/searxng
 type: application
-version: 7.1.10
+version: 9.1.134
