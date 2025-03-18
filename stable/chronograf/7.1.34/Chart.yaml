@@ -1,7 +1,7 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: Tools-Utilities
+  truecharts.org/category: Tools-System
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
@@ -17,21 +17,21 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Adminer (formerly phpMinAdmin) is a full-featured database management tool written in PHP.
-home: https://truecharts.org/charts/stable/adminer
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/adminer.webp
+description: Chronograf is InfluxDatas open source web application. Use Chronograf with the other components of the TICK stack to visualize your monitoring data and easily create alerting and automation rules.
+home: https://truecharts.org/charts/stable/chronograf
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/chronograf.webp
 keywords:
-  - adminer
-  - Tools-Utilities
+  - chronograf
+  - Tools-System
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: adminer
+name: chronograf
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/adminer
-  - https://github.com/vrana/adminer
-  - https://hub.docker.com/_/adminer
+  - https://github.com/truecharts/charts/tree/master/charts/stable/chronograf
+  - https://hub.docker.com/_/chronograf
+  - https://www.influxdata.com/time-series-platform/chronograf/
 type: application
-version: 10.1.23
+version: 7.1.34
