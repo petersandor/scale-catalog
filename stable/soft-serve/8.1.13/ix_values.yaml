@@ -1,7 +1,7 @@
 image:
   repository: charmcli/soft-serve
   pullPolicy: IfNotPresent
-  tag: v0.8.1@sha256:dab593a1b025e0d653b2c594a795d1fe189403935b41dd461c892ace4a2cf5ce
+  tag: v0.8.4@sha256:24fa61e47a40f9d9c034903e734f272e3078d054fb785f6141da99640a7b71fe
 softserve:
   host: localhost
   key_path: /.ssh/soft_serve_server_ed25519
