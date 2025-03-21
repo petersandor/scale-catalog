@@ -1,7 +1,7 @@
 image:
   repository: linuxserver/calibre-web
   pullPolicy: IfNotPresent
-  tag: version-0.6.24@sha256:5c5c9efa301495b7d196d1fe371a3ac1f99fc107a73659f9c38359ecbf01770d
+  tag: version-0.6.24@sha256:978d38b0a03b5503630a8365047060e79d3304d8c336b9a23b1e87c4b15f8256
 securityContext:
   container:
     readOnlyRootFilesystem: false
