@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: storage
+  truecharts.org/category: Productivity
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "0.33.1"
+appVersion: "latest"
 dependencies:
   - name: common
     version: 24.1.11
@@ -17,21 +17,22 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: IPFS is a global, versioned, peer-to-peer Interplanetary Filesystem.
-home: https://truecharts.org/charts/stable/ipfs
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/ipfs.webp
+description: Meta search engine which aggregates results from more than 70 search services.
+home: https://truecharts.org/charts/stable/searxng
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/searxng.webp
 keywords:
-  - ipfs
-  - kubo
+  - searxng
+  - Productivity
+  - Other
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: ipfs
+name: searxng
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/ipfs
-  - https://github.com/ipfs/kubo
-  - https://hub.docker.com/r/ipfs/kubo
+  - https://github.com/truecharts/charts/tree/master/charts/stable/searxng
+  - https://github.com/searxng/searxng
+  - https://hub.docker.com/r/searxng/searxng
 type: application
-version: 12.2.13
+version: 9.1.140

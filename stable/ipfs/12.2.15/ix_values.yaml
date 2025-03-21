@@ -1,7 +1,7 @@
 image:
   repository: ipfs/kubo
   pullPolicy: IfNotPresent
-  tag: v0.33.1@sha256:0c704e9e9bff6ca937ca170ab1f221fae317807863121904277cd971f5cae4d6
+  tag: v0.34.0@sha256:23ac0100897d3c8ed1968850a140e6946a9e8fdf29bfd0b32522ff18a4e8690a
 service:
   main:
     ports:
