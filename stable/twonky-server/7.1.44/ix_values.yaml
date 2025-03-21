@@ -1,7 +1,7 @@
 image:
   pullPolicy: IfNotPresent
   repository: dtjs48jkt/twonkyserver
-  tag: latest@sha256:55019ac6b9582832395907f41b95f8b19e871fc3c41253ee8f285ef82c567eb2
+  tag: latest@sha256:aa99c362fccd63c9ba5ff360124d2dd85f1df8bf4f60387ee83c193884fa394a
 persistence:
   config:
     enabled: true
