@@ -1,6 +1,6 @@
 image:
   repository: linuxserver/mylar3
-  tag: version-v0.8.1@sha256:90ea9825c49c63f28a25b843fe77c9706d1abf9e51a34fc21b7ec2dada5b1c7d
+  tag: version-v0.8.2@sha256:29667e112cf4f7feb0f43cb9c274bd345b324a5fa602293b0a12f6d9f7d51f5b
   pullPolicy: IfNotPresent
 service:
   main:
