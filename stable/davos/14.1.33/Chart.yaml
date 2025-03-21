@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: GameServers
+  truecharts.org/category: media
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "stable"
+appVersion: "2.2.2"
 dependencies:
   - name: common
     version: 24.1.11
@@ -17,21 +17,23 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: A game in which you build and maintain factories.
-home: https://truecharts.org/charts/stable/factorio
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/factorio.webp
+description: An FTP automation tool that periodically scans given host locations for new files.
+home: https://truecharts.org/charts/stable/davos
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/davos.webp
 keywords:
-  - factorio
-  - GameServers
+  - davos
+  - ftp
+  - automation
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: factorio
+name: davos
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/factorio
-  - https://github.com/factoriotools/factorio-docker
-  - https://hub.docker.com/r/factoriotools/factorio
+  - https://github.com/truecharts/charts/tree/master/charts/stable/davos
+  - https://ghcr.io/linuxserver/davos
+  - https://github.com/linuxserver/davos/
+  - https://github.com/linuxserver/docker-davos
 type: application
-version: 9.1.64
+version: 14.1.33
