@@ -17,20 +17,23 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Valheim dedicated gameserver with automatic update and world backup support
-home: https://truecharts.org/charts/stable/valheim
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/valheim.webp
+description: TVheadend - a TV streaming server and digital video recorder
+home: https://truecharts.org/charts/stable/tvheadend
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/tvheadend.webp
 keywords:
-  - valheim
+  - tvheadend
+  - tv
+  - streaming
+  - dvb
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: valheim
+name: tvheadend
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/valheim
-  - https://ghcr.io/lloesche/valheim-server
-  - https://github.com/lloesche/valheim-server-docker
+  - https://github.com/truecharts/charts/tree/master/charts/stable/tvheadend
+  - https://ghcr.io/linuxserver/tvheadend
+  - https://github.com/tvheadend/tvheadend
 type: application
-version: 12.1.12
+version: 21.1.37

@@ -1,7 +1,7 @@
 image:
   repository: ghcr.io/linuxserver/tvheadend
   pullPolicy: IfNotPresent
-  tag: latest@sha256:384c6bf4b97f34c792b694961e2bef2039961b90b444e2ab9a15582b8c52a889
+  tag: latest@sha256:b9277f360e6b01559471c0347325311cd921208d9c2de0ebe915e6014b530883
 service:
   main:
     ports:
