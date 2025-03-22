@@ -33,4 +33,4 @@ sources:
   - https://ghcr.io/lloesche/valheim-server
   - https://github.com/lloesche/valheim-server-docker
 type: application
-version: 12.1.9
+version: 12.1.11
