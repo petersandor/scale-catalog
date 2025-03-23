@@ -17,22 +17,20 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Get all your books, like series with Sonarr...
-home: https://truecharts.org/charts/stable/lazylibrarian
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/lazylibrarian.webp
+description: Valheim dedicated gameserver with automatic update and world backup support
+home: https://truecharts.org/charts/stable/valheim
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/valheim.webp
 keywords:
-  - lazylibrarian
-  - ebooks
+  - valheim
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: lazylibrarian
+name: valheim
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/lazylibrarian
-  - https://ghcr.io/linuxserver/lazylibrarian
-  - https://gitlab.com/LazyLibrarian/LazyLibrarian.git
-  - https://lazylibrarian.gitlab.io
+  - https://github.com/truecharts/charts/tree/master/charts/stable/valheim
+  - https://ghcr.io/lloesche/valheim-server
+  - https://github.com/lloesche/valheim-server-docker
 type: application
-version: 20.1.110
+version: 12.1.18
