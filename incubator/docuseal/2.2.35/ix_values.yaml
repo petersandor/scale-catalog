@@ -1,6 +1,6 @@
 image:
   repository: docuseal/docuseal
-  tag: 1.9.4@sha256:d7c7e695a42d46c1c0092893e03757962fda1044025a34f82c36b0d63b9f7b1c
+  tag: 1.9.6@sha256:b822cb5043e695cb869aa0bb06708eae041bc7fa18d325464f411bff86da75a4
   pullPolicy: IfNotPresent
 securityContext:
   container:
