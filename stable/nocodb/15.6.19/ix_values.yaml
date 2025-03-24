@@ -1,6 +1,6 @@
 image:
   repository: nocodb/nocodb
-  tag: 0.262.3@sha256:ea3e2d1fb33eec584b03165f17865fdc2aba78acd2dbc24b4de0850ce10b0f2b
+  tag: 0.262.5@sha256:3478bce1f128d46eb9d4a838cf2ce320693750a785aad6efa8de3235ab3733c5
   pullPolicy: IfNotPresent
 securityContext:
   container:
