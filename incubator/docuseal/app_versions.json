@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/incubator/docuseal/2.2.35",
-        "last_update": "2025-03-25 15:20:50",
+        "last_update": "2025-03-25 17:55:52",
         "required_features": [
             "definitions/timezone",
             "definitions/interface",
@@ -5281,7 +5281,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/incubator/docuseal/2.2.34",
-        "last_update": "2025-03-25 15:20:50",
+        "last_update": "2025-03-25 17:55:52",
         "required_features": [
             "definitions/timezone",
             "definitions/interface",
@@ -10558,7 +10558,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/incubator/docuseal/1.0.0",
-        "last_update": "2025-03-25 15:20:50",
+        "last_update": "2025-03-25 17:55:52",
         "required_features": [
             "definitions/timezone",
             "definitions/interface",
