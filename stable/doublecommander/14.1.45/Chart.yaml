@@ -7,33 +7,33 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "1.33.2"
+appVersion: "latest"
 dependencies:
   - name: common
-    version: 24.1.10
+    version: 24.1.11
     repository: https://petersandor.github.io/truecharts-common
     condition: ''
     alias: ''
     tags: []
     import-values: []
 deprecated: false
-description: Overseerr is a free and open source software application for managing requests for your media library. It integrates with your existing services such as Sonarr, Radarr and Plex!
-home: https://truecharts.org/charts/stable/overseerr
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/overseerr.webp
+description: A free cross platform open source file manager with two panels side by side.
+home: https://truecharts.org/charts/stable/doublecommander
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/doublecommander.webp
 keywords:
-  - overseerr
-  - plex
-  - sonarr
-  - radarr
+  - doublecommander
+  - file
+  - manager
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: overseerr
+name: doublecommander
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/overseerr
-  - https://ghcr.io/sct/overseerr
-  - https://github.com/sct/overseerr
+  - https://github.com/truecharts/charts/tree/master/charts/stable/doublecommander
+  - https://doublecmd.sourceforge.io/
+  - https://ghcr.io/linuxserver/doublecommander
+  - https://github.com/linuxserver/docker-doublecommander
 type: application
-version: 15.1.8
+version: 14.1.45
