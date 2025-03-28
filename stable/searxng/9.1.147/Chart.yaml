@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: utilities
+  truecharts.org/category: Productivity
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "4.4.3"
+appVersion: "latest"
 dependencies:
   - name: common
     version: 24.1.11
@@ -17,24 +17,22 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: The Lounge, modern web IRC client designed for self-hosting
-home: https://truecharts.org/charts/stable/thelounge
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/thelounge.webp
+description: Meta search engine which aggregates results from more than 70 search services.
+home: https://truecharts.org/charts/stable/searxng
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/searxng.webp
 keywords:
-  - thelounge
-  - IRC
-  - The Lounge
-  - docker
-  - thelounge-docker
+  - searxng
+  - Productivity
+  - Other
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: thelounge
+name: searxng
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/thelounge
-  - https://github.com/thelounge/thelounge
-  - https://hub.docker.com/r/thelounge/thelounge
+  - https://github.com/truecharts/charts/tree/master/charts/stable/searxng
+  - https://github.com/searxng/searxng
+  - https://hub.docker.com/r/searxng/searxng
 type: application
-version: 15.1.43
+version: 9.1.147
