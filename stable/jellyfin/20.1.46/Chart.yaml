@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: management
+  truecharts.org/category: media
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "5.174.0"
+appVersion: "10.10.6"
 dependencies:
   - name: common
     version: 24.1.11
@@ -17,19 +17,23 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Xen-Orchestra is a Web-UI for managing your existing XenServer infrastructure.
-home: https://truecharts.org/charts/stable/xen-orchestra
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/xen-orchestra.webp
+description: Jellyfin is a Free Software Media System
+home: https://truecharts.org/charts/stable/jellyfin
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/jellyfin.webp
 keywords:
-  - xen-orchestra
+  - jellyfin
+  - plex
+  - emby
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: xen-orchestra
+name: jellyfin
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/xen-orchestra
-  - https://hub.docker.com/r/ronivay/xen-orchestra
+  - https://github.com/truecharts/charts/tree/master/charts/stable/jellyfin
+  - https://ghcr.io/jellyfin/jellyfin
+  - https://github.com/jellyfin/jellyfin
+  - https://hub.docker.com/r/alpine/socat
 type: application
-version: 10.5.23
+version: 20.1.46
