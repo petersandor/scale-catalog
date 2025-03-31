@@ -1,7 +1,7 @@
 image:
   pullPolicy: IfNotPresent
   repository: grafana/grafana-image-renderer
-  tag: latest@sha256:dce62b11b985d0d2627a741456bf31e0a0c66cf07f6db72092b2f735ce6d9af5
+  tag: latest@sha256:47ad46bda2e76e2ba0462686a2e28fa764755d4fccb2812107a43b9a97ce259d
 persistence: {}
 portal:
   open:
