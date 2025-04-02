@@ -1,7 +1,7 @@
 image:
   repository: codetheweb/muse
   pullPolicy: IfNotPresent
-  tag: 2.10.0@sha256:28e58e69df8613285cd2922c6c0ecdaa3c5a9992753bccfc678f031a5d2867b1
+  tag: 2.11.0@sha256:f508418ec06ddf93bc3b30994de0ada0c36eabe787b957276932b60fb4c1d371
 securityContext:
   container:
     runAsNonRoot: false
