@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "1.3.152.0"
+appVersion: "1.3.152.2"
 dependencies:
   - name: common
     version: 24.1.11
@@ -34,4 +34,4 @@ sources:
   - https://hub.docker.com/r/bizmodeller/mymediaforalexa
   - https://www.mymediaalexa.com/home/docker#dockerhub
 type: application
-version: 10.1.9
+version: 10.1.11
