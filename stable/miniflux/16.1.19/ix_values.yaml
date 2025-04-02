@@ -1,7 +1,7 @@
 image:
   pullPolicy: IfNotPresent
   repository: miniflux/miniflux
-  tag: 2.2.5@sha256:bacc9b78ec61aa6533e50ca4616491b29ad329fee30432f8ea5404a2c7abc9a7
+  tag: 2.2.7@sha256:be23e6d4757b76aceffc05e4a3b0d029bea885da3bc5fa319ab9be3531dbf695
 persistence:
   config:
     enabled: true
