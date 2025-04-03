@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: media
+  truecharts.org/category: games
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "1.0.22"
+appVersion: "1.10.2"
 dependencies:
   - name: common
     version: 24.1.11
@@ -17,26 +17,19 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: An automatic Video Library Manager for TV Shows
-home: https://truecharts.org/charts/stable/medusa
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/medusa.webp
+description: A private Among Us server
+home: https://truecharts.org/charts/stable/impostor-server
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/impostor-server.webp
 keywords:
-  - medusa
-  - video
-  - library
-  - manager
-  - tv
-  - shows
+  - impostor-server
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: medusa
+name: impostor-server
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/medusa
-  - https://ghcr.io/linuxserver/medusa
-  - https://github.com/linuxserver/docker-medusa
-  - https://pymedusa.com/
+  - https://github.com/truecharts/charts/tree/master/charts/stable/impostor-server
+  - https://hub.docker.com/r/aeonlucid/impostor
 type: application
-version: 12.1.35
+version: 10.1.25
