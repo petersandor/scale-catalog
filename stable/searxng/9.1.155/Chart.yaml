@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: monitor
+  truecharts.org/category: Productivity
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "2.17.0"
+appVersion: "latest"
 dependencies:
   - name: common
     version: 24.1.11
@@ -17,22 +17,22 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: A discord bot that monitors your game server and tracks the live data of your game servers.
-home: https://truecharts.org/charts/stable/discordgsm
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/discordgsm.webp
+description: Meta search engine which aggregates results from more than 70 search services.
+home: https://truecharts.org/charts/stable/searxng
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/searxng.webp
 keywords:
-  - discordgsm
-  - game-server
-  - monitor
+  - searxng
+  - Productivity
+  - Other
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: discordgsm
+name: searxng
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/discordgsm
-  - https://github.com/DiscordGSM/GameServerMonitor
-  - https://hub.docker.com/r/discordgsm/discord-game-server-monitor
+  - https://github.com/truecharts/charts/tree/master/charts/stable/searxng
+  - https://github.com/searxng/searxng
+  - https://hub.docker.com/r/searxng/searxng
 type: application
-version: 9.1.10
+version: 9.1.155

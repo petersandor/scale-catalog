@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: media
+  truecharts.org/category: monitor
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "5.3.1"
+appVersion: "2.19.0"
 dependencies:
   - name: common
     version: 24.1.11
@@ -17,19 +17,22 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Webgrabplus is a multi-site incremental xmltv epg grabber.
-home: https://truecharts.org/charts/stable/webgrabplus
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/webgrabplus.webp
+description: A discord bot that monitors your game server and tracks the live data of your game servers.
+home: https://truecharts.org/charts/stable/discordgsm
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/discordgsm.webp
 keywords:
-  - webgrabplus
+  - discordgsm
+  - game-server
+  - monitor
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: webgrabplus
+name: discordgsm
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/webgrabplus
-  - https://ghcr.io/linuxserver/webgrabplus
+  - https://github.com/truecharts/charts/tree/master/charts/stable/discordgsm
+  - https://github.com/DiscordGSM/GameServerMonitor
+  - https://hub.docker.com/r/discordgsm/discord-game-server-monitor
 type: application
-version: 11.2.33
+version: 9.1.12
