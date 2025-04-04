@@ -1,13 +1,13 @@
 image:
-  repository: linuxserver/mylar3
-  tag: version-v0.8.2@sha256:29667e112cf4f7feb0f43cb9c274bd345b324a5fa602293b0a12f6d9f7d51f5b
+  repository: ghcr.io/linuxserver/lazylibrarian
   pullPolicy: IfNotPresent
+  tag: latest@sha256:b74e8babe98d153478a0e2a5c52a8266cb51a612a2c695a97eb2da2b0b21854b
 service:
   main:
     ports:
       main:
-        port: 8090
-        targetPort: 8090
+        port: 5299
+        targetPort: 5299
 persistence:
   config:
     enabled: true
