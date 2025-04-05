@@ -1,6 +1,6 @@
 image:
   repository: victoriametrics/victoria-metrics
-  tag: v1.113.0@sha256:464b8e161605071a4161432487d6f12586c37a4c00180c818009b41d18057321
+  tag: v1.115.0@sha256:d8ac3a1776c8a9beead8bbd42a489c82249b1bfe9071dfd4813f34ebe36354bb
   pullPolicy: IfNotPresent
 service:
   main:
