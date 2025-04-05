@@ -4,10 +4,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/impostor-server/10.1.25",
-        "last_update": "2025-04-05 09:38:46",
+        "last_update": "2025-04-05 12:08:35",
         "required_features": [
-            "definitions/certificate",
             "definitions/interface",
+            "definitions/certificate",
             "definitions/timezone",
             "normalize/interfaceConfiguration"
         ],
@@ -3781,10 +3781,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/impostor-server/10.1.24",
-        "last_update": "2025-04-05 09:38:46",
+        "last_update": "2025-04-05 12:08:35",
         "required_features": [
-            "definitions/certificate",
             "definitions/interface",
+            "definitions/certificate",
             "definitions/timezone",
             "normalize/interfaceConfiguration"
         ],
@@ -7558,10 +7558,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/impostor-server/9.0.10",
-        "last_update": "2025-04-05 09:38:46",
+        "last_update": "2025-04-05 12:08:35",
         "required_features": [
-            "definitions/certificate",
             "definitions/interface",
+            "definitions/certificate",
             "definitions/timezone",
             "normalize/interfaceConfiguration"
         ],
@@ -11332,10 +11332,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/impostor-server/9.0.9",
-        "last_update": "2025-04-05 09:38:46",
+        "last_update": "2025-04-05 12:08:35",
         "required_features": [
-            "definitions/certificate",
             "definitions/interface",
+            "definitions/certificate",
             "definitions/timezone",
             "normalize/interfaceConfiguration"
         ],
@@ -15106,10 +15106,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/impostor-server/8.8.15",
-        "last_update": "2025-04-05 09:38:46",
+        "last_update": "2025-04-05 12:08:35",
         "required_features": [
-            "definitions/certificate",
             "definitions/interface",
+            "definitions/certificate",
             "definitions/timezone",
             "normalize/interfaceConfiguration"
         ],
@@ -18652,10 +18652,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/impostor-server/8.8.14",
-        "last_update": "2025-04-05 09:38:46",
+        "last_update": "2025-04-05 12:08:35",
         "required_features": [
-            "definitions/certificate",
             "definitions/interface",
+            "definitions/certificate",
             "definitions/timezone",
             "normalize/interfaceConfiguration"
         ],
@@ -22198,12 +22198,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/impostor-server/7.4.0",
-        "last_update": "2025-04-05 09:38:46",
+        "last_update": "2025-04-05 12:08:35",
         "required_features": [
-            "definitions/gpuConfiguration",
-            "definitions/certificate",
-            "definitions/timezone",
             "definitions/interface",
+            "definitions/certificate",
+            "definitions/gpuConfiguration",
+            "definitions/timezone",
             "normalize/interfaceConfiguration"
         ],
         "human_version": "1.9.0_7.4.0",
@@ -25787,12 +25787,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/impostor-server/7.3.0",
-        "last_update": "2025-04-05 09:38:46",
+        "last_update": "2025-04-05 12:08:35",
         "required_features": [
-            "definitions/gpuConfiguration",
-            "definitions/certificate",
-            "definitions/timezone",
             "definitions/interface",
+            "definitions/certificate",
+            "definitions/gpuConfiguration",
+            "definitions/timezone",
             "normalize/interfaceConfiguration"
         ],
         "human_version": "1.9.0_7.3.0",
