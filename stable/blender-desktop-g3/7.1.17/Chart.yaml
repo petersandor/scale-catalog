@@ -18,22 +18,23 @@ dependencies:
     import-values: []
 deprecated: false
 description: Headless Ubuntu/Xfce Charts with VNC/noVNC for diagramming, image editing and 2D/3D drawing
-home: https://truecharts.org/charts/stable/inkscape-desktop-g3
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/inkscape-desktop-g3.webp
+home: https://truecharts.org/charts/stable/blender-desktop-g3
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/blender-desktop-g3.webp
 keywords:
-  - inkscape-desktop-g3
+  - blender-desktop-g3
   - Productivity
   - Tools-Utilities
   - MediaApp-Photos
+  - MediaApp-Other
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: inkscape-desktop-g3
+name: blender-desktop-g3
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/inkscape-desktop-g3
+  - https://github.com/truecharts/charts/tree/master/charts/stable/blender-desktop-g3
   - https://github.com/accetto/headless-drawing-g3/
-  - https://hub.docker.com/r/accetto/ubuntu-vnc-xfce-inkscape-g3
+  - https://hub.docker.com/r/accetto/ubuntu-vnc-xfce-blender-g3
 type: application
-version: 7.1.16
+version: 7.1.17
