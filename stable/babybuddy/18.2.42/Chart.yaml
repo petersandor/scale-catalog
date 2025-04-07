@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: statistics
+  truecharts.org/category: media
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "latest"
+appVersion: "2.7.1"
 dependencies:
   - name: common
     version: 24.1.11
@@ -17,21 +17,24 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: A free and open source Statistics App for Jellyfin.
-home: https://truecharts.org/charts/stable/jellystat
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/jellystat.webp
+description: Helps caregivers track sleep, feedings, diaper changes, tummy time and more to learn about and predict baby"s needs without (as much) guess work.
+home: https://truecharts.org/charts/stable/babybuddy
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/babybuddy.webp
 keywords:
-  - jellystat
-  - jellyfin
+  - baby
+  - buddy
+  - tracker
+  - parents
+  - parenting
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: jellystat
+name: babybuddy
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/jellystat
-  - https://github.com/CyferShepard/Jellystat
-  - https://hub.docker.com/r/cyfershepard/jellystat
+  - https://github.com/truecharts/charts/tree/master/charts/stable/babybuddy
+  - https://ghcr.io/linuxserver/babybuddy
+  - https://github.com/babybuddy/babybuddy
 type: application
-version: 5.1.12
+version: 18.2.42
