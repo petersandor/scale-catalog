@@ -1,6 +1,6 @@
 image:
   repository: gitea/gitea
-  tag: 1.23.5-rootless@sha256:3a335645ca700660ac6c10d6f3223b6611ed6959441f6d2f7cd5fa607baf1425
+  tag: 1.23.7-rootless@sha256:e71bf5c6b9851238d8df9047a2056b40a1a1e87a0bff62bb82935d59d3d37b23
   pullPolicy: IfNotPresent
 service:
   main:
