@@ -1,7 +1,7 @@
 image:
   pullPolicy: IfNotPresent
   repository: yourls
-  tag: latest@sha256:56c87fa03b692b12d85b20ba86d90517ad7cc7664909c25398c04e3bd9ec496a
+  tag: latest@sha256:1b1846be79b5777dd22ef109be4d6c962e54a8c158b08ba923d0630335b74a84
 persistence: {}
 portal:
   open:
