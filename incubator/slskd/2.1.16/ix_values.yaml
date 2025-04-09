@@ -1,7 +1,7 @@
 image:
   repository: ghcr.io/slskd/slskd
   pullPolicy: IfNotPresent
-  tag: 0.22.1@sha256:ab52af766b54b8a0f6b61969c77a2204ce4ef95f0217a627d09ebda8346c451c
+  tag: 0.22.3@sha256:c7447d6b1764985f9b1115c969f52687ce9a7c86cc2a22b30418ef90d4b22cac
 
 securityContext:
   container:
