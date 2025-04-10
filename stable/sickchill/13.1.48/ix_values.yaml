@@ -1,7 +1,7 @@
 image:
   repository: ghcr.io/linuxserver/sickchill
   pullPolicy: IfNotPresent
-  tag: 2024.3.1@sha256:0345391d9c0df6edaaab1dfaa041612c80e78571fc4c3364aeed35268e3cf941
+  tag: 2024.3.1@sha256:d3cf99decedf6d69ae030946c0b999567596d6ccf8b083f16a51308d627623f9
 service:
   main:
     ports:
