@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: Tools-Utilities
+  truecharts.org/category: organizers
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "latest"
+appVersion: "2.6.3"
 dependencies:
   - name: common
     version: 24.1.11
@@ -17,21 +17,20 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Adminer (formerly phpMinAdmin) is a full-featured database management tool written in PHP.
-home: https://truecharts.org/charts/stable/adminer
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/adminer.webp
+description: An Application dashboard and launcher
+home: https://truecharts.org/charts/stable/heimdall
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/heimdall.webp
 keywords:
-  - adminer
-  - Tools-Utilities
+  - heimdall
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: adminer
+name: heimdall
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/adminer
-  - https://github.com/vrana/adminer
-  - https://hub.docker.com/_/adminer
+  - https://github.com/truecharts/charts/tree/master/charts/stable/heimdall
+  - https://github.com/linuxserver/Heimdall/
+  - https://hub.docker.com/r/linuxserver/heimdall
 type: application
-version: 10.1.25
+version: 23.0.39
