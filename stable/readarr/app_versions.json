@@ -4,10 +4,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/readarr/23.1.11",
-        "last_update": "2025-04-12 09:07:03",
+        "last_update": "2025-04-12 11:38:41",
         "required_features": [
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/timezone",
             "definitions/interface"
         ],
@@ -5377,10 +5377,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/readarr/23.1.10",
-        "last_update": "2025-04-12 09:07:03",
+        "last_update": "2025-04-12 11:38:41",
         "required_features": [
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/timezone",
             "definitions/interface"
         ],
@@ -10750,10 +10750,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/readarr/22.0.12",
-        "last_update": "2025-04-12 09:07:03",
+        "last_update": "2025-04-12 11:38:41",
         "required_features": [
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/timezone",
             "definitions/interface"
         ],
@@ -16120,10 +16120,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/readarr/22.0.11",
-        "last_update": "2025-04-12 09:07:03",
+        "last_update": "2025-04-12 11:38:41",
         "required_features": [
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/timezone",
             "definitions/interface"
         ],
@@ -21490,10 +21490,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/readarr/21.6.18",
-        "last_update": "2025-04-12 09:07:03",
+        "last_update": "2025-04-12 11:38:41",
         "required_features": [
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/timezone",
             "definitions/interface"
         ],
@@ -26531,10 +26531,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/readarr/21.6.17",
-        "last_update": "2025-04-12 09:07:03",
+        "last_update": "2025-04-12 11:38:41",
         "required_features": [
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/timezone",
             "definitions/interface"
         ],
@@ -31572,10 +31572,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/readarr/20.2.0",
-        "last_update": "2025-04-12 09:07:03",
+        "last_update": "2025-04-12 11:38:41",
         "required_features": [
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/timezone",
             "definitions/interface"
         ],
@@ -36613,10 +36613,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/readarr/20.1.3",
-        "last_update": "2025-04-12 09:07:03",
+        "last_update": "2025-04-12 11:38:41",
         "required_features": [
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/timezone",
             "definitions/interface"
         ],
@@ -41654,13 +41654,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/readarr/19.3.0",
-        "last_update": "2025-04-12 09:07:03",
+        "last_update": "2025-04-12 11:38:41",
         "required_features": [
             "normalize/interfaceConfiguration",
-            "definitions/interface",
-            "definitions/gpuConfiguration",
             "definitions/certificate",
-            "definitions/timezone"
+            "definitions/interface",
+            "definitions/timezone",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "0.3.18.2411_19.3.0",
         "version": "19.3.0",
@@ -46738,13 +46738,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/readarr/19.2.0",
-        "last_update": "2025-04-12 09:07:03",
+        "last_update": "2025-04-12 11:38:41",
         "required_features": [
             "normalize/interfaceConfiguration",
-            "definitions/interface",
-            "definitions/gpuConfiguration",
             "definitions/certificate",
-            "definitions/timezone"
+            "definitions/interface",
+            "definitions/timezone",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "0.3.18.2411_19.2.0",
         "version": "19.2.0",
