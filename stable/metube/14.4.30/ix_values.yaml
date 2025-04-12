@@ -1,6 +1,6 @@
 image:
   repository: alexta69/metube
-  tag: 2025-03-28@sha256:535376aac2855d6456e380e9934759194f9916662b3b5d5c609221e90f8605aa
+  tag: 2025-04-11@sha256:4852537ac3f48fa284530db08c4fee83e36dcf65f3693787be498fd56c9bf892
   pullPolicy: IfNotPresent
 service:
   main:
