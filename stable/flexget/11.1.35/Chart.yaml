@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: Cloud
+  truecharts.org/category: media
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "latest"
+appVersion: "3.15.31"
 dependencies:
   - name: common
     version: 24.1.11
@@ -17,23 +17,21 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: YOURLS is a set of PHP scripts that will allow you to run Your Own URL Shortener.
-home: https://truecharts.org/charts/stable/yourls
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/yourls.webp
+description: FlexGet is a multipurpose automation tool for all of your media
+home: https://truecharts.org/charts/stable/flexget
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/flexget.webp
 keywords:
-  - yourls
-  - Cloud
-  - Tools-Utilities
-  - Network-Web
-  - Network-Other
+  - flexget
+  - automation
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: yourls
+name: flexget
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/yourls
-  - https://hub.docker.com/_/yourls
+  - https://github.com/truecharts/charts/tree/master/charts/stable/flexget
+  - https://github.com/wiserain/docker-flexget
+  - https://hub.docker.com/r/wiserain/flexget
 type: application
-version: 7.1.45
+version: 11.1.35

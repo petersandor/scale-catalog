@@ -1,7 +1,7 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: statistics
+  truecharts.org/category: Cloud
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
@@ -17,21 +17,23 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: A free and open source Statistics App for Jellyfin.
-home: https://truecharts.org/charts/stable/jellystat
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/jellystat.webp
+description: YOURLS is a set of PHP scripts that will allow you to run Your Own URL Shortener.
+home: https://truecharts.org/charts/stable/yourls
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/yourls.webp
 keywords:
-  - jellystat
-  - jellyfin
+  - yourls
+  - Cloud
+  - Tools-Utilities
+  - Network-Web
+  - Network-Other
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: jellystat
+name: yourls
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/jellystat
-  - https://github.com/CyferShepard/Jellystat
-  - https://hub.docker.com/r/cyfershepard/jellystat
+  - https://github.com/truecharts/charts/tree/master/charts/stable/yourls
+  - https://hub.docker.com/_/yourls
 type: application
-version: 5.1.13
+version: 7.1.47

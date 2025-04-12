@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: media
+  truecharts.org/category: statistics
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "3.15.30"
+appVersion: "latest"
 dependencies:
   - name: common
     version: 24.1.11
@@ -17,21 +17,21 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: FlexGet is a multipurpose automation tool for all of your media
-home: https://truecharts.org/charts/stable/flexget
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/flexget.webp
+description: A free and open source Statistics App for Jellyfin.
+home: https://truecharts.org/charts/stable/jellystat
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/jellystat.webp
 keywords:
-  - flexget
-  - automation
+  - jellystat
+  - jellyfin
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: flexget
+name: jellystat
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/flexget
-  - https://github.com/wiserain/docker-flexget
-  - https://hub.docker.com/r/wiserain/flexget
+  - https://github.com/truecharts/charts/tree/master/charts/stable/jellystat
+  - https://github.com/CyferShepard/Jellystat
+  - https://hub.docker.com/r/cyfershepard/jellystat
 type: application
-version: 11.1.33
+version: 5.1.15
