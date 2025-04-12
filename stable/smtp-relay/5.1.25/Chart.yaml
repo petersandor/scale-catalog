@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: media
+  truecharts.org/category: smtp
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "4.98.2"
+appVersion: "0.7.7"
 dependencies:
   - name: common
     version: 24.1.11
@@ -17,23 +17,21 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Run VS Code on any machine anywhere and access it in the browser.
-home: https://truecharts.org/charts/stable/code-server
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/code-server.webp
+description: A SMTP service for relaying emails.
+home: https://truecharts.org/charts/stable/smtp-relay
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/smtp-relay.webp
 keywords:
-  - code
-  - vs
-  - visual studio
-  - vscode
+  - smtp-relay
+  - smtp
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: code-server
+name: smtp-relay
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/code-server
-  - https://github.com/cdr/code-server
-  - https://hub.docker.com/r/codercom/code-server
+  - https://github.com/truecharts/charts/tree/master/charts/stable/smtp-relay
+  - https://ghcr.io/ix-ai/smtp
+  - https://github.com/ix-ai/smtp
 type: application
-version: 13.3.13
+version: 5.1.25
