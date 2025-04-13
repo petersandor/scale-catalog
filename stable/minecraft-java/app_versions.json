@@ -4,12 +4,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/minecraft-java/10.1.19",
-        "last_update": "2025-04-13 09:12:06",
+        "last_update": "2025-04-13 16:18:09",
         "required_features": [
-            "normalize/interfaceConfiguration",
-            "definitions/interface",
             "definitions/timezone",
-            "definitions/certificate"
+            "definitions/certificate",
+            "normalize/interfaceConfiguration",
+            "definitions/interface"
         ],
         "human_version": "2024.5.0_10.1.19",
         "version": "10.1.19",
@@ -6377,12 +6377,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/minecraft-java/10.1.18",
-        "last_update": "2025-04-13 09:12:06",
+        "last_update": "2025-04-13 16:18:09",
         "required_features": [
-            "normalize/interfaceConfiguration",
-            "definitions/interface",
             "definitions/timezone",
-            "definitions/certificate"
+            "definitions/certificate",
+            "normalize/interfaceConfiguration",
+            "definitions/interface"
         ],
         "human_version": "2024.5.0_10.1.18",
         "version": "10.1.18",
@@ -12750,12 +12750,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/minecraft-java/9.0.12",
-        "last_update": "2025-04-13 09:12:06",
+        "last_update": "2025-04-13 16:18:09",
         "required_features": [
-            "normalize/interfaceConfiguration",
-            "definitions/interface",
             "definitions/timezone",
-            "definitions/certificate"
+            "definitions/certificate",
+            "normalize/interfaceConfiguration",
+            "definitions/interface"
         ],
         "human_version": "2024.5.0_9.0.12",
         "version": "9.0.12",
@@ -19120,12 +19120,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/minecraft-java/9.0.11",
-        "last_update": "2025-04-13 09:12:06",
+        "last_update": "2025-04-13 16:18:09",
         "required_features": [
-            "normalize/interfaceConfiguration",
-            "definitions/interface",
             "definitions/timezone",
-            "definitions/certificate"
+            "definitions/certificate",
+            "normalize/interfaceConfiguration",
+            "definitions/interface"
         ],
         "human_version": "2024.5.0_9.0.11",
         "version": "9.0.11",
@@ -25490,12 +25490,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/minecraft-java/8.8.16",
-        "last_update": "2025-04-13 09:12:06",
+        "last_update": "2025-04-13 16:18:09",
         "required_features": [
-            "normalize/interfaceConfiguration",
-            "definitions/interface",
             "definitions/timezone",
-            "definitions/certificate"
+            "definitions/certificate",
+            "normalize/interfaceConfiguration",
+            "definitions/interface"
         ],
         "human_version": "2023.11.1_8.8.16",
         "version": "8.8.16",
@@ -31434,12 +31434,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/minecraft-java/8.8.15",
-        "last_update": "2025-04-13 09:12:06",
+        "last_update": "2025-04-13 16:18:09",
         "required_features": [
-            "normalize/interfaceConfiguration",
-            "definitions/interface",
             "definitions/timezone",
-            "definitions/certificate"
+            "definitions/certificate",
+            "normalize/interfaceConfiguration",
+            "definitions/interface"
         ],
         "human_version": "2023.11.1_8.8.15",
         "version": "8.8.15",
@@ -37378,13 +37378,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/minecraft-java/7.3.0",
-        "last_update": "2025-04-13 09:12:06",
+        "last_update": "2025-04-13 16:18:09",
         "required_features": [
-            "definitions/interface",
             "definitions/timezone",
-            "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration",
-            "definitions/certificate"
+            "normalize/interfaceConfiguration",
+            "definitions/certificate",
+            "definitions/interface"
         ],
         "human_version": "2023.11.1_7.3.0",
         "version": "7.3.0",
@@ -43365,13 +43365,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/minecraft-java/7.2.1",
-        "last_update": "2025-04-13 09:12:06",
+        "last_update": "2025-04-13 16:18:09",
         "required_features": [
-            "definitions/interface",
             "definitions/timezone",
-            "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration",
-            "definitions/certificate"
+            "normalize/interfaceConfiguration",
+            "definitions/certificate",
+            "definitions/interface"
         ],
         "human_version": "2023.11.1_7.2.1",
         "version": "7.2.1",
