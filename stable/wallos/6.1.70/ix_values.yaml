@@ -1,6 +1,6 @@
 image:
   repository: docker.io/bellamy/wallos
-  tag: latest@sha256:8f1026193f04f719259ed08f28a148d62a0b97d1e18e0b1a1284b97753e9c8b0
+  tag: latest@sha256:40e46b184640a992a111796d3a5ad39dcf58af79302316fa7dbc2e525f552310
   pullPolicy: IfNotPresent
 
 securityContext:
