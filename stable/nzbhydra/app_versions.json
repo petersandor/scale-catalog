@@ -4,11 +4,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/nzbhydra/23.1.9",
-        "last_update": "2025-04-13 16:18:09",
+        "last_update": "2025-04-13 20:11:17",
         "required_features": [
-            "definitions/timezone",
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
+            "definitions/timezone",
             "definitions/interface"
         ],
         "human_version": "7.1.0_23.1.9",
@@ -5281,11 +5281,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/nzbhydra/23.1.8",
-        "last_update": "2025-04-13 16:18:09",
+        "last_update": "2025-04-13 20:11:17",
         "required_features": [
-            "definitions/timezone",
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
+            "definitions/timezone",
             "definitions/interface"
         ],
         "human_version": "7.1.0_23.1.8",
@@ -10558,11 +10558,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/nzbhydra/22.1.2",
-        "last_update": "2025-04-13 16:18:09",
+        "last_update": "2025-04-13 20:11:17",
         "required_features": [
-            "definitions/timezone",
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
+            "definitions/timezone",
             "definitions/interface"
         ],
         "human_version": "7.1.0_22.1.2",
@@ -15832,11 +15832,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/nzbhydra/22.1.1",
-        "last_update": "2025-04-13 16:18:09",
+        "last_update": "2025-04-13 20:11:17",
         "required_features": [
-            "definitions/timezone",
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
+            "definitions/timezone",
             "definitions/interface"
         ],
         "human_version": "7.1.0_22.1.1",
@@ -21106,11 +21106,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/nzbhydra/21.1.2",
-        "last_update": "2025-04-13 16:18:09",
+        "last_update": "2025-04-13 20:11:17",
         "required_features": [
-            "definitions/timezone",
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
+            "definitions/timezone",
             "definitions/interface"
         ],
         "human_version": "6.2.1_21.1.2",
@@ -26380,11 +26380,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/nzbhydra/21.1.1",
-        "last_update": "2025-04-13 16:18:09",
+        "last_update": "2025-04-13 20:11:17",
         "required_features": [
-            "definitions/timezone",
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
+            "definitions/timezone",
             "definitions/interface"
         ],
         "human_version": "6.2.1_21.1.1",
@@ -31654,11 +31654,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/nzbhydra/20.1.14",
-        "last_update": "2025-04-13 16:18:09",
+        "last_update": "2025-04-13 20:11:17",
         "required_features": [
-            "definitions/timezone",
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
+            "definitions/timezone",
             "definitions/interface"
         ],
         "human_version": "6.0.0_20.1.14",
@@ -36599,11 +36599,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/nzbhydra/20.1.13",
-        "last_update": "2025-04-13 16:18:09",
+        "last_update": "2025-04-13 20:11:17",
         "required_features": [
-            "definitions/timezone",
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
+            "definitions/timezone",
             "definitions/interface"
         ],
         "human_version": "6.0.0_20.1.13",
@@ -41544,11 +41544,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/nzbhydra/19.7.7",
-        "last_update": "2025-04-13 16:18:09",
+        "last_update": "2025-04-13 20:11:17",
         "required_features": [
-            "definitions/timezone",
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
+            "definitions/timezone",
             "definitions/interface"
         ],
         "human_version": "5.3.11_19.7.7",
@@ -46489,11 +46489,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/nzbhydra/19.7.6",
-        "last_update": "2025-04-13 16:18:09",
+        "last_update": "2025-04-13 20:11:17",
         "required_features": [
-            "definitions/timezone",
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
+            "definitions/timezone",
             "definitions/interface"
         ],
         "human_version": "5.3.11_19.7.6",
@@ -51434,12 +51434,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/nzbhydra/18.3.0",
-        "last_update": "2025-04-13 16:18:09",
+        "last_update": "2025-04-13 20:11:17",
         "required_features": [
-            "definitions/timezone",
-            "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration",
             "definitions/certificate",
+            "definitions/timezone",
+            "definitions/gpuConfiguration",
             "definitions/interface"
         ],
         "human_version": "5.3.8_18.3.0",
@@ -56422,12 +56422,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/nzbhydra/18.2.1",
-        "last_update": "2025-04-13 16:18:09",
+        "last_update": "2025-04-13 20:11:17",
         "required_features": [
-            "definitions/timezone",
-            "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration",
             "definitions/certificate",
+            "definitions/timezone",
+            "definitions/gpuConfiguration",
             "definitions/interface"
         ],
         "human_version": "5.3.8_18.2.1",
