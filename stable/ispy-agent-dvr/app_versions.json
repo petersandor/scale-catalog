@@ -4,10 +4,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/ispy-agent-dvr/11.2.19",
-        "last_update": "2025-04-14 06:59:21",
+        "last_update": "2025-04-14 09:32:27",
         "required_features": [
-            "definitions/certificate",
             "definitions/timezone",
+            "definitions/certificate",
             "definitions/interface",
             "normalize/interfaceConfiguration"
         ],
@@ -7478,10 +7478,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/ispy-agent-dvr/11.2.18",
-        "last_update": "2025-04-14 06:59:21",
+        "last_update": "2025-04-14 09:32:27",
         "required_features": [
-            "definitions/certificate",
             "definitions/timezone",
+            "definitions/certificate",
             "definitions/interface",
             "normalize/interfaceConfiguration"
         ],
@@ -14952,10 +14952,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/ispy-agent-dvr/10.1.7",
-        "last_update": "2025-04-14 06:59:21",
+        "last_update": "2025-04-14 09:32:27",
         "required_features": [
-            "definitions/certificate",
             "definitions/timezone",
+            "definitions/certificate",
             "definitions/interface",
             "normalize/interfaceConfiguration"
         ],
@@ -22423,10 +22423,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/ispy-agent-dvr/10.1.6",
-        "last_update": "2025-04-14 06:59:21",
+        "last_update": "2025-04-14 09:32:27",
         "required_features": [
-            "definitions/certificate",
             "definitions/timezone",
+            "definitions/certificate",
             "definitions/interface",
             "normalize/interfaceConfiguration"
         ],
@@ -29894,10 +29894,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/ispy-agent-dvr/9.11.17",
-        "last_update": "2025-04-14 06:59:21",
+        "last_update": "2025-04-14 09:32:27",
         "required_features": [
-            "definitions/certificate",
             "definitions/timezone",
+            "definitions/certificate",
             "definitions/interface",
             "normalize/interfaceConfiguration"
         ],
@@ -36733,10 +36733,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/ispy-agent-dvr/9.11.16",
-        "last_update": "2025-04-14 06:59:21",
+        "last_update": "2025-04-14 09:32:27",
         "required_features": [
-            "definitions/certificate",
             "definitions/timezone",
+            "definitions/certificate",
             "definitions/interface",
             "normalize/interfaceConfiguration"
         ],
@@ -43572,12 +43572,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/ispy-agent-dvr/8.4.0",
-        "last_update": "2025-04-14 06:59:21",
+        "last_update": "2025-04-14 09:32:27",
         "required_features": [
-            "definitions/certificate",
+            "definitions/interface",
             "definitions/timezone",
             "definitions/gpuConfiguration",
-            "definitions/interface",
+            "definitions/certificate",
             "normalize/interfaceConfiguration"
         ],
         "human_version": "5.2.8.0_8.4.0",
@@ -48942,12 +48942,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/ispy-agent-dvr/8.3.1",
-        "last_update": "2025-04-14 06:59:21",
+        "last_update": "2025-04-14 09:32:27",
         "required_features": [
-            "definitions/certificate",
+            "definitions/interface",
             "definitions/timezone",
             "definitions/gpuConfiguration",
-            "definitions/interface",
+            "definitions/certificate",
             "normalize/interfaceConfiguration"
         ],
         "human_version": "5.2.8.0_8.3.1",

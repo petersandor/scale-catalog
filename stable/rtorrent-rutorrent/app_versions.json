@@ -4,10 +4,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/rtorrent-rutorrent/6.1.10",
-        "last_update": "2025-04-14 06:59:21",
+        "last_update": "2025-04-14 09:32:27",
         "required_features": [
-            "definitions/certificate",
             "definitions/timezone",
+            "definitions/certificate",
             "definitions/interface",
             "normalize/interfaceConfiguration"
         ],
@@ -6971,10 +6971,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/rtorrent-rutorrent/6.1.9",
-        "last_update": "2025-04-14 06:59:21",
+        "last_update": "2025-04-14 09:32:27",
         "required_features": [
-            "definitions/certificate",
             "definitions/timezone",
+            "definitions/certificate",
             "definitions/interface",
             "normalize/interfaceConfiguration"
         ],
@@ -13938,10 +13938,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/rtorrent-rutorrent/5.0.8",
-        "last_update": "2025-04-14 06:59:21",
+        "last_update": "2025-04-14 09:32:27",
         "required_features": [
-            "definitions/certificate",
             "definitions/timezone",
+            "definitions/certificate",
             "definitions/interface",
             "normalize/interfaceConfiguration"
         ],
@@ -20902,10 +20902,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/rtorrent-rutorrent/5.0.7",
-        "last_update": "2025-04-14 06:59:21",
+        "last_update": "2025-04-14 09:32:27",
         "required_features": [
-            "definitions/certificate",
             "definitions/timezone",
+            "definitions/certificate",
             "definitions/interface",
             "normalize/interfaceConfiguration"
         ],
@@ -27866,10 +27866,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/rtorrent-rutorrent/4.8.14",
-        "last_update": "2025-04-14 06:59:21",
+        "last_update": "2025-04-14 09:32:27",
         "required_features": [
-            "definitions/certificate",
             "definitions/timezone",
+            "definitions/certificate",
             "definitions/interface",
             "normalize/interfaceConfiguration"
         ],
@@ -34299,10 +34299,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/rtorrent-rutorrent/4.8.13",
-        "last_update": "2025-04-14 06:59:21",
+        "last_update": "2025-04-14 09:32:27",
         "required_features": [
-            "definitions/certificate",
             "definitions/timezone",
+            "definitions/certificate",
             "definitions/interface",
             "normalize/interfaceConfiguration"
         ],
@@ -40732,12 +40732,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/rtorrent-rutorrent/3.3.0",
-        "last_update": "2025-04-14 06:59:21",
+        "last_update": "2025-04-14 09:32:27",
         "required_features": [
-            "definitions/certificate",
+            "definitions/interface",
             "definitions/timezone",
             "definitions/gpuConfiguration",
-            "definitions/interface",
+            "definitions/certificate",
             "normalize/interfaceConfiguration"
         ],
         "human_version": "4.2.9_3.3.0",
@@ -47208,12 +47208,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/rtorrent-rutorrent/3.2.0",
-        "last_update": "2025-04-14 06:59:21",
+        "last_update": "2025-04-14 09:32:27",
         "required_features": [
-            "definitions/certificate",
+            "definitions/interface",
             "definitions/timezone",
             "definitions/gpuConfiguration",
-            "definitions/interface",
+            "definitions/certificate",
             "normalize/interfaceConfiguration"
         ],
         "human_version": "4.2.9_3.2.0",
