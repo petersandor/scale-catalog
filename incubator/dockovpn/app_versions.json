@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/incubator/dockovpn/0.0.3",
-        "last_update": "2025-04-13 23:00:14",
+        "last_update": "2025-04-14 01:29:15",
         "required_features": [
             "definitions/certificate",
             "definitions/timezone"
@@ -4936,7 +4936,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/incubator/dockovpn/0.0.2",
-        "last_update": "2025-04-13 23:00:14",
+        "last_update": "2025-04-14 01:29:15",
         "required_features": [
             "definitions/certificate",
             "definitions/timezone"
