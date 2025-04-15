@@ -1,7 +1,7 @@
 image:
   repository: bitnami/solr
   pullPolicy: IfNotPresent
-  tag: 9.8.1@sha256:62122ce3ed01253e5c905140ca3db2ff2d3adfb53a6dab845a77d48a7a62f8fa
+  tag: 9.8.1@sha256:53421019f71742d7068c1555409a0ebf5e87b6db125b8c39e7980d2a34cde003
 
 includeCommon: true
 workload:
