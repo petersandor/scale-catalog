@@ -1,12 +1,12 @@
 image:
   repository: bitnami/prometheus
-  tag: 2.55.1@sha256:3f3462b80c44fcdaf802b592753a48f15a09a7dc11dd21c576688515b86fbb38
+  tag: 2.55.1@sha256:af29ffec66891e8ce27e886bf2c417d96c5aef28f79198319f572a2eb9c248f7
 thanosImage:
   repository: quay.io/thanos/thanos
   tag: v0.38.0@sha256:365873d05a2f59dbaf3d40f526d3b8a2e66b9882dd6cab9396d16e8410aa46e6
 alertmanagerImage:
   repository: bitnami/alertmanager
-  tag: 0.28.1@sha256:da77d862ef524297fca80dc3025a95826ac5839499a317a9a2f995fa17f8cfb7
+  tag: 0.28.1@sha256:a2aa8d0b6c3ce880afc09ef6e387133fa5c97d5235f6bacde049fe33fa48f394
 global:
   labels: {}
 workload:
