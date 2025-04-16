@@ -1,6 +1,6 @@
 image:
   repository: deconzcommunity/deconz
-  tag: 2.29.2@sha256:062de23626410cf1fec38229356bfb80f367f09918a21fea87c8a5c65b0547b1
+  tag: 2.29.4@sha256:c73fffbd753cc096be09f2c0051ca241bd358deae50bf846b83b6ebda690c84d
   pullPolicy: IfNotPresent
 securityContext:
   container:
