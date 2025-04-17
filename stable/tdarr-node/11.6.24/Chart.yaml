@@ -7,7 +7,7 @@ annotations:
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "2024.3.1"
+appVersion: "2.40.01"
 dependencies:
   - name: common
     version: 24.1.11
@@ -17,24 +17,22 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: An Automatic Video Library Manager for TV Shows
-home: https://truecharts.org/charts/stable/sickchill
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/sickchill.webp
+description: Audio/Video library transcoding automation
+home: https://truecharts.org/charts/stable/tdarr-node
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/tdarr-node.webp
 keywords:
-  - sickchill
-  - video
-  - library
-  - manager
+  - encode
+  - media
+  - tdarr
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: sickchill
+name: tdarr-node
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/sickchill
-  - https://ghcr.io/linuxserver/sickchill
-  - https://github.com/SickChill/SickChill
-  - https://github.com/linuxserver/docker-sickchill
+  - https://github.com/truecharts/charts/tree/master/charts/stable/tdarr-node
+  - https://github.com/HaveAGitGat/Tdarr
+  - https://hub.docker.com/r/haveagitgat/tdarr_node
 type: application
-version: 13.1.47
+version: 11.6.24
