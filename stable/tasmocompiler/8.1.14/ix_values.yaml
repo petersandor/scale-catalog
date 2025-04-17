@@ -1,6 +1,6 @@
 image:
   repository: benzino77/tasmocompiler
-  tag: latest@sha256:939d8df00b2a7eb68ead836a2f8d48aee2ba3b27e8b813556942d90fb431a6aa
+  tag: latest@sha256:680c30fa4e86b5ed06d0bdfbe90120584b4fb3f706f490ba74a51c621b158df4
   pullPolicy: IfNotPresent
 
 securityContext:

@@ -1,7 +1,7 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: Downloaders
+  truecharts.org/category: home-automation
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
@@ -17,21 +17,22 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Chart with rTorrent and the Flood UI.
-home: https://truecharts.org/charts/stable/rflood
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/rflood.webp
+description: TasmoCompiler is a simple web GUI which allows you to compile fantastic Tasmota firmware with your own settings
+home: https://truecharts.org/charts/stable/tasmocompiler
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/tasmocompiler.webp
 keywords:
-  - rflood
-  - downloaders
+  - tasmocompiler
+  - home-automation
+  - Tools-Utilities
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: rflood
+name: tasmocompiler
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/rflood
-  - https://ghcr.io/hotio/rflood
-  - https://hotio.dev/containers/rflood
+  - https://github.com/truecharts/charts/tree/master/charts/stable/tasmocompiler
+  - https://github.com/benzino77/tasmocompiler
+  - https://hub.docker.com/r/benzino77/tasmocompiler
 type: application
-version: 7.1.32
+version: 8.1.14
