@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: media
+  truecharts.org/category: networking
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "1.4.35"
+appVersion: "latest"
 dependencies:
   - name: common
     version: 24.1.11
@@ -17,24 +17,23 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: A remote desktop client written in GTK
-home: https://truecharts.org/charts/stable/remmina
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/remmina.webp
+description: Automate Cloudflare DNS records for those with a dynamic IP.
+home: https://truecharts.org/charts/stable/cloudflareddns
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/cloudflareddns.webp
 keywords:
-  - remina
-  - remote
-  - desktop
-  - client
+  - cloudflareddns
+  - ddns
+  - cloudflare
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: remmina
+name: cloudflareddns
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/remmina
-  - https://ghcr.io/linuxserver/remmina
-  - https://github.com/linuxserver/docker-remmina
-  - https://remmina.org/
+  - https://github.com/truecharts/charts/tree/master/charts/stable/cloudflareddns
+  - https://ghcr.io/hotio/cloudflareddns
+  - https://github.com/hotio/cloudflareddns
+  - https://hotio.dev/containers/cloudflareddns/
 type: application
-version: 12.1.43
+version: 11.1.35
