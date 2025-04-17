@@ -1,7 +1,7 @@
 image:
   pullPolicy: IfNotPresent
   repository: ghcr.io/kiwix/kiwix-serve
-  tag: 3.7.0@sha256:ebf9b935eb1301661289ff0dc7a17c6406b0ef0602ff7ca1c9d9187dbae81abe
+  tag: 3.7.0@sha256:48a65196c3e56d85b3a4bb63d158b14beac9184798450b3f2512f6e38a9ba27d
 service:
   main:
     ports:
