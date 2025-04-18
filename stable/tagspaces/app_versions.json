@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/tagspaces/5.1.9",
-        "last_update": "2025-04-18 09:11:32",
+        "last_update": "2025-04-18 16:37:50",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/timezone",
@@ -4664,7 +4664,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/tagspaces/5.1.8",
-        "last_update": "2025-04-18 09:11:32",
+        "last_update": "2025-04-18 16:37:50",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/timezone",
@@ -9324,7 +9324,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/tagspaces/4.0.8",
-        "last_update": "2025-04-18 09:11:32",
+        "last_update": "2025-04-18 16:37:50",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/timezone",
@@ -13981,7 +13981,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/tagspaces/4.0.7",
-        "last_update": "2025-04-18 09:11:32",
+        "last_update": "2025-04-18 16:37:50",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/timezone",
@@ -18638,7 +18638,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/tagspaces/3.8.14",
-        "last_update": "2025-04-18 09:11:32",
+        "last_update": "2025-04-18 16:37:50",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/timezone",
@@ -23067,7 +23067,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/tagspaces/3.8.13",
-        "last_update": "2025-04-18 09:11:32",
+        "last_update": "2025-04-18 16:37:50",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/timezone",
@@ -27496,12 +27496,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/tagspaces/2.3.0",
-        "last_update": "2025-04-18 09:11:32",
+        "last_update": "2025-04-18 16:37:50",
         "required_features": [
+            "definitions/gpuConfiguration",
             "definitions/timezone",
             "definitions/interface",
             "normalize/interfaceConfiguration",
-            "definitions/gpuConfiguration",
             "definitions/certificate"
         ],
         "human_version": "5.5.2_2.3.0",
@@ -31968,12 +31968,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/tagspaces/2.2.0",
-        "last_update": "2025-04-18 09:11:32",
+        "last_update": "2025-04-18 16:37:50",
         "required_features": [
+            "definitions/gpuConfiguration",
             "definitions/timezone",
             "definitions/interface",
             "normalize/interfaceConfiguration",
-            "definitions/gpuConfiguration",
             "definitions/certificate"
         ],
         "human_version": "5.5.2_2.2.0",

@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/vikunja/15.2.38",
-        "last_update": "2025-04-18 09:11:32",
+        "last_update": "2025-04-18 16:37:50",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/timezone",
@@ -6968,7 +6968,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/vikunja/15.2.37",
-        "last_update": "2025-04-18 09:11:32",
+        "last_update": "2025-04-18 16:37:50",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/timezone",
@@ -13932,7 +13932,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/vikunja/14.1.7",
-        "last_update": "2025-04-18 09:11:32",
+        "last_update": "2025-04-18 16:37:50",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/timezone",
@@ -20893,7 +20893,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/vikunja/14.1.6",
-        "last_update": "2025-04-18 09:11:32",
+        "last_update": "2025-04-18 16:37:50",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/timezone",
@@ -27854,7 +27854,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/vikunja/13.11.5",
-        "last_update": "2025-04-18 09:11:32",
+        "last_update": "2025-04-18 16:37:50",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/timezone",
@@ -34944,7 +34944,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/vikunja/13.11.4",
-        "last_update": "2025-04-18 09:11:32",
+        "last_update": "2025-04-18 16:37:50",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/timezone",
@@ -42034,12 +42034,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/vikunja/12.4.0",
-        "last_update": "2025-04-18 09:11:32",
+        "last_update": "2025-04-18 16:37:50",
         "required_features": [
+            "definitions/gpuConfiguration",
             "definitions/timezone",
             "definitions/interface",
             "normalize/interfaceConfiguration",
-            "definitions/gpuConfiguration",
             "definitions/certificate"
         ],
         "human_version": "0.22.1_12.4.0",
@@ -49199,12 +49199,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/vikunja/12.3.0",
-        "last_update": "2025-04-18 09:11:32",
+        "last_update": "2025-04-18 16:37:50",
         "required_features": [
+            "definitions/gpuConfiguration",
             "definitions/timezone",
             "definitions/interface",
             "normalize/interfaceConfiguration",
-            "definitions/gpuConfiguration",
             "definitions/certificate"
         ],
         "human_version": "0.22.1_12.3.0",
