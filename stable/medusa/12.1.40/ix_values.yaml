@@ -1,7 +1,7 @@
 image:
   repository: ghcr.io/linuxserver/medusa
   pullPolicy: IfNotPresent
-  tag: 1.0.22@sha256:a17dcd1c55dda71a5d9d71220276fd902de142c6a8ce97ee8138add16236dbeb
+  tag: 1.0.22@sha256:10ae8b86ce1767e8d8cc198560f790ca8cc9cb680334114e186b3f2c4bb60d18
 service:
   main:
     ports:
