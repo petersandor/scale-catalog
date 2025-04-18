@@ -4,10 +4,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/omada-controller/16.2.57",
-        "last_update": "2025-04-18 02:55:15",
+        "last_update": "2025-04-18 06:43:16",
         "required_features": [
-            "definitions/certificate",
             "definitions/timezone",
+            "definitions/certificate",
             "normalize/interfaceConfiguration",
             "definitions/interface"
         ],
@@ -6723,10 +6723,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/omada-controller/16.2.56",
-        "last_update": "2025-04-18 02:55:15",
+        "last_update": "2025-04-18 06:43:16",
         "required_features": [
-            "definitions/certificate",
             "definitions/timezone",
+            "definitions/certificate",
             "normalize/interfaceConfiguration",
             "definitions/interface"
         ],
@@ -13442,10 +13442,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/omada-controller/15.0.13",
-        "last_update": "2025-04-18 02:55:15",
+        "last_update": "2025-04-18 06:43:16",
         "required_features": [
-            "definitions/certificate",
             "definitions/timezone",
+            "definitions/certificate",
             "normalize/interfaceConfiguration",
             "definitions/interface"
         ],
@@ -20158,10 +20158,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/omada-controller/15.0.12",
-        "last_update": "2025-04-18 02:55:15",
+        "last_update": "2025-04-18 06:43:16",
         "required_features": [
-            "definitions/certificate",
             "definitions/timezone",
+            "definitions/certificate",
             "normalize/interfaceConfiguration",
             "definitions/interface"
         ],
@@ -26874,10 +26874,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/omada-controller/14.8.14",
-        "last_update": "2025-04-18 02:55:15",
+        "last_update": "2025-04-18 06:43:16",
         "required_features": [
-            "definitions/certificate",
             "definitions/timezone",
+            "definitions/certificate",
             "normalize/interfaceConfiguration",
             "definitions/interface"
         ],
@@ -33160,10 +33160,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/omada-controller/14.8.13",
-        "last_update": "2025-04-18 02:55:15",
+        "last_update": "2025-04-18 06:43:16",
         "required_features": [
-            "definitions/certificate",
             "definitions/timezone",
+            "definitions/certificate",
             "normalize/interfaceConfiguration",
             "definitions/interface"
         ],
@@ -39446,12 +39446,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/omada-controller/13.2.0",
-        "last_update": "2025-04-18 02:55:15",
+        "last_update": "2025-04-18 06:43:16",
         "required_features": [
             "definitions/timezone",
-            "normalize/interfaceConfiguration",
             "definitions/certificate",
             "definitions/interface",
+            "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration"
         ],
         "human_version": "5.13.0_13.2.0",
@@ -45775,12 +45775,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/scale-catalog/scale-catalog/stable/omada-controller/13.1.1",
-        "last_update": "2025-04-18 02:55:15",
+        "last_update": "2025-04-18 06:43:16",
         "required_features": [
             "definitions/timezone",
-            "normalize/interfaceConfiguration",
             "definitions/certificate",
             "definitions/interface",
+            "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration"
         ],
         "human_version": "5.13.0_13.1.1",
