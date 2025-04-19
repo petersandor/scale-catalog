@@ -17,23 +17,20 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: TVheadend - a TV streaming server and digital video recorder
-home: https://truecharts.org/charts/stable/tvheadend
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/tvheadend.webp
+description: Wallos - Self Hosted Subscription tracker
+home: https://truecharts.org/charts/stable/wallos
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/wallos.webp
 keywords:
-  - tvheadend
-  - tv
-  - streaming
-  - dvb
+  - dashboard
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: tvheadend
+name: wallos
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/tvheadend
-  - https://ghcr.io/linuxserver/tvheadend
-  - https://github.com/tvheadend/tvheadend
+  - https://github.com/truecharts/charts/tree/master/charts/stable/wallos
+  - https://github.com/ellite/Wallos
+  - https://hub.docker.com/r/bellamy/wallos
 type: application
-version: 21.1.39
+version: 6.1.76
