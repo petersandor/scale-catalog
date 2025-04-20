@@ -1,13 +1,13 @@
 annotations:
   max_scale_version: 24.04.2.5
   min_scale_version: 24.04.0
-  truecharts.org/category: utilities
+  truecharts.org/category: media
   truecharts.org/max_helm_version: '3.15'
   truecharts.org/min_helm_version: '3.11'
   truecharts.org/train: stable
   truecharts.org/SCALE-support: 'true'
 apiVersion: v2
-appVersion: "4.1.2"
+appVersion: "1.26.1"
 dependencies:
   - name: common
     version: 24.1.11
@@ -17,22 +17,21 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: A ReactJS-based progressive web application for Shlink.
-home: https://truecharts.org/charts/stable/shlink-web-client
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/shlink-web-client.webp
+description: FreshRSS is a self-hosted RSS feed aggregator
+home: https://truecharts.org/charts/stable/freshrss
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/freshrss.webp
 keywords:
-  - url
-  - shortener
-  - frontend
+  - freshrss
+  - rss
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: shlink-web-client
+name: freshrss
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/shlink-web-client
-  - https://github.com/shlinkio/shlink-web-client
-  - https://hub.docker.com/r/shlinkio/shlink-web-client
+  - https://github.com/truecharts/charts/tree/master/charts/stable/freshrss
+  - https://ghcr.io/linuxserver/freshrss
+  - https://github.com/FreshRSS/FreshRSS
 type: application
-version: 13.0.6
+version: 20.1.44
